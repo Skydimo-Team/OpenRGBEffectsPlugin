@@ -4,7 +4,7 @@
   "name": "meta.name",
   "publisher": "Skydimo",
   "description": "meta.description",
-  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "repository": "https://github.com/Skydimo-Team/OpenRGBEffectsPlugin",
   "license": "GPL-2.0-or-later",
   "type": "effect",
   "language": "lua",
