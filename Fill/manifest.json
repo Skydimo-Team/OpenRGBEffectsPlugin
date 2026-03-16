@@ -5,7 +5,7 @@
   "publisher": "Skydimo",
   "description": "meta.description",
   "repository": "https://github.com/skydimo/skydimo-plugins",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "type": "effect",
   "language": "lua",
   "entry": "main.lua",
