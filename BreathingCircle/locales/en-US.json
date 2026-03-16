@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Breathing Circle",
-    "description": "A circular ring that expands and contracts in a breathing pattern",
+    "description": "A circular ring that expands and contracts smoothly, simulating a breathing rhythm.",
     "category": "Breathing"
   },
   "params": {

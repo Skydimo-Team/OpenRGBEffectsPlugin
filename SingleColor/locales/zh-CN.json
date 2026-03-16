@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "单色",
-    "description": "使用单一颜色填充所有 LED",
+    "description": "以单一静态颜色填充所有 LED。",
     "category": "实用"
   },
   "params": {

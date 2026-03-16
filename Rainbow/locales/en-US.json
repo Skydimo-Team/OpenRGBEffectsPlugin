@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Rainbow",
-    "description": "Cycling rainbow colors (Lua plugin)",
+    "description": "Scrolls a full-spectrum color palette across all LEDs, with built-in palette presets or custom colors.",
     "category": "Spectrum"
   },
   "params": {

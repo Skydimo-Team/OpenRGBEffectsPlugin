@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "音频电平表",
-    "description": "经典 VU 电平表，根据音频响度填充 LED",
+    "description": "按当前音量比例填充 LED，支持自定义色相范围与饱和度。",
     "category": "音频"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Single Color",
-    "description": "Fills all LEDs with a single chosen color",
+    "description": "Fills every LED with a single static color.",
     "category": "Utility"
   },
   "params": {

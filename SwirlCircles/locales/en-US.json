@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Swirl Circles",
-    "description": "Rotating circles around the center of your devices",
+    "description": "Two diametrically opposite circles orbit the center of the device and blend their glows with screen-mode compositing.",
     "category": "Motion"
   },
   "params": {

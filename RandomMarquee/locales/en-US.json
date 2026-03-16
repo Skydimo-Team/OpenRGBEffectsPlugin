@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Random Marquee",
-    "description": "A simple Random Marquee for your devices",
+    "description": "A scrolling marquee that randomly changes its direction, speed, and segment spacing on each cycle.",
     "category": "Motion"
   },
   "params": {

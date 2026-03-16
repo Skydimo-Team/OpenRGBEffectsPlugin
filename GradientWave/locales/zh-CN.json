@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "渐变波浪",
-    "description": "双色渐变以波浪方式沿 LED 来回扫动",
+    "description": "双色渐变以正弦运动在 LED 上来回扫动。",
     "category": "渐变"
   },
   "params": {

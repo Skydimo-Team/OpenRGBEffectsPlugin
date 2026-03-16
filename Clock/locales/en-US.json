@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Clock",
-    "description": "Digital clock with hour, minute, and second hands displayed on LED strip.",
+    "description": "Maps the current time to LED positions, independently lighting hour, minute, and second indicators on the strip.",
     "category": "Utility"
   },
   "params": {

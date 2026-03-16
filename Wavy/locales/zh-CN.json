@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "波浪",
-    "description": "以振荡正弦波模式交替双色，产生波浪效果",
+    "description": "双色正弦波同时在 LED 上滚动并振荡振幅，形成流动的波浪效果。",
     "category": "渐变"
   },
   "params": {

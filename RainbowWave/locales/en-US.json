@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Rainbow Wave",
-    "description": "A sliding rainbow",
+    "description": "A full rainbow spectrum that slides continuously across the LEDs at a configurable speed and frequency.",
     "category": "Spectrum"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Noise Map",
-    "description": "OpenRGB NoiseMap faithfully recreated with simplex noise motion and rainbow or custom gradient rendering.",
+    "description": "An animated simplex noise field with configurable frequency, amplitude, and octaves, rendered in rainbow or custom gradient colors.",
     "category": "Gradient"
   },
   "params": {

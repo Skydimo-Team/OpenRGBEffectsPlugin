@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "随机跑马灯",
-    "description": "适用于你的设备的简单随机跑马灯效果",
+    "description": "每次循环均随机改变滚动方向、速度与段间距的跑马灯。",
     "category": "动态"
   },
   "params": {

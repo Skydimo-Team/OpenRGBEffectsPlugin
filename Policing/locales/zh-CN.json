@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "警灯扫描",
-    "description": "一道来回扫动并在每次变向前闪烁的光效",
+    "description": "光束来回扫动，每次到达端点时闪烁整个区域后反向继续。",
     "category": "呼吸"
   },
   "params": {

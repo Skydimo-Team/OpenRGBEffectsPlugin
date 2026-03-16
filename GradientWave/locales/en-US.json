@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Gradient Wave",
-    "description": "A two-color gradient wave that sweeps forward and back across the LEDs",
+    "description": "A two-color gradient that sweeps back and forth across the LEDs using sinusoidal motion.",
     "category": "Gradient"
   },
   "params": {

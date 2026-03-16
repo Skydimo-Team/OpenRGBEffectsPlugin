@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Lightning",
-    "description": "Prepare yourself for thunderstorm",
+    "description": "Randomly triggers bright flashes that quickly decay, simulating lightning in whole-strip or per-LED mode.",
     "category": "Sparkle"
   },
   "params": {

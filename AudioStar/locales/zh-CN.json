@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "音频星光",
-    "description": "基于音频频谱的星形可视化效果",
+    "description": "将各音频频率映射到角度位置，渲染随音频脉动的星形亮度图案。",
     "category": "音频"
   },
   "params": {

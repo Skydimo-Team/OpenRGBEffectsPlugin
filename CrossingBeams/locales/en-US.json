@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Crossing Beams",
-    "description": "Two beams that move horizontally and vertically",
+    "description": "Two light beams that sweep across the device independently—one horizontally and one vertically.",
     "category": "Motion"
   },
   "params": {

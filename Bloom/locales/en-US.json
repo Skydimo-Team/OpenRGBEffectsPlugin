@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Bloom",
-    "description": "Each LED blooms through colors at its own pace, like flowers opening.",
+    "description": "Each LED advances through the hue spectrum at its own randomized pace, creating independently blooming colors across the zone.",
     "category": "Spectrum"
   },
   "params": {

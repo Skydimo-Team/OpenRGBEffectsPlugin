@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio Bubbles",
-    "description": "Audio-reactive expanding bubble rings with gradient colors.",
+    "description": "Bubble rings that expand outward from spawn points, triggered by audio volume, rendered with gradient colors.",
     "category": "Audio"
   },
   "params": {

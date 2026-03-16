@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Radial Rainbow",
-    "description": "Dive into the RGB tunnel.",
+    "description": "Concentric rainbow rings or squares radiate outward from a center point, creating a tunnel-like depth effect.",
     "category": "Spectrum"
   },
   "params": {

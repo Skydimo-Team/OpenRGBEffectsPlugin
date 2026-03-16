@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Comet",
-    "description": "A comet that travels through your devices with a glowing trail.",
+    "description": "A comet with an exponentially fading trail travels across the LEDs in rainbow or custom color.",
     "category": "Motion"
   },
   "params": {

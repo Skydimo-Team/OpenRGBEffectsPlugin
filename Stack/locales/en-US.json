@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Stack",
-    "description": "Fills and stacks your devices with a solid color",
+    "description": "A moving light head sweeps across the device, stacking a solid color from one end until the zone is full, then resets.",
     "category": "Transition"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "径向彩虹",
-    "description": "潜入 RGB 隧道。",
+    "description": "彩虹同心圆或方块从中心向外辐射，形成隧道般的视觉效果。",
     "category": "光谱"
   },
   "params": {

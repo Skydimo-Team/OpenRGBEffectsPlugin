@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Marquee",
-    "description": "A simple marquee for your devices",
+    "description": "A single-color scrolling marquee with configurable spacing between lit segments.",
     "category": "Motion"
   },
   "params": {

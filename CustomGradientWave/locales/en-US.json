@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Custom Gradient Wave",
-    "description": "Create your own gradient wave or use one of the original preset palettes",
+    "description": "A scrolling gradient wave with selectable direction, spread, and palette—use a preset or define custom colors.",
     "category": "Gradient"
   },
   "params": {

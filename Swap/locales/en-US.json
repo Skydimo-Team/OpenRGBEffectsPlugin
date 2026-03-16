@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Swap",
-    "description": "Alternate two colors on your devices from left to right",
+    "description": "A boundary sweeps left to right, swapping between two colors on each pass.",
     "category": "Transition"
   },
   "params": {

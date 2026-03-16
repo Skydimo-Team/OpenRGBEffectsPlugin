@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio Party",
-    "description": "Audio-reactive effect with motion, color change, and flash effects driven by FFT zones",
+    "description": "Splits the audio spectrum into three zones: low frequencies drive wave displacement, mid frequencies shift the hue, and high frequencies trigger random flash effects.",
     "category": "Audio"
   },
   "params": {

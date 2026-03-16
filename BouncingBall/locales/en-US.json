@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Bouncing Ball",
-    "description": "A ball bounces around your RGB setup.",
+    "description": "Simulates a ball with physics-based gravity and horizontal velocity bouncing across the LED matrix.",
     "category": "Motion"
   },
   "params": {

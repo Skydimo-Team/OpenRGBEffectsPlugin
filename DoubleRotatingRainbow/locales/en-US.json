@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Double Rotating Rainbow",
-    "description": "Two symmetric rainbows that rotate synchronously around the center.",
+    "description": "Two diametrically opposite rainbow arcs rotating in sync around the center of the device.",
     "category": "Spectrum"
   },
   "params": {

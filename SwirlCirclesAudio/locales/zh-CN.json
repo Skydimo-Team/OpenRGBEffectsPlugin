@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "音频漩涡圆环",
-    "description": "随音频节奏旋转的光圈灯效",
+    "description": "两个轨道旋转的圆环，辉光半径与强度实时响应整体音量变化。",
     "category": "音频"
   },
   "params": {

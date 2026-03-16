@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Sequence",
-    "description": "Alternates colors with a fade effect",
+    "description": "Cycles through a list of colors, holding each one for a set interval with a smooth fade transition between them.",
     "category": "Transition"
   },
   "params": {

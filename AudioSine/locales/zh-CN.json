@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "音频正弦波",
-    "description": "基于音频频谱的正弦波可视化效果",
+    "description": "振幅由音频频谱调制的滚动正弦波，支持辉光、粗细与颜色模式调节。",
     "category": "音频"
   },
   "params": {

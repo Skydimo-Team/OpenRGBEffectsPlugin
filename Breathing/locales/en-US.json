@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Breathing",
-    "description": "Fading in and out user selected colors across an entire zone",
+    "description": "Fades the entire zone in and out through a sequence of user-selected colors.",
     "category": "Breathing"
   },
   "params": {

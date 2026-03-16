@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "自定义跑马灯",
-    "description": "创建你自己的跑马灯效果",
+    "description": "循环滚动用户自定义颜色段的跑马灯效果。",
     "category": "动态"
   },
   "params": {

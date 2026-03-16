@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "噪声图谱",
-    "description": "忠实复刻 OpenRGB NoiseMap：使用 Simplex Noise 动态场，并支持彩虹、反相彩虹与自定义渐变渲染。",
+    "description": "基于可配置频率、振幅与倍频层数的动态 Simplex 噪声场，支持彩虹或自定义渐变着色。",
     "category": "渐变"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "双旋转彩虹",
-    "description": "两条对称的彩虹围绕中心同步旋转。",
+    "description": "两段对称彩虹弧围绕设备中心同步旋转。",
     "category": "光谱"
   },
   "params": {

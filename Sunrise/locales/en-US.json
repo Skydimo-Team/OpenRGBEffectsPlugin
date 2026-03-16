@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Sunrise",
-    "description": "Sunrise / Sunset effect with radial glow",
+    "description": "A four-stop radial gradient that expands and brightens over time, simulating a sunrise or sunset, with loop or single-run options.",
     "category": "Utility"
   },
   "params": {

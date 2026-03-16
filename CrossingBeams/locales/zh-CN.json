@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "交叉光束",
-    "description": "两束光分别沿水平和垂直方向移动",
+    "description": "两束光分别独立沿水平与垂直方向扫过设备。",
     "category": "动态"
   },
   "params": {

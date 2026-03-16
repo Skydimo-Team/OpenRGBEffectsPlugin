@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Visor",
-    "description": "A back and forth sweeping motion that flips between two colors",
+    "description": "A visor-shaped light head sweeps back and forth, blending between two colors in transit and swapping which color leads on each reversal.",
     "category": "Motion"
   },
   "params": {

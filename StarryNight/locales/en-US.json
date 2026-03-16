@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Starry Night",
-    "description": "Random stars that gracefully fade in and out against a background color.",
+    "description": "Random LEDs light up as stars—each fading in, holding, then fading out—against a background of adjustable brightness.",
     "category": "Sparkle"
   },
   "params": {

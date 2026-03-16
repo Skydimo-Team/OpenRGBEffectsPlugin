@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Custom Marquee",
-    "description": "Create your own marquee effect",
+    "description": "A scrolling marquee that cycles through user-defined colors in configurable segment lengths.",
     "category": "Motion"
   },
   "params": {

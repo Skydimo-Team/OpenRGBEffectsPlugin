@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "移动窗格",
-    "description": "设备上对称运动的灯光分区",
+    "description": "设备被均分为多个彩色光区，以交替方向滑动，形成同步对称运动。",
     "category": "动态"
   },
   "params": {

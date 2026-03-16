@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "随机旋转",
-    "description": "适用于你的设备的简单随机旋转效果",
+    "description": "双色渐变沿 LED 滚动，随机在不同速度与方向的旋转和短暂停顿之间切换。",
     "category": "过渡"
   },
   "params": {

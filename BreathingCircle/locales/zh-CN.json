@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "呼吸圆环",
-    "description": "以呼吸节奏扩展和收缩的圆形光环效果",
+    "description": "圆形光环平滑扩展与收缩，模拟呼吸节律。",
     "category": "呼吸"
   },
   "params": {

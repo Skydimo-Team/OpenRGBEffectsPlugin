@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Policing",
-    "description": "A back-and-forth sweep with a flash before each direction change",
+    "description": "A light beam sweeps back and forth, flashing the entire zone at the end of each pass before reversing direction.",
     "category": "Breathing"
   },
   "params": {

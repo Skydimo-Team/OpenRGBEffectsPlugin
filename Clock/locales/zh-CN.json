@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "时钟",
-    "description": "在 LED 灯带上显示时针、分针和秒针的数字时钟效果。",
+    "description": "将当前时间映射到 LED 位置，在灯带上独立点亮时、分、秒指示灯。",
     "category": "实用"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Spectrum Cycling",
-    "description": "Goes through every solid color of the rainbow",
+    "description": "All LEDs cycle together through the full hue spectrum, maintaining a uniform solid color across the entire zone at all times.",
     "category": "Spectrum"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio Visualizer",
-    "description": "Display audio equalizer on your devices. A ported version of KeyboardVisualizer.",
+    "description": "Renders a real-time audio equalizer on the device with multiple foreground and background color patterns.",
     "category": "Audio"
   },
   "params": {

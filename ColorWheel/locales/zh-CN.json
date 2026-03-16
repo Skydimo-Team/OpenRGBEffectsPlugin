@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "色彩轮盘",
-    "description": "从中心点辐射的旋转彩虹色轮效果。",
+    "description": "渲染从可配置中心点辐射的旋转全色谱色轮。",
     "category": "光谱"
   },
   "params": {

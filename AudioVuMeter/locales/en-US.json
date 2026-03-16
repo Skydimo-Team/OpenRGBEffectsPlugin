@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio VU Meter",
-    "description": "Classic VU meter that fills LEDs based on audio level",
+    "description": "Fills LEDs proportionally to the current audio level, with a configurable hue range and saturation.",
     "category": "Audio"
   },
   "params": {

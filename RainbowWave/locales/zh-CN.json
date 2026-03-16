@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "彩虹波浪",
-    "description": "滑动彩虹效果",
+    "description": "完整彩虹色谱以可配置的速度和频率连续滑过所有 LED。",
     "category": "光谱"
   },
   "params": {

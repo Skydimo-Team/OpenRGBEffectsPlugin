@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Swirl Circles Audio",
-    "description": "Rotating circles reacting to audio",
+    "description": "Two orbiting circles whose glow radius and intensity respond in real time to the overall audio volume.",
     "category": "Audio"
   },
   "params": {

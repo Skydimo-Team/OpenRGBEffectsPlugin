@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "呼吸",
-    "description": "在整个区域中淡入淡出用户选择的颜色",
+    "description": "将整个区域在用户选择的颜色序列之间依次淡入淡出。",
     "category": "呼吸"
   },
   "params": {

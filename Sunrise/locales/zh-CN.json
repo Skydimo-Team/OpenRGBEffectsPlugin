@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "日出",
-    "description": "日出 / 日落径向光晕灯效",
+    "description": "四色径向渐变随时间扩展并增亮，模拟日出或日落过程，支持循环或单次播放。",
     "category": "实用"
   },
   "params": {

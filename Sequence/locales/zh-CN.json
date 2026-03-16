@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "序列",
-    "description": "交替显示颜色并带有渐变过渡效果",
+    "description": "循环遍历颜色列表，每种颜色保持一段时间后以平滑渐变过渡到下一种。",
     "category": "过渡"
   },
   "params": {

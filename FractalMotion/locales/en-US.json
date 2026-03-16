@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Fractal Motion",
-    "description": "Psychedelic sinusoid with layered wave modulators and smooth background falloff.",
+    "description": "A composite sine wave built from up to 12 layered frequency modulators, scrolling across the LEDs with adjustable amplitude and background falloff.",
     "category": "Gradient"
   },
   "params": {

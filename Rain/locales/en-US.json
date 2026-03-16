@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Rain",
-    "description": "Falling droplets with randomized columns, widths, and tail lengths.",
+    "description": "Simulates falling rain with droplets in randomized columns, each having a bright head and a gradually fading tail.",
     "category": "Sparkle"
   },
   "params": {

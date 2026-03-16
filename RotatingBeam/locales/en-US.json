@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Rotating Beam",
-    "description": "A beam that rotates in different ways",
+    "description": "A single light beam sweeping the device in one of six modes: clockwise, counter-clockwise, pendulum, wipers, horizontal swing, or vertical swing.",
     "category": "Motion"
   },
   "params": {

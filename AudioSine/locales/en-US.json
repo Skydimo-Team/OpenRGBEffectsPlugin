@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio Sine",
-    "description": "Sinusoidal audio-reactive wave visualization",
+    "description": "A scrolling sine wave whose amplitude is shaped by the audio spectrum, with adjustable glow, thickness, and color modes.",
     "category": "Audio"
   },
   "params": {

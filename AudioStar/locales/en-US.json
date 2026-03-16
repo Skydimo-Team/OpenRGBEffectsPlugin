@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Audio Star",
-    "description": "Star-shaped audio visualizer",
+    "description": "Maps each audio frequency bin to an angular position, rendering a star-shaped brightness pattern that pulses with the audio.",
     "category": "Audio"
   },
   "params": {

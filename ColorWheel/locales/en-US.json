@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Color Wheel",
-    "description": "A rotating rainbow wheel radiating from a center point.",
+    "description": "Renders a rotating full-spectrum color wheel radiating from a configurable center point.",
     "category": "Spectrum"
   },
   "params": {

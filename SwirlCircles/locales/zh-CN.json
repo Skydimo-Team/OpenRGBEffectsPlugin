@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "漩涡圆环",
-    "description": "围绕设备中心旋转的圆环灯效",
+    "description": "两个对称圆环绕设备中心轨道运行，以滤色合成方式叠加各自的辉光。",
     "category": "动态"
   },
   "params": {

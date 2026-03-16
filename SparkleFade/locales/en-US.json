@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Sparkle Fade",
-    "description": "Fading in and fade out with sparkles",
+    "description": "Fades in a solid color then fades it out as sparkles spread and dissolve across the zone.",
     "category": "Sparkle"
   },
   "params": {

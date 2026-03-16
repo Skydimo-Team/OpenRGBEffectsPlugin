@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "跑马灯",
-    "description": "适用于你的设备的简单跑马灯效果",
+    "description": "单色滚动跑马灯，支持配置点亮段之间的 LED 间距。",
     "category": "动态"
   },
   "params": {

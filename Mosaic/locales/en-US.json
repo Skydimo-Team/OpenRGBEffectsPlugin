@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Mosaic",
-    "description": "Tiles randomly spawning across your devices",
+    "description": "Randomly spawns colored tiles across the device that briefly light up then fade out.",
     "category": "Sparkle"
   },
   "params": {

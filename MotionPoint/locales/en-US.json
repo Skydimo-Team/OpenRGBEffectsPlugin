@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Motion Point",
-    "description": "A point that moves forth and back on your devices.",
+    "description": "A single bright point oscillates back and forth across the LEDs against a configurable background color.",
     "category": "Motion"
   },
   "params": {

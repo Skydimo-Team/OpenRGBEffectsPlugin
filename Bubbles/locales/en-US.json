@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Bubbles",
-    "description": "Expanding colored bubble rings with screen-blend glow.",
+    "description": "Randomly spawns colored bubble rings that expand outward and fade with a screen-blend glow effect.",
     "category": "Sparkle"
   },
   "params": {

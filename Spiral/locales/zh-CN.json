@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "螺旋",
-    "description": "在设备上绘制催眠般的螺旋效果",
+    "description": "利用极角与径向距离绘制旋转螺旋图案，支持彩虹或单色模式与螺旋密度调节。",
     "category": "光谱"
   },
   "params": {

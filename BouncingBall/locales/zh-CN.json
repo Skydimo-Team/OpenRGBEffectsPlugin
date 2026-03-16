@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "弹跳球",
-    "description": "一个在 RGB 设备上弹跳的小球效果。",
+    "description": "模拟受重力与水平速度影响的小球在 LED 矩阵上弹跳运动。",
     "category": "动态"
   },
   "params": {

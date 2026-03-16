@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "运动光点",
-    "description": "一个在设备上来回移动的光点。",
+    "description": "单个亮点在 LED 上来回振荡，背景颜色可配置。",
     "category": "动态"
   },
   "params": {

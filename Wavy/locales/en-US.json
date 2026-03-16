@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Wavy",
-    "description": "Alternate colors like waves with oscillating sine patterns",
+    "description": "A two-color sine wave that simultaneously scrolls across the LEDs and oscillates in amplitude, creating fluid wave motion.",
     "category": "Gradient"
   },
   "params": {

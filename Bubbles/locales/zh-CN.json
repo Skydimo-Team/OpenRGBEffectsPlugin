@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "气泡",
-    "description": "彩色气泡环扩展并以滤色模式发光。",
+    "description": "随机生成彩色气泡环向外扩散并逐渐消失，具有滤色模式发光效果。",
     "category": "闪烁"
   },
   "params": {

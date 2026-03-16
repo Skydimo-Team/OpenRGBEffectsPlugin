@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Moving Panes",
-    "description": "Parts of your devices in symmetrical motion",
+    "description": "Divides the device into equally-sized color panes that slide in alternating directions, creating a synchronized symmetrical motion.",
     "category": "Motion"
   },
   "params": {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "彩虹",
-    "description": "循环彩虹颜色（Lua 插件）",
+    "description": "将完整色谱调色板滚动遍历所有 LED，内置多种预设与自定义调色板选项。",
     "category": "光谱"
   },
   "params": {
