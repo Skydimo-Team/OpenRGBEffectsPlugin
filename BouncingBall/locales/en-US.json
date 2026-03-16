@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Bouncing Ball",
+    "description": "A ball bounces around your RGB setup.",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "ball": "Ball",
+      "physics": "Physics",
+      "color": "Color"
+    },
+    "radius": "Ball Radius",
+    "gravity": "Gravity",
+    "horizontalVelocity": "Horizontal Velocity",
+    "spectrumVelocity": "Spectrum Velocity",
+    "dropHeight": "Drop Height %"
+  }
+}

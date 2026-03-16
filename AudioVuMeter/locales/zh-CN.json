@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "音频电平表",
+    "description": "经典 VU 电平表，根据音频响度填充 LED",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "response": "响应",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "smoothness": "平滑度",
+    "colorOffset": "色相偏移",
+    "colorSpread": "色相扩散",
+    "saturation": "饱和度",
+    "invertHue": "反转色相",
+    "useAlbumArt": "专辑封面着色"
+  }
+}

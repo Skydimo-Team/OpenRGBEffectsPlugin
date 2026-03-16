@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Visor",
+    "description": "A back and forth sweeping motion that flips between two colors",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "width": "Width",
+    "random": "Random Colors",
+    "colors": "Colors"
+  }
+}

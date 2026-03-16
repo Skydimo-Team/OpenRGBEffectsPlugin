@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Double Rotating Rainbow",
+    "description": "Two symmetric rainbows that rotate synchronously around the center.",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Pattern"
+    },
+    "speed": "Rotation Speed",
+    "colorSpeed": "Color Speed",
+    "frequency": "Frequency"
+  }
+}

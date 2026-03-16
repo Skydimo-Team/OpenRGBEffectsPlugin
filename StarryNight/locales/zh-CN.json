@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "星夜",
+    "description": "随机星星在背景色上优雅地淡入淡出。",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "appearance": "外观",
+      "animation": "动画"
+    },
+    "background": "背景颜色",
+    "bg_brightness": "背景亮度",
+    "colors": "星星颜色",
+    "density": "星星密度",
+    "fade_in_speed": "淡入时间",
+    "fade_out_speed": "淡出时间",
+    "star_on_time": "星星持续时间"
+  }
+}

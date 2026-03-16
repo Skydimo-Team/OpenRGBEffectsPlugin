@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "弹跳球",
+    "description": "一个在 RGB 设备上弹跳的小球效果。",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "ball": "球体",
+      "physics": "物理",
+      "color": "颜色"
+    },
+    "radius": "球体半径",
+    "gravity": "重力",
+    "horizontalVelocity": "水平速度",
+    "spectrumVelocity": "光谱速度",
+    "dropHeight": "下落高度 %"
+  }
+}

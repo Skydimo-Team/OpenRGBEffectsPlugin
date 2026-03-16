@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Rotating Rainbow",
+    "description": "A rainbow that rotates around the center of your devices.",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation"
+    },
+    "speed": "Rotation Speed",
+    "colorSpeed": "Color Speed",
+    "reverse": "Reverse"
+  }
+}

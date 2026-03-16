@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Sequence",
+    "description": "Alternates colors with a fade effect",
+    "category": "Transition"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "fadeTime": "Fade Time",
+    "colors": "Colors"
+  }
+}

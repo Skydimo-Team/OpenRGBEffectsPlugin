@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "光谱循环",
+    "description": "遍历彩虹的每一种纯色",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "saturation": "饱和度"
+  }
+}

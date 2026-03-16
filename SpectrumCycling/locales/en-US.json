@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Spectrum Cycling",
+    "description": "Goes through every solid color of the rainbow",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "saturation": "Saturation"
+  }
+}

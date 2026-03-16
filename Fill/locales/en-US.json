@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Fill",
+    "description": "Progressively fills your devices with a defined color, then fades the whole zone out",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

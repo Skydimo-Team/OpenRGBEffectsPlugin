@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "堆叠",
+    "description": "使用纯色逐步填充并堆叠设备灯光",
+    "category": "过渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "direction": "矩阵方向",
+    "directionOptions": {
+      "horizontal": "水平",
+      "vertical": "垂直"
+    },
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

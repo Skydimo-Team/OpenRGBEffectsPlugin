@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Gradient Wave",
+    "description": "A two-color gradient wave that sweeps forward and back across the LEDs",
+    "category": "Gradient"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Colors",
+    "colors": "Gradient Colors"
+  }
+}

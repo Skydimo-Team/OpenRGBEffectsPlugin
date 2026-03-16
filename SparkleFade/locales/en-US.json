@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Sparkle Fade",
+    "description": "Fading in and fade out with sparkles",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "timing": "Timing",
+      "color": "Color"
+    },
+    "off_time": "Off Time (s)",
+    "fade_in_time": "Fade In Time (s)",
+    "fade_out_time": "Fade Out Time (s)",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

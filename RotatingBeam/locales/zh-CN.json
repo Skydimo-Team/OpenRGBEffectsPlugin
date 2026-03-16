@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "旋转光束",
+    "description": "以多种方式旋转的一束光",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "appearance": "外观",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "mode": "模式",
+    "glow": "辉光",
+    "thickness": "厚度",
+    "random_colors": "随机颜色",
+    "colors": "颜色",
+    "modeOptions": {
+      "clockwise": "顺时针",
+      "counterClockwise": "逆时针",
+      "pendulum": "钟摆",
+      "wipers": "雨刷",
+      "swingH": "水平摆动",
+      "swingV": "垂直摆动"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Audio Party",
+    "description": "Audio-reactive effect with motion, color change, and flash effects driven by FFT zones",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "motion": "Motion",
+      "wave": "Wave",
+      "zones": "Zones",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "colorSpeed": "Color Speed",
+    "divisions": "Divisions",
+    "smoothness": "Smoothness",
+    "effectThreshold": "Effect Threshold",
+    "motionZoneEnd": "Motion Zone End",
+    "colorZoneEnd": "Color Zone End",
+    "useAlbumArt": "Album Art Colors"
+  }
+}

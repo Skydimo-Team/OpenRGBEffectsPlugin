@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Spiral",
+    "description": "Draws a hypnotic spiral on your devices",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "shape": "Spiral shape",
+    "direction": "Direction",
+    "colorMode": "Color mode",
+    "color": "Color",
+    "directionOptions": {
+      "counterClockwise": "Counter-clockwise",
+      "clockwise": "Clockwise"
+    },
+    "colorModeOptions": {
+      "rainbow": "Rainbow",
+      "singleColor": "Single color"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "RotatingRainbow",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Orbit",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 20,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "color_speed",
+      "label": "params.colorSpeed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "reverse",
+      "label": "params.reverse",
+      "group": "params.groups.animation",
+      "kind": "toggle",
+      "default": false
+    }
+  ]
+}

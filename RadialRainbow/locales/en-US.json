@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Radial Rainbow",
+    "description": "Dive into the RGB tunnel.",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Pattern",
+      "center": "Center Position"
+    },
+    "speed": "Speed",
+    "frequency": "Frequency",
+    "shape": "Shape",
+    "cx": "X Position",
+    "cy": "Y Position",
+    "shapeOptions": {
+      "circles": "Circles",
+      "squares": "Squares"
+    }
+  }
+}

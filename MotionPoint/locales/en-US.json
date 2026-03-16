@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Motion Point",
+    "description": "A point that moves forth and back on your devices.",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Color",
+    "color": "Point Color",
+    "background": "Background Color"
+  }
+}

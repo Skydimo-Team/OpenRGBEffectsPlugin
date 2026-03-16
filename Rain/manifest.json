@@ -1,0 +1,77 @@
+{
+  "id": "Rain",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Sparkles",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 25,
+      "min": 1,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "drops",
+      "label": "params.drops",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 20,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "key": "drop_size",
+      "label": "params.drop_size",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 1,
+      "min": 1,
+      "max": 10,
+      "step": 1
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "only_first",
+      "label": "params.only_first",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#FF9900",
+        "#FFFF00",
+        "#00FF88",
+        "#00AAFF"
+      ],
+      "fixedCount": 5
+    }
+  ]
+}

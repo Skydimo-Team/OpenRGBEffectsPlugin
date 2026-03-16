@@ -1,0 +1,361 @@
+{
+  "id": "AudioVisualizer",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "AudioLines",
+  "permissions": [
+    "audio:capture",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "bg_mode",
+      "label": "params.bg_mode",
+      "group": "params.groups.background",
+      "kind": "select",
+      "default": 20,
+      "options": [
+        {
+          "label": "params.pattern.black",
+          "value": 0
+        },
+        {
+          "label": "params.pattern.white",
+          "value": 1
+        },
+        {
+          "label": "params.pattern.red",
+          "value": 2
+        },
+        {
+          "label": "params.pattern.orange",
+          "value": 3
+        },
+        {
+          "label": "params.pattern.yellow",
+          "value": 4
+        },
+        {
+          "label": "params.pattern.green",
+          "value": 5
+        },
+        {
+          "label": "params.pattern.cyan",
+          "value": 6
+        },
+        {
+          "label": "params.pattern.blue",
+          "value": 7
+        },
+        {
+          "label": "params.pattern.purple",
+          "value": 8
+        },
+        {
+          "label": "params.pattern.electric_aquamarine",
+          "value": 9
+        },
+        {
+          "label": "params.pattern.red_blue",
+          "value": 10
+        },
+        {
+          "label": "params.pattern.cyan_orange",
+          "value": 11
+        },
+        {
+          "label": "params.pattern.cyan_purple",
+          "value": 12
+        },
+        {
+          "label": "params.pattern.cyan_electric_aquamarine",
+          "value": 13
+        },
+        {
+          "label": "params.pattern.green_yellow_red",
+          "value": 14
+        },
+        {
+          "label": "params.pattern.green_white_red",
+          "value": 15
+        },
+        {
+          "label": "params.pattern.blue_cyan_white",
+          "value": 16
+        },
+        {
+          "label": "params.pattern.red_white_blue",
+          "value": 17
+        },
+        {
+          "label": "params.pattern.rainbow_bars",
+          "value": 18
+        },
+        {
+          "label": "params.pattern.rainbow_bars_inv",
+          "value": 19
+        },
+        {
+          "label": "params.pattern.original",
+          "value": 20
+        },
+        {
+          "label": "params.pattern.rainbow",
+          "value": 21
+        },
+        {
+          "label": "params.pattern.color_wheel",
+          "value": 22
+        },
+        {
+          "label": "params.pattern.color_wheel_2",
+          "value": 23
+        },
+        {
+          "label": "params.pattern.spectrum_cycle",
+          "value": 24
+        },
+        {
+          "label": "params.pattern.sinusoidal_cycle",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "key": "fg_mode",
+      "label": "params.fg_mode",
+      "group": "params.groups.foreground",
+      "kind": "select",
+      "default": 14,
+      "options": [
+        {
+          "label": "params.pattern.black",
+          "value": 0
+        },
+        {
+          "label": "params.pattern.white",
+          "value": 1
+        },
+        {
+          "label": "params.pattern.red",
+          "value": 2
+        },
+        {
+          "label": "params.pattern.orange",
+          "value": 3
+        },
+        {
+          "label": "params.pattern.yellow",
+          "value": 4
+        },
+        {
+          "label": "params.pattern.green",
+          "value": 5
+        },
+        {
+          "label": "params.pattern.cyan",
+          "value": 6
+        },
+        {
+          "label": "params.pattern.blue",
+          "value": 7
+        },
+        {
+          "label": "params.pattern.purple",
+          "value": 8
+        },
+        {
+          "label": "params.pattern.electric_aquamarine",
+          "value": 9
+        },
+        {
+          "label": "params.pattern.red_blue",
+          "value": 10
+        },
+        {
+          "label": "params.pattern.cyan_orange",
+          "value": 11
+        },
+        {
+          "label": "params.pattern.cyan_purple",
+          "value": 12
+        },
+        {
+          "label": "params.pattern.cyan_electric_aquamarine",
+          "value": 13
+        },
+        {
+          "label": "params.pattern.green_yellow_red",
+          "value": 14
+        },
+        {
+          "label": "params.pattern.green_white_red",
+          "value": 15
+        },
+        {
+          "label": "params.pattern.blue_cyan_white",
+          "value": 16
+        },
+        {
+          "label": "params.pattern.red_white_blue",
+          "value": 17
+        },
+        {
+          "label": "params.pattern.rainbow_bars",
+          "value": 18
+        },
+        {
+          "label": "params.pattern.rainbow_bars_inv",
+          "value": 19
+        },
+        {
+          "label": "params.pattern.original",
+          "value": 20
+        },
+        {
+          "label": "params.pattern.rainbow",
+          "value": 21
+        },
+        {
+          "label": "params.pattern.color_wheel",
+          "value": 22
+        },
+        {
+          "label": "params.pattern.color_wheel_2",
+          "value": 23
+        },
+        {
+          "label": "params.pattern.spectrum_cycle",
+          "value": 24
+        },
+        {
+          "label": "params.pattern.sinusoidal_cycle",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "key": "single_color_mode",
+      "label": "params.single_color_mode",
+      "group": "params.groups.single_color",
+      "kind": "select",
+      "default": 12,
+      "options": [
+        {
+          "label": "params.sc.black",
+          "value": 0
+        },
+        {
+          "label": "params.sc.white",
+          "value": 1
+        },
+        {
+          "label": "params.sc.red",
+          "value": 2
+        },
+        {
+          "label": "params.sc.orange",
+          "value": 3
+        },
+        {
+          "label": "params.sc.yellow",
+          "value": 4
+        },
+        {
+          "label": "params.sc.green",
+          "value": 5
+        },
+        {
+          "label": "params.sc.cyan",
+          "value": 6
+        },
+        {
+          "label": "params.sc.blue",
+          "value": 7
+        },
+        {
+          "label": "params.sc.purple",
+          "value": 8
+        },
+        {
+          "label": "params.sc.electric_aquamarine",
+          "value": 9
+        },
+        {
+          "label": "params.sc.background",
+          "value": 10
+        },
+        {
+          "label": "params.sc.follow_background",
+          "value": 11
+        },
+        {
+          "label": "params.sc.follow_foreground",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "key": "bg_brightness",
+      "label": "params.bg_brightness",
+      "group": "params.groups.background",
+      "kind": "slider",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "anim_speed",
+      "label": "params.anim_speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 100,
+      "min": 0,
+      "max": 500,
+      "step": 1
+    },
+    {
+      "key": "bg_timeout",
+      "label": "params.bg_timeout",
+      "group": "params.groups.background",
+      "kind": "slider",
+      "default": 120,
+      "min": 0,
+      "max": 600,
+      "step": 1
+    },
+    {
+      "key": "reactive_bg",
+      "label": "params.reactive_bg",
+      "group": "params.groups.background",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "silent_bg",
+      "label": "params.silent_bg",
+      "group": "params.groups.background",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "avg_size",
+      "label": "params.avg_size",
+      "group": "params.groups.audio",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 64,
+      "step": 1
+    }
+  ]
+}

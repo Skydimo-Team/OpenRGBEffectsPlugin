@@ -1,0 +1,185 @@
+{
+  "id": "AudioSync",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "AudioLines",
+  "permissions": [
+    "audio:capture",
+    "media:album_art",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "hueShift",
+      "label": "params.hueShift",
+      "group": "params.groups.color",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 360
+    },
+    {
+      "key": "fadeSpeed",
+      "label": "params.fadeSpeed",
+      "group": "params.groups.color",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 99
+    },
+    {
+      "key": "saturationMode",
+      "label": "params.saturationMode",
+      "group": "params.groups.color",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.satModeNormal",
+          "value": 0
+        },
+        {
+          "label": "params.satModeHighAmp",
+          "value": 1
+        },
+        {
+          "label": "params.satModeBW",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "key": "rollMode",
+      "label": "params.rollMode",
+      "group": "params.groups.display",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.rollLinear",
+          "value": 0
+        },
+        {
+          "label": "params.rollNone",
+          "value": 1
+        },
+        {
+          "label": "params.rollRadial",
+          "value": 2
+        },
+        {
+          "label": "params.rollWave",
+          "value": 3
+        },
+        {
+          "label": "params.rollVertical",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "key": "avgSize",
+      "label": "params.smoothness",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 16
+    },
+    {
+      "key": "bandpassRange",
+      "label": "params.bandpassRange",
+      "group": "params.groups.response",
+      "kind": "range-slider",
+      "default": [
+        0,
+        255
+      ],
+      "min": 0,
+      "max": 255
+    },
+    {
+      "key": "useAlbumArt",
+      "label": "params.useAlbumArt",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "silentColor",
+      "label": "params.silentColor",
+      "group": "params.groups.display",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "silentColorValue",
+      "label": "params.silentColorValue",
+      "group": "params.groups.display",
+      "kind": "color",
+      "default": "#000000",
+      "dependency": {
+        "key": "silentColor",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "edgeBeat",
+      "label": "params.edgeBeat",
+      "group": "params.groups.edgeBeat",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "edgeBeatHue",
+      "label": "params.edgeBeatHue",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 359,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "edgeBeatSaturation",
+      "label": "params.edgeBeatSaturation",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 255,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "edgeBeatSensitivity",
+      "label": "params.edgeBeatSensitivity",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 200,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    }
+  ]
+}

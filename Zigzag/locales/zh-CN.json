@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "锯齿蛇",
+    "description": "一条蛇以锯齿形路径在设备上移动。",
+    "category": "过渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "color_mode": "颜色模式",
+    "color": "颜色",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自定义"
+    }
+  }
+}

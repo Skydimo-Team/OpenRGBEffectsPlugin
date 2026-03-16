@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "平滑闪烁",
+    "description": "可自定义脉冲模式的呼吸灯序列",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "timing": "时序",
+      "appearance": "外观",
+      "color": "颜色"
+    },
+    "interval": "间隔 (秒)",
+    "pulses": "脉冲次数",
+    "pulse_duration": "脉冲时长 (秒)",
+    "strength": "强度 (%)",
+    "rendering": "渲染模式",
+    "renderingOptions": {
+      "solid": "纯色",
+      "circle": "圆形"
+    },
+    "cx": "X 位置",
+    "cy": "Y 位置",
+    "random": "随机颜色",
+    "color1": "脉冲颜色",
+    "color2": "底色"
+  }
+}

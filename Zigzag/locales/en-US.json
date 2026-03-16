@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "ZigZag",
+    "description": "A snake moving on your devices in a zigzag pattern.",
+    "category": "Transition"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "color_mode": "Color Mode",
+    "color": "Color",
+    "colorModeOptions": {
+      "rainbow": "Rainbow",
+      "custom": "Custom"
+    }
+  }
+}

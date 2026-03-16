@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Custom Gradient Wave",
+    "description": "Create your own gradient wave or use one of the original preset palettes",
+    "category": "Gradient"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette",
+      "geometry": "Geometry"
+    },
+    "speed": "Speed",
+    "preset": "Preset",
+    "colors": "Custom Colors",
+    "direction": "Direction",
+    "height": "Height",
+    "width": "Width",
+    "spread": "Spread",
+    "presetOptions": {
+      "unicornVomit": "Unicorn Vomit",
+      "borealis": "Borealis",
+      "ocean": "Ocean",
+      "pinkBlue": "Pink/Blue",
+      "pinkGold": "Pink/Gold",
+      "pulse": "Pulse",
+      "purpleOrange": "Purple/Orange",
+      "lightBluePurple": "LightBlue/Purple",
+      "policeBeacon": "Police Beacon",
+      "seabed": "Seabed",
+      "sunset": "Sunset",
+      "vaporwave": "Vaporwave",
+      "custom": "Custom"
+    },
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "radialOut": "Radial out",
+      "radialIn": "Radial in"
+    }
+  }
+}

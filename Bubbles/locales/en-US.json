@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Bubbles",
+    "description": "Expanding colored bubble rings with screen-blend glow.",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Appearance",
+      "animation": "Animation"
+    },
+    "background": "Background",
+    "colors": "Bubble Colors",
+    "max_bubbles": "Max Bubbles",
+    "rarity": "Rarity",
+    "max_expansion": "Max Expansion",
+    "thickness": "Thickness",
+    "speed": "Speed"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "SingleColor",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Palette",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "color",
+      "label": "params.color",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#FFFFFF"
+    }
+  ]
+}

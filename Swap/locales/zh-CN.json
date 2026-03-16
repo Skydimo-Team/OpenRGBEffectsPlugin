@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "交替",
+    "description": "两种颜色在设备上从左到右交替切换",
+    "category": "过渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "random": "随机颜色",
+    "colors": "颜色"
+  }
+}

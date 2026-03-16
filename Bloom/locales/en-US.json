@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "Bloom",
+    "description": "Each LED blooms through colors at its own pace, like flowers opening.",
+    "category": "Spectrum"
+  },
+  "params": {
+    "speed": "Speed",
+    "saturation": "Saturation"
+  }
+}

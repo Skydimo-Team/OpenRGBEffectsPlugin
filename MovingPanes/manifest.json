@@ -1,0 +1,57 @@
+{
+  "id": "MovingPanes",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Columns3",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "divisions",
+      "label": "params.divisions",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 4,
+      "min": 2,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "key": "reverse",
+      "label": "params.reverse",
+      "group": "params.groups.animation",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#0000FF"
+      ],
+      "fixedCount": 2
+    }
+  ]
+}

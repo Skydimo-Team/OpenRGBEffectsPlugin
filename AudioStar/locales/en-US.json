@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Audio Star",
+    "description": "Star-shaped audio visualizer",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "response": "Response",
+      "edgeBeat": "Edge Beat"
+    },
+    "speed": "Speed",
+    "smoothness": "Smoothness",
+    "useAlbumArt": "Album Art Colors",
+    "edgeBeat": "Edge Beat",
+    "edgeBeatHue": "Edge Hue",
+    "edgeBeatSaturation": "Edge Saturation",
+    "edgeBeatSensitivity": "Edge Sensitivity"
+  }
+}

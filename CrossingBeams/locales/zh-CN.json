@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "交叉光束",
+    "description": "两束光分别沿水平和垂直方向移动",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "appearance": "外观",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "h_speed": "水平速度",
+    "v_speed": "垂直速度",
+    "glow": "辉光",
+    "thickness": "厚度",
+    "random_colors": "随机颜色",
+    "colors": "光束颜色"
+  }
+}

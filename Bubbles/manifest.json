@@ -1,0 +1,91 @@
+{
+  "id": "Bubbles",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "CircleDot",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "background",
+      "label": "params.background",
+      "kind": "color",
+      "default": "#000000",
+      "group": "params.groups.appearance"
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#FF9900",
+        "#FFFF00",
+        "#00FF88",
+        "#00AAFF"
+      ],
+      "minCount": 1,
+      "maxCount": 10,
+      "group": "params.groups.appearance"
+    },
+    {
+      "key": "max_bubbles",
+      "label": "params.max_bubbles",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "group": "params.groups.animation"
+    },
+    {
+      "key": "rarity",
+      "label": "params.rarity",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 1,
+      "group": "params.groups.animation"
+    },
+    {
+      "key": "max_expansion",
+      "label": "params.max_expansion",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 500,
+      "step": 1,
+      "group": "params.groups.animation"
+    },
+    {
+      "key": "thickness",
+      "label": "params.thickness",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 50,
+      "step": 1,
+      "group": "params.groups.animation"
+    },
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "kind": "slider",
+      "default": 1,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "group": "params.groups.animation"
+    }
+  ]
+}

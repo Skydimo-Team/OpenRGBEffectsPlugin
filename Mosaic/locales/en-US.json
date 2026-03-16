@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaic",
+    "description": "Tiles randomly spawning across your devices",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Pattern",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "rarity": "Rarity",
+    "random": "Random Colors",
+    "colors": "Tile Colors"
+  }
+}

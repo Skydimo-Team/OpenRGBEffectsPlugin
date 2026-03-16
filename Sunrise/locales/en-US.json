@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Sunrise",
+    "description": "Sunrise / Sunset effect with radial glow",
+    "category": "Utility"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "effect": "Effect",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "intensity": "Intensity",
+    "intensity_speed": "Intensity Speed",
+    "radius": "Radius",
+    "grow_speed": "Grow Speed",
+    "run_once": "Run Only Once",
+    "motion": "Motion",
+    "colors": "Colors"
+  }
+}

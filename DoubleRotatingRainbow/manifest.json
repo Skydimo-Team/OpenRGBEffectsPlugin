@@ -1,0 +1,49 @@
+{
+  "id": "DoubleRotatingRainbow",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Orbit",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "color_speed",
+      "label": "params.colorSpeed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 20,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "frequency",
+      "label": "params.frequency",
+      "group": "params.groups.pattern",
+      "kind": "slider",
+      "default": 1,
+      "min": 1,
+      "max": 20,
+      "step": 1
+    }
+  ]
+}

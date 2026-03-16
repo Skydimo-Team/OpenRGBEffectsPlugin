@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "音频漩涡圆环",
+    "description": "随音频节奏旋转的光圈灯效",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "motion": "运动",
+      "appearance": "外观",
+      "response": "响应",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "glow": "辉光",
+    "radius": "半径",
+    "smoothness": "平滑度",
+    "colorMode": "颜色模式",
+    "colorModeOptions": {
+      "randomCycle": "随机循环",
+      "custom": "自定义"
+    },
+    "colors": "颜色组",
+    "color1": "颜色 1",
+    "color2": "颜色 2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "自定义跑马灯",
+    "description": "创建你自己的跑马灯效果",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "colors": "颜色列表"
+  }
+}

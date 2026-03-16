@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Noise Map",
+    "description": "OpenRGB NoiseMap faithfully recreated with simplex noise motion and rainbow or custom gradient rendering.",
+    "category": "Gradient"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "noise": "Noise",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "motion": "Motion",
+    "motionSpeed": "Motion Speed",
+    "frequency": "Frequency",
+    "amplitude": "Amplitude",
+    "lacunarity": "Lacunarity",
+    "persistence": "Persistence",
+    "octaves": "Octaves",
+    "mode": "Mode",
+    "preset": "Preset",
+    "colors": "Gradient Colors",
+    "motionOptions": {
+      "up": "Up",
+      "down": "Down",
+      "left": "Left",
+      "right": "Right"
+    },
+    "modeOptions": {
+      "rainbow": "Rainbow",
+      "inverseRainbow": "Inverse Rainbow",
+      "custom": "Custom"
+    },
+    "presetOptions": {
+      "lava": "Lava",
+      "borealis": "Borealis",
+      "ocean": "Ocean",
+      "chemicals": "Chemicals"
+    }
+  }
+}

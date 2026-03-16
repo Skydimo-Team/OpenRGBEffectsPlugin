@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Wavy",
+    "description": "Alternate colors like waves with oscillating sine patterns",
+    "category": "Gradient"
+  },
+  "params": {
+    "groups": {
+      "wave": "Wave",
+      "color": "Color"
+    },
+    "wave_frequency": "Wave Frequency",
+    "wave_speed": "Wave Speed",
+    "oscillation_speed": "Oscillation Speed",
+    "random": "Random Colors",
+    "colors": "Wave Colors"
+  }
+}

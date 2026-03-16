@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "绽放",
+    "description": "每颗 LED 以不同的速度循环变换色彩，如花朵绽放。",
+    "category": "光谱"
+  },
+  "params": {
+    "speed": "速度",
+    "saturation": "饱和度"
+  }
+}

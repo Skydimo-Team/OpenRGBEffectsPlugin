@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Rainbow Wave",
+    "description": "A sliding rainbow",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Pattern"
+    },
+    "speed": "Speed",
+    "frequency": "Frequency"
+  }
+}

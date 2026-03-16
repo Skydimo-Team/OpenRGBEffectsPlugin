@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Clock",
+    "description": "Digital clock with hour, minute, and second hands displayed on LED strip.",
+    "category": "Utility"
+  },
+  "params": {
+    "groups": {
+      "clock": "Clock",
+      "colors": "Colors"
+    },
+    "clockMode": "Clock Mode",
+    "clockModeOptions": {
+      "12hour": "12-hour",
+      "24hour": "24-hour"
+    },
+    "hourColor": "Hour Color",
+    "minuteColor": "Minute Color",
+    "secondColor": "Second Color"
+  }
+}

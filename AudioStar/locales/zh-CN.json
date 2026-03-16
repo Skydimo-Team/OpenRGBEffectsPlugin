@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "音频星光",
+    "description": "基于音频频谱的星形可视化效果",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "response": "响应",
+      "edgeBeat": "边缘节拍"
+    },
+    "speed": "速度",
+    "smoothness": "平滑度",
+    "useAlbumArt": "专辑封面着色",
+    "edgeBeat": "边缘节拍",
+    "edgeBeatHue": "边缘色相",
+    "edgeBeatSaturation": "边缘饱和度",
+    "edgeBeatSensitivity": "边缘灵敏度"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Comet",
+    "description": "A comet that travels through your devices with a glowing trail.",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "comet_size": "Comet Size",
+    "color_mode": "Color Mode",
+    "color": "Comet Color",
+    "colorModeOptions": {
+      "rainbow": "Rainbow",
+      "custom": "Custom"
+    }
+  }
+}

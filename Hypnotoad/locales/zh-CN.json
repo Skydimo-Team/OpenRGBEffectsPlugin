@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "你逃不掉",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色",
+      "geometry": "几何"
+    },
+    "speed": "速度",
+    "colorMode": "颜色模式",
+    "colors": "颜色",
+    "colorRotationSpeed": "旋转速度",
+    "colorRotationDirection": "旋转方向",
+    "animationSpeed": "动画速度",
+    "animationDirection": "动画方向",
+    "spacing": "间距",
+    "thickness": "厚度",
+    "centerX": "X 位置",
+    "centerY": "Y 位置",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自定义"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "顺时针",
+      "counterClockwise": "逆时针"
+    },
+    "animationDirectionOptions": {
+      "inside": "向内",
+      "outside": "向外"
+    }
+  }
+}

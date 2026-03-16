@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Smooth Blink",
+    "description": "Create your own breathing sequences with customizable pulse patterns",
+    "category": "Breathing"
+  },
+  "params": {
+    "groups": {
+      "timing": "Timing",
+      "appearance": "Appearance",
+      "color": "Color"
+    },
+    "interval": "Interval (s)",
+    "pulses": "Pulses",
+    "pulse_duration": "Pulse Duration (s)",
+    "strength": "Strength (%)",
+    "rendering": "Rendering",
+    "renderingOptions": {
+      "solid": "Solid",
+      "circle": "Circle"
+    },
+    "cx": "X Position",
+    "cy": "Y Position",
+    "random": "Random Colors",
+    "color1": "Pulse Color",
+    "color2": "Base Color"
+  }
+}

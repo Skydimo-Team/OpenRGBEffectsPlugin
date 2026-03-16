@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "自定义渐变波",
+    "description": "可使用原版预设调色板，或自定义颜色生成渐变波效果",
+    "category": "渐变"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "palette": "调色板",
+      "geometry": "几何"
+    },
+    "speed": "速度",
+    "preset": "预设",
+    "colors": "自定义颜色",
+    "direction": "方向",
+    "height": "高度",
+    "width": "宽度",
+    "spread": "扩散",
+    "presetOptions": {
+      "unicornVomit": "独角兽彩虹",
+      "borealis": "北极光",
+      "ocean": "海洋",
+      "pinkBlue": "粉/蓝",
+      "pinkGold": "粉/金",
+      "pulse": "脉冲",
+      "purpleOrange": "紫/橙",
+      "lightBluePurple": "浅蓝/紫",
+      "policeBeacon": "警灯",
+      "seabed": "海床",
+      "sunset": "日落",
+      "vaporwave": "蒸汽波",
+      "custom": "自定义"
+    },
+    "directionOptions": {
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "radialOut": "向外径向",
+      "radialIn": "向内径向"
+    }
+  }
+}

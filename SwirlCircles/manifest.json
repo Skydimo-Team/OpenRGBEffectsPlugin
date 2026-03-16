@@ -1,0 +1,87 @@
+{
+  "id": "SwirlCircles",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Orbit",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "glow",
+      "label": "params.glow",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "radius",
+      "label": "params.radius",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "reverse",
+      "label": "params.reverse",
+      "group": "params.groups.animation",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": true
+    },
+    {
+      "key": "color1",
+      "label": "params.color1",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#FF0000",
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    },
+    {
+      "key": "color2",
+      "label": "params.color2",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#00FFFF",
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

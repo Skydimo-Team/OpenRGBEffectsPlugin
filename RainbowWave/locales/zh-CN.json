@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "彩虹波浪",
+    "description": "滑动彩虹效果",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "pattern": "图案"
+    },
+    "speed": "速度",
+    "frequency": "频率"
+  }
+}

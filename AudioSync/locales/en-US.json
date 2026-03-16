@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Audio Sync",
+    "description": "Frequency-based color sync with roll modes and smooth transitions",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "color": "Color",
+      "display": "Display",
+      "response": "Response",
+      "edgeBeat": "Edge Beat"
+    },
+    "hueShift": "Hue Shift",
+    "fadeSpeed": "Fade Speed",
+    "saturationMode": "Saturation Mode",
+    "satModeNormal": "Normal",
+    "satModeHighAmp": "Saturate High Amplitudes",
+    "satModeBW": "Black & White",
+    "rollMode": "Roll Mode",
+    "rollLinear": "Linear Horizontal",
+    "rollNone": "No Roll",
+    "rollRadial": "Radial",
+    "rollWave": "Wave",
+    "rollVertical": "Linear Vertical",
+    "smoothness": "Smoothness",
+    "bandpassRange": "Band-Pass Filter",
+    "useAlbumArt": "Album Art Colors",
+    "silentColor": "Silent Fallback Color",
+    "silentColorValue": "Silent Color",
+    "edgeBeat": "Edge Beat",
+    "edgeBeatHue": "Edge Hue",
+    "edgeBeatSaturation": "Edge Saturation",
+    "edgeBeatSensitivity": "Edge Sensitivity"
+  }
+}

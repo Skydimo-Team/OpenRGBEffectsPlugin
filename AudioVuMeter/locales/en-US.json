@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Audio VU Meter",
+    "description": "Classic VU meter that fills LEDs based on audio level",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "response": "Response",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "smoothness": "Smoothness",
+    "colorOffset": "Hue Offset",
+    "colorSpread": "Hue Spread",
+    "saturation": "Saturation",
+    "invertHue": "Invert Hue",
+    "useAlbumArt": "Album Art Colors"
+  }
+}

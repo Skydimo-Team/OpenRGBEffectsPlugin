@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "name": "Screen Mirror",
+    "description": "Sync your screen colors to LEDs in real time",
+    "category": "Ambient"
+  },
+  "params": {
+    "groups": {
+      "image": "Image",
+      "blackBars": "Black Bar Detection"
+    },
+    "smoothness": "Smoothness",
+    "brightness": "Brightness Gain",
+    "saturation": "Saturation Gain",
+    "gamma": "Gamma",
+    "blur": "Blur",
+    "autoCrop": "Black Bar Crop",
+    "bbThreshold": "Threshold (%)",
+    "bbMode": "Detection Mode",
+    "mode_default": "Default",
+    "mode_classic": "Classic",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "Stable Switch Frames",
+    "bbUnknownFrameCnt": "Unknown Switch Frames",
+    "bbMaxInconsistentCnt": "Max Inconsistent Frames",
+    "bbBlurRemoveCnt": "Blur Safety Border"
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "气泡",
+    "description": "彩色气泡环扩展并以滤色模式发光。",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "appearance": "外观",
+      "animation": "动画"
+    },
+    "background": "背景色",
+    "colors": "气泡颜色",
+    "max_bubbles": "最大气泡数",
+    "rarity": "稀有度",
+    "max_expansion": "最大扩展",
+    "thickness": "厚度",
+    "speed": "速度"
+  }
+}

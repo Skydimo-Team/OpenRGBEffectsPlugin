@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Swirl Circles",
+    "description": "Rotating circles around the center of your devices",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "glow": "Glow",
+    "radius": "Radius",
+    "reverse": "Reverse",
+    "random": "Random Colors",
+    "color1": "Color 1",
+    "color2": "Color 2"
+  }
+}

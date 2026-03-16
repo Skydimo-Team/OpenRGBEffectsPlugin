@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "日出",
+    "description": "日出 / 日落径向光晕灯效",
+    "category": "实用"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "effect": "效果",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "intensity": "强度",
+    "intensity_speed": "强度速度",
+    "radius": "半径",
+    "grow_speed": "增长速度",
+    "run_once": "仅运行一次",
+    "motion": "运动",
+    "colors": "颜色列表"
+  }
+}

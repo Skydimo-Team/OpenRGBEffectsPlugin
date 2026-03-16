@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "双旋转彩虹",
+    "description": "两条对称的彩虹围绕中心同步旋转。",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "pattern": "图案"
+    },
+    "speed": "旋转速度",
+    "colorSpeed": "颜色速度",
+    "frequency": "频率"
+  }
+}

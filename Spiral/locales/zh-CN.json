@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "螺旋",
+    "description": "在设备上绘制催眠般的螺旋效果",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "shape": "螺旋形状",
+    "direction": "方向",
+    "colorMode": "颜色模式",
+    "color": "颜色",
+    "directionOptions": {
+      "counterClockwise": "逆时针",
+      "clockwise": "顺时针"
+    },
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "singleColor": "单色"
+    }
+  }
+}

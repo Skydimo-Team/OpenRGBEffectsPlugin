@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Audio Visualizer",
+    "description": "Display audio equalizer on your devices. A ported version of KeyboardVisualizer.",
+    "category": "Audio"
+  },
+  "params": {
+    "bg_mode": "Background Mode",
+    "fg_mode": "Foreground Mode",
+    "single_color_mode": "Single Color Mode",
+    "bg_brightness": "Background Brightness",
+    "anim_speed": "Animation Speed",
+    "bg_timeout": "Background Timeout",
+    "reactive_bg": "Reactive Background",
+    "silent_bg": "Silent Background",
+    "avg_size": "Smoothness",
+    "groups": {
+      "background": "Background",
+      "foreground": "Foreground",
+      "single_color": "Single Color",
+      "animation": "Animation",
+      "audio": "Audio"
+    },
+    "pattern": {
+      "black": "Black",
+      "white": "White",
+      "red": "Red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "green": "Green",
+      "cyan": "Cyan",
+      "blue": "Blue",
+      "purple": "Purple",
+      "electric_aquamarine": "Electric Aquamarine",
+      "red_blue": "Red / Blue",
+      "cyan_orange": "Cyan / Orange",
+      "cyan_purple": "Cyan / Purple",
+      "cyan_electric_aquamarine": "Cyan / Electric Aquamarine",
+      "green_yellow_red": "Green / Yellow / Red",
+      "green_white_red": "Green / White / Red",
+      "blue_cyan_white": "Blue / Cyan / White",
+      "red_white_blue": "Red / White / Blue",
+      "rainbow_bars": "Rainbow Bars",
+      "rainbow_bars_inv": "Rainbow Bars Inverse",
+      "original": "Original",
+      "rainbow": "Rainbow",
+      "color_wheel": "Color Wheel",
+      "color_wheel_2": "Color Wheel 2",
+      "spectrum_cycle": "Spectrum Cycle",
+      "sinusoidal_cycle": "Sinusoidal Cycle"
+    },
+    "sc": {
+      "black": "Black",
+      "white": "White",
+      "red": "Red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "green": "Green",
+      "cyan": "Cyan",
+      "blue": "Blue",
+      "purple": "Purple",
+      "electric_aquamarine": "Electric Aquamarine",
+      "background": "Background",
+      "follow_background": "Follow Background",
+      "follow_foreground": "Follow Foreground"
+    }
+  }
+}

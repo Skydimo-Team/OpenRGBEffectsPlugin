@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "光束扫视",
+    "description": "光束来回扫动，每次换向时翻转两种颜色",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "width": "宽度",
+    "random": "随机颜色",
+    "colors": "颜色"
+  }
+}

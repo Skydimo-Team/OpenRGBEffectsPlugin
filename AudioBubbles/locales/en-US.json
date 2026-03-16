@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Audio Bubbles",
+    "description": "Audio-reactive expanding bubble rings with gradient colors.",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "color": "Color",
+      "response": "Response",
+      "bubbles": "Bubbles"
+    },
+    "preset": "Preset",
+    "presetOptions": {
+      "unicornVomit": "Unicorn Vomit",
+      "borealis": "Borealis",
+      "ocean": "Ocean",
+      "pinkBlue": "Pink/Blue",
+      "pinkGold": "Pink/Gold",
+      "pulse": "Pulse",
+      "purpleOrange": "Purple/Orange",
+      "lightBluePurple": "LightBlue/Purple",
+      "policeBeacon": "Police Beacon",
+      "seabed": "Seabed",
+      "sunset": "Sunset",
+      "vaporwave": "Vaporwave"
+    },
+    "colors": "Gradient Colors",
+    "spawnMode": "Bubbles Spawn",
+    "spawnModes": {
+      "randomXY": "Random XY",
+      "randomX": "Random X",
+      "randomY": "Random Y",
+      "center": "Center"
+    },
+    "trigger": "Volume Trigger",
+    "max_bubbles": "Max Bubbles",
+    "max_expansion": "Max Expansion",
+    "bubbles_thickness": "Bubbles Thickness",
+    "speed": "Speed",
+    "smoothness": "Smoothness"
+  }
+}

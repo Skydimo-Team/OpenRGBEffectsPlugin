@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "Rainbow",
+    "description": "Cycling rainbow colors (Lua plugin)",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette"
+    },
+    "speed": "Speed",
+    "preset": "Palette Preset",
+    "colors": "Custom Colors",
+    "presetOptions": {
+      "custom": "Custom",
+      "rainbow": "Rainbow",
+      "sunset": "Sunset",
+      "ocean": "Ocean",
+      "synthwave": "Synthwave"
+    }
+  }
+}
+

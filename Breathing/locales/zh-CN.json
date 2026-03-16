@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "呼吸",
+    "description": "在整个区域中淡入淡出用户选择的颜色",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "random": "随机颜色",
+    "colors": "颜色列表"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "移动窗格",
+    "description": "设备上对称运动的灯光分区",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "divisions": "分区数",
+    "reverse": "反转",
+    "colors": "颜色"
+  }
+}

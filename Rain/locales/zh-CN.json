@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "雨滴",
+    "description": "带有随机列宽、宽度与尾迹长度变化的下落雨滴效果。",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "drops": "雨滴数量",
+    "drop_size": "雨滴大小",
+    "random": "随机颜色",
+    "only_first": "仅第一种颜色",
+    "colors": "用户颜色"
+  }
+}

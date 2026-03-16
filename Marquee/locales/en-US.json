@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Marquee",
+    "description": "A simple marquee for your devices",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "spacing": "Spacing",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

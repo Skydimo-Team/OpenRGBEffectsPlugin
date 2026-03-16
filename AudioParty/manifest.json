@@ -1,0 +1,94 @@
+{
+  "id": "AudioParty",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "PartyPopper",
+  "permissions": [
+    "audio:capture",
+    "media:album_art",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.motion",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100
+    },
+    {
+      "key": "colorSpeed",
+      "label": "params.colorSpeed",
+      "group": "params.groups.motion",
+      "kind": "slider",
+      "default": 25,
+      "min": 1,
+      "max": 50
+    },
+    {
+      "key": "divisions",
+      "label": "params.divisions",
+      "group": "params.groups.wave",
+      "kind": "slider",
+      "default": 4,
+      "min": 2,
+      "max": 16,
+      "step": 2
+    },
+    {
+      "key": "avgSize",
+      "label": "params.smoothness",
+      "group": "params.groups.wave",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 16
+    },
+    {
+      "key": "effectThreshold",
+      "label": "params.effectThreshold",
+      "group": "params.groups.zones",
+      "kind": "slider",
+      "default": 20,
+      "min": 5,
+      "max": 80
+    },
+    {
+      "key": "motionZoneEnd",
+      "label": "params.motionZoneEnd",
+      "group": "params.groups.zones",
+      "kind": "slider",
+      "default": 64,
+      "min": 8,
+      "max": 248,
+      "step": 8
+    },
+    {
+      "key": "colorZoneEnd",
+      "label": "params.colorZoneEnd",
+      "group": "params.groups.zones",
+      "kind": "slider",
+      "default": 192,
+      "min": 16,
+      "max": 256,
+      "step": 8
+    },
+    {
+      "key": "useAlbumArt",
+      "label": "params.useAlbumArt",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    }
+  ]
+}

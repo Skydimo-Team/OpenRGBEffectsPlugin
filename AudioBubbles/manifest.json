@@ -1,0 +1,180 @@
+{
+  "id": "AudioBubbles",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "CircleDot",
+  "permissions": [
+    "audio:capture",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "preset",
+      "label": "params.preset",
+      "group": "params.groups.color",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.presetOptions.unicornVomit",
+          "value": 0
+        },
+        {
+          "label": "params.presetOptions.borealis",
+          "value": 1
+        },
+        {
+          "label": "params.presetOptions.ocean",
+          "value": 2
+        },
+        {
+          "label": "params.presetOptions.pinkBlue",
+          "value": 3
+        },
+        {
+          "label": "params.presetOptions.pinkGold",
+          "value": 4
+        },
+        {
+          "label": "params.presetOptions.pulse",
+          "value": 5
+        },
+        {
+          "label": "params.presetOptions.purpleOrange",
+          "value": 6
+        },
+        {
+          "label": "params.presetOptions.lightBluePurple",
+          "value": 7
+        },
+        {
+          "label": "params.presetOptions.policeBeacon",
+          "value": 8
+        },
+        {
+          "label": "params.presetOptions.seabed",
+          "value": 9
+        },
+        {
+          "label": "params.presetOptions.sunset",
+          "value": 10
+        },
+        {
+          "label": "params.presetOptions.vaporwave",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#FF00E6",
+        "#0000FF",
+        "#00B3FF",
+        "#00FF51",
+        "#EAFF00",
+        "#FFB300",
+        "#FF0000"
+      ],
+      "minCount": 1,
+      "maxCount": 16
+    },
+    {
+      "key": "spawnMode",
+      "label": "params.spawnMode",
+      "group": "params.groups.bubbles",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.spawnModes.randomXY",
+          "value": 0
+        },
+        {
+          "label": "params.spawnModes.randomX",
+          "value": 1
+        },
+        {
+          "label": "params.spawnModes.randomY",
+          "value": 2
+        },
+        {
+          "label": "params.spawnModes.center",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "key": "trigger",
+      "label": "params.trigger",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "max_bubbles",
+      "label": "params.max_bubbles",
+      "group": "params.groups.bubbles",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 32,
+      "step": 1
+    },
+    {
+      "key": "max_expansion",
+      "label": "params.max_expansion",
+      "group": "params.groups.bubbles",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 1000,
+      "step": 1
+    },
+    {
+      "key": "bubbles_thickness",
+      "label": "params.bubbles_thickness",
+      "group": "params.groups.bubbles",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "speed_mult",
+      "label": "params.speed",
+      "group": "params.groups.bubbles",
+      "kind": "slider",
+      "default": 1,
+      "min": 1,
+      "max": 1000,
+      "step": 1
+    },
+    {
+      "key": "avgSize",
+      "label": "params.smoothness",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "step": 1
+    }
+  ]
+}

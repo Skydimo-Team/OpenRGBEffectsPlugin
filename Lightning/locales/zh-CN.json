@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "闪电",
+    "description": "准备好迎接雷暴吧",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "decay": "衰减",
+    "mode": "模式",
+    "random": "随机颜色",
+    "color": "颜色",
+    "modeOptions": {
+      "wholeStrip": "整条灯带",
+      "perLed": "逐灯珠"
+    }
+  }
+}

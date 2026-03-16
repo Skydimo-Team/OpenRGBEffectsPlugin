@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "name": "彩虹",
+    "description": "循环彩虹颜色（Lua 插件）",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "palette": "调色板"
+    },
+    "speed": "速度",
+    "preset": "调色板预设",
+    "colors": "自定义颜色",
+    "presetOptions": {
+      "custom": "自定义",
+      "rainbow": "彩虹",
+      "sunset": "日落",
+      "ocean": "海洋",
+      "synthwave": "合成波"
+    }
+  }
+}
+

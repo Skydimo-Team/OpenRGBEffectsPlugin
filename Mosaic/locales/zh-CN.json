@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaic",
+    "description": "随机在设备上生成并渐隐的马赛克色块",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "pattern": "图案",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "rarity": "稀有度",
+    "random": "随机颜色",
+    "colors": "色块颜色"
+  }
+}

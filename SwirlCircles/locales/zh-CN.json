@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "漩涡圆环",
+    "description": "围绕设备中心旋转的圆环灯效",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "glow": "辉光",
+    "radius": "半径",
+    "reverse": "反转",
+    "random": "随机颜色",
+    "color1": "颜色 1",
+    "color2": "颜色 2"
+  }
+}

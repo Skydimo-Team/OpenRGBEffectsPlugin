@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Swirl Circles Audio",
+    "description": "Rotating circles reacting to audio",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "motion": "Motion",
+      "appearance": "Appearance",
+      "response": "Response",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "glow": "Glow",
+    "radius": "Radius",
+    "smoothness": "Smoothness",
+    "colorMode": "Color Mode",
+    "colorModeOptions": {
+      "randomCycle": "Random Cycle",
+      "custom": "Custom"
+    },
+    "colors": "Color Pair",
+    "color1": "Color 1",
+    "color2": "Color 2"
+  }
+}

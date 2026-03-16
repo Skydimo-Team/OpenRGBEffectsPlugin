@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "闪烁消散",
+    "description": "淡入后以闪烁方式逐渐消散",
+    "category": "闪烁"
+  },
+  "params": {
+    "groups": {
+      "timing": "时间",
+      "color": "颜色"
+    },
+    "off_time": "熄灭时间 (秒)",
+    "fade_in_time": "淡入时间 (秒)",
+    "fade_out_time": "消散时间 (秒)",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

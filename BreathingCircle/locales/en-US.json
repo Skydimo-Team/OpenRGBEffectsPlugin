@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Breathing Circle",
+    "description": "A circular ring that expands and contracts in a breathing pattern",
+    "category": "Breathing"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "thickness": "Thickness",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

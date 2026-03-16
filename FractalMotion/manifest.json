@@ -1,0 +1,205 @@
+{
+  "id": "FractalMotion",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Waves",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "background",
+      "label": "params.background",
+      "group": "params.groups.appearance",
+      "kind": "color",
+      "default": "#000000"
+    },
+    {
+      "key": "thickness",
+      "label": "params.thickness",
+      "group": "params.groups.appearance",
+      "kind": "slider",
+      "default": 2,
+      "min": 2,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 20,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "amplitude",
+      "label": "params.amplitude",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "frequency",
+      "label": "params.frequency",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m1",
+      "label": "params.freq_m1",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 210,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m2",
+      "label": "params.freq_m2",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 450,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m3",
+      "label": "params.freq_m3",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 172,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m4",
+      "label": "params.freq_m4",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 112,
+      "min": 1,
+      "max": 1000,
+      "step": 1
+    },
+    {
+      "key": "freq_m5",
+      "label": "params.freq_m5",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 400,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m6",
+      "label": "params.freq_m6",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 222,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m7",
+      "label": "params.freq_m7",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 43,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "freq_m8",
+      "label": "params.freq_m8",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 500,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m9",
+      "label": "params.freq_m9",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 211,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m10",
+      "label": "params.freq_m10",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 150,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m11",
+      "label": "params.freq_m11",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 172,
+      "min": 1,
+      "max": 10000,
+      "step": 1
+    },
+    {
+      "key": "freq_m12",
+      "label": "params.freq_m12",
+      "group": "params.groups.fractal",
+      "kind": "slider",
+      "default": 6,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "color",
+      "label": "params.color",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#FF0000",
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

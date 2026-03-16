@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "Audio Sine",
+    "description": "Sinusoidal audio-reactive wave visualization",
+    "category": "Audio"
+  },
+  "params": {
+    "groups": {
+      "wave": "Wave",
+      "response": "Response",
+      "color": "Color"
+    },
+    "speed": "Scroll Speed",
+    "repeat": "Repeat",
+    "thickness": "Thickness",
+    "glow": "Glow",
+    "oscillation": "Oscillation",
+    "smoothness": "Smoothness",
+    "colorMode": "Color Mode",
+    "colorModeOptions": {
+      "spectrumCycle": "Spectrum Cycle",
+      "static": "Static"
+    },
+    "colorChangeSpeed": "Cycle Speed",
+    "useAlbumArt": "Album Art Colors",
+    "backgroundColor": "Background",
+    "waveColor": "Wave Color"
+  }
+}

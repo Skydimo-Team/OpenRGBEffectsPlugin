@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "时钟",
+    "description": "在 LED 灯带上显示时针、分针和秒针的数字时钟效果。",
+    "category": "实用"
+  },
+  "params": {
+    "groups": {
+      "clock": "时钟",
+      "colors": "颜色"
+    },
+    "clockMode": "时钟模式",
+    "clockModeOptions": {
+      "12hour": "12 小时制",
+      "24hour": "24 小时制"
+    },
+    "hourColor": "时针颜色",
+    "minuteColor": "分针颜色",
+    "secondColor": "秒针颜色"
+  }
+}

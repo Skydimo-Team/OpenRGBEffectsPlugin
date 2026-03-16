@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Rain",
+    "description": "Falling droplets with randomized columns, widths, and tail lengths.",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "drops": "Drops",
+    "drop_size": "Drop Size",
+    "random": "Random Colors",
+    "only_first": "Only First Color",
+    "colors": "User Colors"
+  }
+}

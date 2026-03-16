@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "色彩轮盘",
+    "description": "从中心点辐射的旋转彩虹色轮效果。",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "center": "中心位置"
+    },
+    "speed": "速度",
+    "cx": "X 位置",
+    "cy": "Y 位置",
+    "direction": "方向",
+    "directionOptions": {
+      "clockwise": "顺时针",
+      "counterClockwise": "逆时针"
+    }
+  }
+}

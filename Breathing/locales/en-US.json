@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Breathing",
+    "description": "Fading in and out user selected colors across an entire zone",
+    "category": "Breathing"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Colors",
+    "colors": "Colors"
+  }
+}

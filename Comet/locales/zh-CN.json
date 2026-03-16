@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "彗星",
+    "description": "一颗拖着发光尾迹穿越设备的彗星。",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "comet_size": "彗星大小",
+    "color_mode": "颜色模式",
+    "color": "彗星颜色",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自定义"
+    }
+  }
+}

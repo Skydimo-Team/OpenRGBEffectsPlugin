@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "音频派对",
+    "description": "基于 FFT 频谱分区驱动的音频反应灯效，包含位移、变色与闪光特效",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "motion": "运动",
+      "wave": "波形",
+      "zones": "频谱分区",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "colorSpeed": "变色速度",
+    "divisions": "波形分段",
+    "smoothness": "平滑度",
+    "effectThreshold": "特效触发阈值",
+    "motionZoneEnd": "运动区结束",
+    "colorZoneEnd": "颜色区结束",
+    "useAlbumArt": "专辑封面着色"
+  }
+}

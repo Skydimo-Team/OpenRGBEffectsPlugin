@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "You wont escape this",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color",
+      "geometry": "Geometry"
+    },
+    "speed": "Speed",
+    "colorMode": "Color mode",
+    "colors": "Colors",
+    "colorRotationSpeed": "Rotation speed",
+    "colorRotationDirection": "Rotation direction",
+    "animationSpeed": "Animation speed",
+    "animationDirection": "Animation direction",
+    "spacing": "Spacing",
+    "thickness": "Thickness",
+    "centerX": "X position",
+    "centerY": "Y position",
+    "colorModeOptions": {
+      "rainbow": "Rainbow",
+      "custom": "Custom"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "Clockwise",
+      "counterClockwise": "Counter-clockwise"
+    },
+    "animationDirectionOptions": {
+      "inside": "To the inside",
+      "outside": "To the outside"
+    }
+  }
+}

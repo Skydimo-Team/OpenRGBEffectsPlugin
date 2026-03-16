@@ -1,0 +1,52 @@
+{
+  "id": "GradientWave",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Waves",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 30,
+      "step": 1
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#0000FF"
+      ],
+      "fixedCount": 2,
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

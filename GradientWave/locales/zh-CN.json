@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "渐变波浪",
+    "description": "双色渐变以波浪方式沿 LED 来回扫动",
+    "category": "渐变"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "random": "随机颜色",
+    "colors": "渐变颜色"
+  }
+}

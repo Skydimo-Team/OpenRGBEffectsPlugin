@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Rotating Beam",
+    "description": "A beam that rotates in different ways",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Appearance",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "mode": "Mode",
+    "glow": "Glow",
+    "thickness": "Thickness",
+    "random_colors": "Random Colors",
+    "colors": "Colors",
+    "modeOptions": {
+      "clockwise": "Clockwise",
+      "counterClockwise": "Counter clockwise",
+      "pendulum": "Pendulum",
+      "wipers": "Wipers",
+      "swingH": "Swing H",
+      "swingV": "Swing V"
+    }
+  }
+}

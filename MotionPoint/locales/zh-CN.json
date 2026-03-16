@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "运动光点",
+    "description": "一个在设备上来回移动的光点。",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "random": "随机颜色",
+    "color": "光点颜色",
+    "background": "背景颜色"
+  }
+}

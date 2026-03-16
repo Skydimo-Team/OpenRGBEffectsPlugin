@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "填充",
+    "description": "使用指定颜色逐步填满设备，然后让整个区域淡出",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

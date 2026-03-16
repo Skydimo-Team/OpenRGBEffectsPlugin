@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "径向彩虹",
+    "description": "潜入 RGB 隧道。",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "pattern": "图案",
+      "center": "中心位置"
+    },
+    "speed": "速度",
+    "frequency": "频率",
+    "shape": "形状",
+    "cx": "X 位置",
+    "cy": "Y 位置",
+    "shapeOptions": {
+      "circles": "圆形",
+      "squares": "方形"
+    }
+  }
+}

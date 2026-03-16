@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "分形运动",
+    "description": "带多层波形调制与平滑背景衰减的迷幻正弦效果。",
+    "category": "渐变"
+  },
+  "params": {
+    "groups": {
+      "appearance": "外观",
+      "animation": "动画",
+      "fractal": "分形",
+      "color": "颜色"
+    },
+    "background": "背景色",
+    "thickness": "厚度",
+    "speed": "速度",
+    "amplitude": "振幅",
+    "frequency": "频率",
+    "freq_m1": "频率 m1",
+    "freq_m2": "频率 m2",
+    "freq_m3": "频率 m3",
+    "freq_m4": "频率 m4",
+    "freq_m5": "频率 m5",
+    "freq_m6": "频率 m6",
+    "freq_m7": "频率 m7",
+    "freq_m8": "频率 m8",
+    "freq_m9": "频率 m9",
+    "freq_m10": "频率 m10",
+    "freq_m11": "频率 m11",
+    "freq_m12": "频率 m12",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

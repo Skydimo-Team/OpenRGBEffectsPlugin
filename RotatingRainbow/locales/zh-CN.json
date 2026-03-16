@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "旋转彩虹",
+    "description": "围绕设备中心旋转的彩虹灯效。",
+    "category": "光谱"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画"
+    },
+    "speed": "旋转速度",
+    "colorSpeed": "颜色速度",
+    "reverse": "反转"
+  }
+}

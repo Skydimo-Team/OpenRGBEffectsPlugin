@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "音频气泡",
+    "description": "随音频触发扩展的气泡环，并使用渐变颜色渲染。",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "color": "颜色",
+      "response": "响应",
+      "bubbles": "气泡"
+    },
+    "preset": "预设",
+    "presetOptions": {
+      "unicornVomit": "独角兽彩虹",
+      "borealis": "极光",
+      "ocean": "海洋",
+      "pinkBlue": "粉蓝",
+      "pinkGold": "粉金",
+      "pulse": "脉冲",
+      "purpleOrange": "紫橙",
+      "lightBluePurple": "浅蓝/紫",
+      "policeBeacon": "警灯",
+      "seabed": "海床",
+      "sunset": "日落",
+      "vaporwave": "蒸汽波"
+    },
+    "colors": "渐变颜色",
+    "spawnMode": "气泡生成",
+    "spawnModes": {
+      "randomXY": "随机 XY",
+      "randomX": "随机 X",
+      "randomY": "随机 Y",
+      "center": "中心"
+    },
+    "trigger": "音量触发阈值",
+    "max_bubbles": "最大气泡数",
+    "max_expansion": "最大扩展",
+    "bubbles_thickness": "气泡厚度",
+    "speed": "速度",
+    "smoothness": "平滑度"
+  }
+}

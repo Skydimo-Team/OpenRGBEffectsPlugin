@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "序列",
+    "description": "交替显示颜色并带有渐变过渡效果",
+    "category": "过渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "fadeTime": "渐变时间",
+    "colors": "颜色"
+  }
+}

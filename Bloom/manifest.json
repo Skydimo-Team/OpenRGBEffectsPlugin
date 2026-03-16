@@ -1,0 +1,37 @@
+{
+  "id": "Bloom",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Flower",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "saturation",
+      "label": "params.saturation",
+      "kind": "slider",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ]
+}

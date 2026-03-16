@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "跑马灯",
+    "description": "适用于你的设备的简单跑马灯效果",
+    "category": "动态"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "spacing": "间距",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

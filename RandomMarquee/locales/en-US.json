@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Random Marquee",
+    "description": "A simple Random Marquee for your devices",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

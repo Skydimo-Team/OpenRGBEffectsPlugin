@@ -1,0 +1,172 @@
+{
+  "id": "ScreenMirror",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Monitor",
+  "permissions": [
+    "screen:capture",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "smoothness",
+      "label": "params.smoothness",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 80,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "key": "brightness",
+      "label": "params.brightness",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "key": "saturation",
+      "label": "params.saturation",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "key": "gamma",
+      "label": "params.gamma",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 1,
+      "min": 0.1,
+      "max": 4
+    },
+    {
+      "key": "blur",
+      "label": "params.blur",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 10
+    },
+    {
+      "key": "autoCrop",
+      "label": "params.autoCrop",
+      "group": "params.groups.blackBars",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "bbThreshold",
+      "label": "params.bbThreshold",
+      "group": "params.groups.blackBars",
+      "kind": "slider",
+      "default": 5,
+      "min": 0,
+      "max": 100,
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "bbMode",
+      "label": "params.bbMode",
+      "group": "params.groups.blackBars",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.mode_default",
+          "value": 0
+        },
+        {
+          "label": "params.mode_classic",
+          "value": 1
+        },
+        {
+          "label": "params.mode_osd",
+          "value": 2
+        },
+        {
+          "label": "params.mode_letterbox",
+          "value": 3
+        }
+      ],
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "bbBorderFrameCnt",
+      "label": "params.bbBorderFrameCnt",
+      "group": "params.groups.blackBars",
+      "kind": "slider",
+      "default": 50,
+      "min": 0,
+      "max": 200,
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "bbUnknownFrameCnt",
+      "label": "params.bbUnknownFrameCnt",
+      "group": "params.groups.blackBars",
+      "kind": "slider",
+      "default": 600,
+      "min": 0,
+      "max": 2000,
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "bbMaxInconsistentCnt",
+      "label": "params.bbMaxInconsistentCnt",
+      "group": "params.groups.blackBars",
+      "kind": "slider",
+      "default": 10,
+      "min": 0,
+      "max": 50,
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "bbBlurRemoveCnt",
+      "label": "params.bbBlurRemoveCnt",
+      "group": "params.groups.blackBars",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 10,
+      "dependency": {
+        "key": "autoCrop",
+        "behavior": "hide",
+        "equals": true
+      }
+    }
+  ]
+}

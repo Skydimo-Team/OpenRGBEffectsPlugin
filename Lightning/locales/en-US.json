@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Lightning",
+    "description": "Prepare yourself for thunderstorm",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "decay": "Decay",
+    "mode": "Mode",
+    "random": "Random Colors",
+    "color": "Color",
+    "modeOptions": {
+      "wholeStrip": "Whole strip",
+      "perLed": "Per LED"
+    }
+  }
+}

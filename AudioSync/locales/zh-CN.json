@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "音频同步",
+    "description": "基于频率的颜色同步，支持多种滚动模式和平滑过渡",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "color": "颜色",
+      "display": "显示",
+      "response": "响应",
+      "edgeBeat": "边缘节拍"
+    },
+    "hueShift": "色相偏移",
+    "fadeSpeed": "渐变速度",
+    "saturationMode": "饱和度模式",
+    "satModeNormal": "正常",
+    "satModeHighAmp": "高振幅饱和",
+    "satModeBW": "黑白模式",
+    "rollMode": "滚动模式",
+    "rollLinear": "水平线性",
+    "rollNone": "无滚动",
+    "rollRadial": "径向",
+    "rollWave": "波浪",
+    "rollVertical": "垂直线性",
+    "smoothness": "平滑度",
+    "bandpassRange": "频段滤波范围",
+    "useAlbumArt": "专辑封面着色",
+    "silentColor": "静默回退颜色",
+    "silentColorValue": "静默颜色",
+    "edgeBeat": "边缘节拍",
+    "edgeBeatHue": "边缘色相",
+    "edgeBeatSaturation": "边缘饱和度",
+    "edgeBeatSensitivity": "边缘灵敏度"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "BouncingBall",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Circle",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "radius",
+      "label": "params.radius",
+      "group": "params.groups.ball",
+      "kind": "slider",
+      "default": 15,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "gravity",
+      "label": "params.gravity",
+      "group": "params.groups.physics",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "horizontalVelocity",
+      "label": "params.horizontalVelocity",
+      "group": "params.groups.physics",
+      "kind": "slider",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "spectrumVelocity",
+      "label": "params.spectrumVelocity",
+      "group": "params.groups.color",
+      "kind": "slider",
+      "default": 10,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "dropHeight",
+      "label": "params.dropHeight",
+      "group": "params.groups.physics",
+      "kind": "slider",
+      "default": 90,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ]
+}

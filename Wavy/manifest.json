@@ -1,0 +1,72 @@
+{
+  "id": "Wavy",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Waves",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "wave_frequency",
+      "label": "params.wave_frequency",
+      "group": "params.groups.wave",
+      "kind": "slider",
+      "default": 1,
+      "min": 1,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "key": "wave_speed",
+      "label": "params.wave_speed",
+      "group": "params.groups.wave",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "oscillation_speed",
+      "label": "params.oscillation_speed",
+      "group": "params.groups.wave",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF0000",
+        "#0000FF"
+      ],
+      "fixedCount": 2,
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

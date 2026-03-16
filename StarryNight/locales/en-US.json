@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Starry Night",
+    "description": "Random stars that gracefully fade in and out against a background color.",
+    "category": "Sparkle"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Appearance",
+      "animation": "Animation"
+    },
+    "background": "Background Color",
+    "bg_brightness": "Background Brightness",
+    "colors": "Star Colors",
+    "density": "Star Density",
+    "fade_in_speed": "Fade In Time",
+    "fade_out_speed": "Fade Out Time",
+    "star_on_time": "Star On Time"
+  }
+}

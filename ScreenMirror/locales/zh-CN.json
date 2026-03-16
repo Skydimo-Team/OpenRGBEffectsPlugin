@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "name": "屏幕同步",
+    "description": "实时同步屏幕显示内容",
+    "category": "环境光"
+  },
+  "params": {
+    "groups": {
+      "image": "图像",
+      "blackBars": "黑边检测"
+    },
+    "smoothness": "平滑度",
+    "brightness": "亮度增益",
+    "saturation": "饱和度增益",
+    "gamma": "Gamma 校正",
+    "blur": "模糊程度",
+    "autoCrop": "黑边裁剪",
+    "bbThreshold": "判定阈值 (%)",
+    "bbMode": "检测模式",
+    "mode_default": "默认模式",
+    "mode_classic": "经典模式",
+    "mode_osd": "OSD 模式",
+    "mode_letterbox": "信箱模式",
+    "bbBorderFrameCnt": "稳定边框切换帧数",
+    "bbUnknownFrameCnt": "未知边框切换帧数",
+    "bbMaxInconsistentCnt": "最大不一致帧数",
+    "bbBlurRemoveCnt": "模糊安全边界"
+  }
+}
+

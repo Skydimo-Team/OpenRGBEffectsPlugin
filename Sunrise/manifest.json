@@ -1,0 +1,96 @@
+{
+  "id": "Sunrise",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Sunrise",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "key": "intensity",
+      "label": "params.intensity",
+      "group": "params.groups.effect",
+      "kind": "slider",
+      "default": 80,
+      "min": 1,
+      "max": 99,
+      "step": 1
+    },
+    {
+      "key": "intensity_speed",
+      "label": "params.intensity_speed",
+      "group": "params.groups.effect",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "radius",
+      "label": "params.radius",
+      "group": "params.groups.effect",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "grow_speed",
+      "label": "params.grow_speed",
+      "group": "params.groups.effect",
+      "kind": "slider",
+      "default": 10,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    {
+      "key": "run_once",
+      "label": "params.run_once",
+      "group": "params.groups.animation",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "motion",
+      "label": "params.motion",
+      "group": "params.groups.animation",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FFFFFF",
+        "#FFFF00",
+        "#FF0000",
+        "#000000"
+      ],
+      "fixedCount": 4
+    }
+  ]
+}

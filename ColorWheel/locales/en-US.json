@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Color Wheel",
+    "description": "A rotating rainbow wheel radiating from a center point.",
+    "category": "Spectrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "center": "Center Position"
+    },
+    "speed": "Speed",
+    "cx": "X Position",
+    "cy": "Y Position",
+    "direction": "Direction",
+    "directionOptions": {
+      "clockwise": "Clockwise",
+      "counterClockwise": "Counter-clockwise"
+    }
+  }
+}

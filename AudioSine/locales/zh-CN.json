@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "音频正弦波",
+    "description": "基于音频频谱的正弦波可视化效果",
+    "category": "音频"
+  },
+  "params": {
+    "groups": {
+      "wave": "波形",
+      "response": "响应",
+      "color": "颜色"
+    },
+    "speed": "滚动速度",
+    "repeat": "重复次数",
+    "thickness": "粗细",
+    "glow": "光晕",
+    "oscillation": "振荡",
+    "smoothness": "平滑度",
+    "colorMode": "颜色模式",
+    "colorModeOptions": {
+      "spectrumCycle": "光谱循环",
+      "static": "静态"
+    },
+    "colorChangeSpeed": "循环速度",
+    "useAlbumArt": "专辑封面着色",
+    "backgroundColor": "背景色",
+    "waveColor": "波形颜色"
+  }
+}

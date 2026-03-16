@@ -1,0 +1,95 @@
+{
+  "id": "AudioStar",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "AudioLines",
+  "permissions": [
+    "audio:capture",
+    "media:album_art",
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100
+    },
+    {
+      "key": "avgSize",
+      "label": "params.smoothness",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 16
+    },
+    {
+      "key": "useAlbumArt",
+      "label": "params.useAlbumArt",
+      "group": "params.groups.response",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "edgeBeat",
+      "label": "params.edgeBeat",
+      "group": "params.groups.edgeBeat",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "edgeBeatHue",
+      "label": "params.edgeBeatHue",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 359,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "edgeBeatSaturation",
+      "label": "params.edgeBeatSaturation",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 255,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    },
+    {
+      "key": "edgeBeatSensitivity",
+      "label": "params.edgeBeatSensitivity",
+      "group": "params.groups.edgeBeat",
+      "kind": "slider",
+      "default": 100,
+      "min": 1,
+      "max": 200,
+      "dependency": {
+        "key": "edgeBeat",
+        "behavior": "hide",
+        "equals": true
+      }
+    }
+  ]
+}

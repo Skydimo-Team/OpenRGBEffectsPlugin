@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "波浪",
+    "description": "以振荡正弦波模式交替双色，产生波浪效果",
+    "category": "渐变"
+  },
+  "params": {
+    "groups": {
+      "wave": "波浪",
+      "color": "颜色"
+    },
+    "wave_frequency": "波浪频率",
+    "wave_speed": "波浪速度",
+    "oscillation_speed": "振荡速度",
+    "random": "随机颜色",
+    "colors": "波浪颜色"
+  }
+}

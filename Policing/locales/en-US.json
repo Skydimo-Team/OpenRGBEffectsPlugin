@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Policing",
+    "description": "A back-and-forth sweep with a flash before each direction change",
+    "category": "Breathing"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "width": "Width",
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

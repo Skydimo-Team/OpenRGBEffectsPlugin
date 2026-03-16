@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "警灯扫描",
+    "description": "一道来回扫动并在每次变向前闪烁的光效",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "width": "宽度",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}

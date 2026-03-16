@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Random Spin",
+    "description": "A simple Random Spin for your devices",
+    "category": "Transition"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "colors": "Colors"
+  }
+}

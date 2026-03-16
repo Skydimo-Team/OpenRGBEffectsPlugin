@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Swap",
+    "description": "Alternate two colors on your devices from left to right",
+    "category": "Transition"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "random": "Random Colors",
+    "colors": "Colors"
+  }
+}

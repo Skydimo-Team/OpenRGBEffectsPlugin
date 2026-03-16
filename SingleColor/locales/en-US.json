@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "name": "Single Color",
+    "description": "Fills all LEDs with a single chosen color",
+    "category": "Utility"
+  },
+  "params": {
+    "groups": {
+      "color": "Color"
+    },
+    "color": "Color"
+  }
+}

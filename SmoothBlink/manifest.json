@@ -1,0 +1,137 @@
+{
+  "id": "SmoothBlink",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Eye",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "interval",
+      "label": "params.interval",
+      "group": "params.groups.timing",
+      "kind": "slider",
+      "default": 2,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1
+    },
+    {
+      "key": "pulses",
+      "label": "params.pulses",
+      "group": "params.groups.timing",
+      "kind": "slider",
+      "default": 2,
+      "min": 1,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "key": "pulse_duration",
+      "label": "params.pulse_duration",
+      "group": "params.groups.timing",
+      "kind": "slider",
+      "default": 0.5,
+      "min": 0.1,
+      "max": 10,
+      "step": 0.1
+    },
+    {
+      "key": "strength",
+      "label": "params.strength",
+      "group": "params.groups.timing",
+      "kind": "slider",
+      "default": 50,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "rendering",
+      "label": "params.rendering",
+      "group": "params.groups.appearance",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.renderingOptions.solid",
+          "value": 0
+        },
+        {
+          "label": "params.renderingOptions.circle",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "key": "cx",
+      "label": "params.cx",
+      "group": "params.groups.appearance",
+      "kind": "slider",
+      "default": 50,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "dependency": {
+        "key": "rendering",
+        "equals": 1,
+        "behavior": "hide"
+      }
+    },
+    {
+      "key": "cy",
+      "label": "params.cy",
+      "group": "params.groups.appearance",
+      "kind": "slider",
+      "default": 50,
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "dependency": {
+        "key": "rendering",
+        "equals": 1,
+        "behavior": "hide"
+      }
+    },
+    {
+      "key": "random",
+      "label": "params.random",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
+      "key": "color1",
+      "label": "params.color1",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#000000",
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    },
+    {
+      "key": "color2",
+      "label": "params.color2",
+      "group": "params.groups.color",
+      "kind": "color",
+      "default": "#FF0000",
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

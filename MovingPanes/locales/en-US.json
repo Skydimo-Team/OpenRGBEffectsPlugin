@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Moving Panes",
+    "description": "Parts of your devices in symmetrical motion",
+    "category": "Motion"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "divisions": "Divisions",
+    "reverse": "Reverse",
+    "colors": "Colors"
+  }
+}

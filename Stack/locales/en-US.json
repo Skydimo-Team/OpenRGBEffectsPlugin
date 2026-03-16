@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Stack",
+    "description": "Fills and stacks your devices with a solid color",
+    "category": "Transition"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Color"
+    },
+    "speed": "Speed",
+    "direction": "Matrix Direction",
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "random": "Random Colors",
+    "color": "Color"
+  }
+}

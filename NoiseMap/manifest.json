@@ -1,0 +1,183 @@
+{
+  "id": "NoiseMap",
+  "version": "1.0.0",
+  "name": "meta.name",
+  "publisher": "Skydimo",
+  "description": "meta.description",
+  "repository": "https://github.com/skydimo/skydimo-plugins",
+  "license": "MIT",
+  "type": "effect",
+  "language": "lua",
+  "entry": "main.lua",
+  "category": "meta.category",
+  "icon": "Waves",
+  "permissions": [
+    "log"
+  ],
+  "params": [
+    {
+      "key": "speed",
+      "label": "params.speed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "key": "motion",
+      "label": "params.motion",
+      "group": "params.groups.animation",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.motionOptions.up",
+          "value": 0
+        },
+        {
+          "label": "params.motionOptions.down",
+          "value": 1
+        },
+        {
+          "label": "params.motionOptions.left",
+          "value": 2
+        },
+        {
+          "label": "params.motionOptions.right",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "key": "motion_speed",
+      "label": "params.motionSpeed",
+      "group": "params.groups.animation",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 99,
+      "step": 1
+    },
+    {
+      "key": "frequency",
+      "label": "params.frequency",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.12,
+      "min": 0.0001,
+      "max": 0.5,
+      "step": 0.0001
+    },
+    {
+      "key": "amplitude",
+      "label": "params.amplitude",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 3.9,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "lacunarity",
+      "label": "params.lacunarity",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.75,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "persistence",
+      "label": "params.persistence",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.5,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "octaves",
+      "label": "params.octaves",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 2,
+      "min": 1,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "key": "colors_choice",
+      "label": "params.mode",
+      "group": "params.groups.color",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.modeOptions.rainbow",
+          "value": 0
+        },
+        {
+          "label": "params.modeOptions.inverseRainbow",
+          "value": 1
+        },
+        {
+          "label": "params.modeOptions.custom",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "key": "preset",
+      "label": "params.preset",
+      "group": "params.groups.color",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.presetOptions.lava",
+          "value": 0
+        },
+        {
+          "label": "params.presetOptions.borealis",
+          "value": 1
+        },
+        {
+          "label": "params.presetOptions.ocean",
+          "value": 2
+        },
+        {
+          "label": "params.presetOptions.chemicals",
+          "value": 3
+        }
+      ],
+      "dependency": {
+        "key": "colors_choice",
+        "equals": 2,
+        "behavior": "hide"
+      }
+    },
+    {
+      "key": "colors",
+      "label": "params.colors",
+      "group": "params.groups.color",
+      "kind": "multi-color",
+      "default": [
+        "#FF5500",
+        "#FFC800",
+        "#C80000"
+      ],
+      "minCount": 1,
+      "maxCount": 8,
+      "dependency": {
+        "key": "colors_choice",
+        "equals": 2,
+        "behavior": "hide"
+      }
+    }
+  ]
+}

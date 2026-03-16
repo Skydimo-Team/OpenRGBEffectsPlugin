@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "呼吸圆环",
+    "description": "以呼吸节奏扩展和收缩的圆形光环效果",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "animation": "动画",
+      "color": "颜色"
+    },
+    "speed": "速度",
+    "thickness": "厚度",
+    "random": "随机颜色",
+    "color": "颜色"
+  }
+}
