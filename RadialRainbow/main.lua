@@ -1,7 +1,6 @@
 local plugin = {}
 
--- Integer HSV conversion is ported from OpenRGB's `hsv.cpp`
--- (MIT, copyright Martin Mitas).
+-- Integer HSV conversion (MIT, copyright Martin Mitas).
 
 local UINT32 = 4294967296.0
 local SHAPE_CIRCLES = 0
@@ -142,8 +141,8 @@ function plugin.on_tick(t, buffer, width, height)
     local center_x
     local center_y
 
-    -- OpenRGB uses `leds_count * shift` for linear zones, but `(cols - 1) * shift`
-    -- for matrices. Matching that quirk keeps center placement identical.
+    -- Uses `leds_count * shift` for linear zones, but `(cols - 1) * shift`
+    -- for matrices; this keeps center placement identical.
     if height <= 1 then
         center_x = width * (cx_shift / 100.0)
         center_y = 0.0

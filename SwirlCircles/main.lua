@@ -17,13 +17,11 @@ local reverse = false   -- reverses rotation direction
 local random_enabled = true
 
 -- HSV state: h 0-359 integer, s 0-255 integer, v 0-255 integer
--- Matches reference OpenRGB hsv_t exactly
 local hsv1 = { h = 0,   s = 255, v = 255 }
 local hsv2 = { h = 180, s = 255, v = 255 }
 
 ---------------------------------------------------------------------------
 -- RGB → HSV (integer: h 0-359, s 0-255, v 0-255)
--- Mirrors the reference OpenRGB rgb2hsv behaviour
 ---------------------------------------------------------------------------
 local function rgb_to_hsv_int(r, g, b)
     local max_c = math_max(r, g, b)

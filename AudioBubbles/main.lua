@@ -78,7 +78,7 @@ local function screen_blend_channel(a, b)
 end
 
 -- ============================================================================
--- Presets (ported from OpenRGB AudioBubbles)
+-- Presets
 -- ============================================================================
 
 local presets = {
@@ -206,7 +206,7 @@ local function apply_preset(idx)
 end
 
 -- ============================================================================
--- Bubble simulation (ported from OpenRGB AudioBubbles)
+-- Bubble simulation
 -- ============================================================================
 
 local function init_bubble(idx, amp)
@@ -297,7 +297,7 @@ local function cleanup_bubbles()
 end
 
 -- ============================================================================
--- Pixel shader (ported from OpenRGB AudioBubbles::GetColor)
+-- Pixel shader
 -- ============================================================================
 
 local function get_color(x, y, w, h)

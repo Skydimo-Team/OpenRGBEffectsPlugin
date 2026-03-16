@@ -1,5 +1,5 @@
 --[[
-  Audio Visualizer — Lua port of OpenRGBEffectsPlugin AudioVisualizer
+  Audio Visualizer
   Original: Adam Honse (calcprogrammer1@gmail.com), modded by CoffeeIsLife
   Port: Skydimo
 
@@ -69,7 +69,7 @@ local SC_BACKGROUND         = 10
 local SC_FOLLOW_BACKGROUND  = 11
 local SC_FOLLOW_FOREGROUND  = 12
 
--- Color constants (0xRRGGBB) matching OpenRGB Colors.h
+-- Color constants (0xRRGGBB)
 local C_BLACK   = 0x000000
 local C_WHITE   = 0xFFFFFF
 local C_RED     = 0xFF0000

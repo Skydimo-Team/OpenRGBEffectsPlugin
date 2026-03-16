@@ -1,5 +1,4 @@
 -- SparkleFade effect
--- Port of OpenRGBEffectsPlugin SparkleFade
 --
 -- State machine:
 --   OFF → FADE_IN → ON (instant) → FADE_OUT → OFF …

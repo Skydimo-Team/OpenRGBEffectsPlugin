@@ -1,7 +1,7 @@
 local plugin = {}
 
 -- ---------------------------------------------------------------------------
--- RandomSpin – faithful port of the OpenRGBEffectsPlugin C++ effect.
+-- RandomSpin
 --
 -- Each plugin instance corresponds to one zone.  The effect randomly
 -- alternates between spinning (with random direction & speed) and pausing.

@@ -40,7 +40,6 @@ function M.scale_f(r, g, b, f)
 end
 
 --- HSV to RGB. h: 0-360, s: 0-255, v: 0-255. Returns r,g,b (0-255).
---- Matches the OpenRGB hsv2rgb function behavior.
 function M.hsv_to_rgb(h, s, v)
     h = h % 360
     if s == 0 then return v, v, v end

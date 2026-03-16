@@ -265,8 +265,8 @@ function plugin.on_tick(_, buffer, width, height)
     local bg_r, bg_g, bg_b = host.hsv_to_rgb(hsv2_h, hsv2_s, hsv2_v)
 
     if height <= 1 then
-        -- OpenRGB renders linear zones on a square virtual canvas and samples
-        -- a fixed row at y = width * 0.25. Recreate that mapping exactly.
+        -- Renders linear zones on a square virtual canvas and samples
+        -- a fixed row at y = width * 0.25.
         local dim = width - 1
         local avg_dim = dim
         local sample_y = width * 0.25

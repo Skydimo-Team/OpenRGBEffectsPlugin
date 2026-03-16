@@ -6,7 +6,7 @@ local math_max = math.max
 local math_sqrt = math.sqrt
 local math_sin = math.sin
 
--- Parameters with defaults matching the original OpenRGB Sunrise effect
+-- Parameters with defaults
 local speed = 10             -- 1 - 20
 local max_intensity = 80     -- 1 - 99
 local intensity_speed = 10   -- 1 - 100
