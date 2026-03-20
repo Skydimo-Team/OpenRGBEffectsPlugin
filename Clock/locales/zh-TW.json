@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "時鐘",
+    "description": "將目前時間對應到 LED 位置，在燈條上獨立點亮時、分、秒指示燈。",
+    "category": "實用"
+  },
+  "params": {
+    "groups": {
+      "clock": "時鐘",
+      "colors": "色彩"
+    },
+    "clockMode": "時鐘模式",
+    "clockModeOptions": {
+      "12hour": "12 小時制",
+      "24hour": "24 小時制"
+    },
+    "hourColor": "時針色彩",
+    "minuteColor": "分針色彩",
+    "secondColor": "秒針色彩"
+  }
+}

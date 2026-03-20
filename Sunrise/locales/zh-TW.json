@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "日出",
+    "description": "四段式放射狀漸層會隨時間擴展並變亮，模擬日出或日落效果，支援循環或單次執行。",
+    "category": "實用"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "effect": "效果",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "intensity": "強度",
+    "intensity_speed": "強度速度",
+    "radius": "半徑",
+    "grow_speed": "成長速度",
+    "run_once": "僅執行一次",
+    "motion": "動作",
+    "colors": "顏色"
+  }
+}

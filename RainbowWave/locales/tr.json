@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Gökkuşağı Dalgası",
+    "description": "Tam bir gökkuşağı spektrumu, yapılandırılabilir hız ve frekansta LED'lerin üzerinde sürekli kayar.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "pattern": "Desen"
+    },
+    "speed": "Hız",
+    "frequency": "Frekans"
+  }
+}

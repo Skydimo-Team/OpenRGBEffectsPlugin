@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "雙重旋轉彩虹",
+    "description": "兩段直徑相對的彩虹弧線，圍繞裝置中心同步旋轉。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "pattern": "圖案"
+    },
+    "speed": "旋轉速度",
+    "colorSpeed": "顏色速度",
+    "frequency": "頻率"
+  }
+}

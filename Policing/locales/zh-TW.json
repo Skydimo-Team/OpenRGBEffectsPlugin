@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "警示掃描",
+    "description": "一道光束來回掃動，每次到達端點時會讓整個區域閃爍一下，然後反向前進。",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "width": "寬度",
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

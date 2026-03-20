@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Parıltılı Solma",
+    "description": "Tek bir renge yumuşakça geçer, ardından bölgede yayılan ve dağılan parıltılarla birlikte o rengi yavaşça söndürür.",
+    "category": "Parıltı"
+  },
+  "params": {
+    "groups": {
+      "timing": "Zamanlama",
+      "color": "Renk"
+    },
+    "off_time": "Kapalı Kalma Süresi (s)",
+    "fade_in_time": "Yumuşak Açılma Süresi (s)",
+    "fade_out_time": "Yumuşak Kapanma Süresi (s)",
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

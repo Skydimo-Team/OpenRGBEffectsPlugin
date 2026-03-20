@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "閃電",
+    "description": "隨機觸發快速衰減的強光閃爍，模擬閃電效果，支援整條燈帶或逐 LED 模式。",
+    "category": "閃爍"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "decay": "衰減",
+    "mode": "模式",
+    "random": "隨機顏色",
+    "color": "顏色",
+    "modeOptions": {
+      "wholeStrip": "整條燈帶",
+      "perLed": "逐 LED"
+    }
+  }
+}

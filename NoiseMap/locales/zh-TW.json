@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "噪訊圖譜",
+    "description": "具有可設定頻率、振幅與倍頻層數的動態 Simplex 噪訊場，以彩虹或自訂漸層色彩呈現。",
+    "category": "漸層"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "noise": "噪訊",
+      "color": "色彩"
+    },
+    "speed": "速度",
+    "motion": "移動方向",
+    "motionSpeed": "移動速度",
+    "frequency": "頻率",
+    "amplitude": "振幅",
+    "lacunarity": "間隙率",
+    "persistence": "持續度",
+    "octaves": "倍頻層數",
+    "mode": "模式",
+    "preset": "預設",
+    "colors": "漸層色彩",
+    "motionOptions": {
+      "up": "向上",
+      "down": "向下",
+      "left": "向左",
+      "right": "向右"
+    },
+    "modeOptions": {
+      "rainbow": "彩虹",
+      "inverseRainbow": "反向彩虹",
+      "custom": "自訂"
+    },
+    "presetOptions": {
+      "lava": "熔岩",
+      "borealis": "極光",
+      "ocean": "海洋",
+      "chemicals": "化學"
+    }
+  }
+}

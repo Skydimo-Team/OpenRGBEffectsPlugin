@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "之字形",
+    "description": "沿著 LED 矩陣以蛇形路徑逐列移動，尾端以立方亮度衰減呈現彩虹或自訂顏色。",
+    "category": "過渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "color_mode": "顏色模式",
+    "color": "顏色",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自訂"
+    }
+  }
+}

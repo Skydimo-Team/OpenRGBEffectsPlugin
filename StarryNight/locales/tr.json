@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Yıldızlı Gece",
+    "description": "Rastgele LED'ler yıldızlar gibi yanar; her biri yavaşça belirir, bir süre kalır, ardından sönerek kaybolur — ayarlanabilir parlaklığa sahip bir arka plan üzerinde.",
+    "category": "Işıltı"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Görünüm",
+      "animation": "Animasyon"
+    },
+    "background": "Arka Plan Rengi",
+    "bg_brightness": "Arka Plan Parlaklığı",
+    "colors": "Yıldız Renkleri",
+    "density": "Yıldız Yoğunluğu",
+    "fade_in_speed": "Belirme Süresi",
+    "fade_out_speed": "Sönme Süresi",
+    "star_on_time": "Yıldız Yanma Süresi"
+  }
+}

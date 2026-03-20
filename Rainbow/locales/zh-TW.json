@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "彩虹",
+    "description": "將完整光譜色盤在所有 LED 上捲動顯示，內建多種色盤預設或自訂色彩。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "palette": "色盤"
+    },
+    "speed": "速度",
+    "preset": "色盤預設",
+    "colors": "自訂色彩",
+    "presetOptions": {
+      "custom": "自訂",
+      "rainbow": "彩虹",
+      "sunset": "日落",
+      "ocean": "海洋",
+      "synthwave": "合成波"
+    }
+  }
+}

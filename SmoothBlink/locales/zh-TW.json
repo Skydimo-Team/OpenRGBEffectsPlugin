@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "平滑閃爍",
+    "description": "產生呼吸脈衝序列，可設定脈衝次數、持續時間與間隔，並支援純色填滿或放射圓形模式。",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "timing": "時序",
+      "appearance": "外觀",
+      "color": "顏色"
+    },
+    "interval": "間隔 (秒)",
+    "pulses": "脈衝次數",
+    "pulse_duration": "脈衝持續時間 (秒)",
+    "strength": "強度 (%)",
+    "rendering": "渲染",
+    "renderingOptions": {
+      "solid": "純色",
+      "circle": "圓形"
+    },
+    "cx": "X 位置",
+    "cy": "Y 位置",
+    "random": "隨機顏色",
+    "color1": "脈衝顏色",
+    "color2": "基礎顏色"
+  }
+}

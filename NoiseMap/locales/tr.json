@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Gürültü Haritası",
+    "description": "Ayarlanabilir frekans, genlik ve oktavlarla oluşturulan, gökkuşağı ya da özel geçiş renkleriyle işlenen animasyonlu simplex gürültü alanı.",
+    "category": "Gradyan"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "noise": "Gürültü",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "motion": "Hareket",
+    "motionSpeed": "Hareket Hızı",
+    "frequency": "Frekans",
+    "amplitude": "Genlik",
+    "lacunarity": "Lakünarite",
+    "persistence": "Süreklilik",
+    "octaves": "Oktavlar",
+    "mode": "Mod",
+    "preset": "Hazır Ayar",
+    "colors": "Geçiş Renkleri",
+    "motionOptions": {
+      "up": "Yukarı",
+      "down": "Aşağı",
+      "left": "Sol",
+      "right": "Sağ"
+    },
+    "modeOptions": {
+      "rainbow": "Gökkuşağı",
+      "inverseRainbow": "Ters Gökkuşağı",
+      "custom": "Özel"
+    },
+    "presetOptions": {
+      "lava": "Lav",
+      "borealis": "Kuzey Işıkları",
+      "ocean": "Okyanus",
+      "chemicals": "Kimyasallar"
+    }
+  }
+}

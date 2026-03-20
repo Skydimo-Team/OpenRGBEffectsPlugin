@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Kuyruklu Yıldız",
+    "description": "Üstel olarak sönümlenen bir iz bırakan kuyruklu yıldız, LED'lerin üzerinde gökkuşağı ya da özel renkle ilerler.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "comet_size": "Kuyruklu Yıldız Boyutu",
+    "color_mode": "Renk Modu",
+    "color": "Kuyruklu Yıldız Rengi",
+    "colorModeOptions": {
+      "rainbow": "Gökkuşağı",
+      "custom": "Özel"
+    }
+  }
+}

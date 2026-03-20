@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Yağmur",
+    "description": "Rastgele sütunlarda düşen damlaları simüle eder; her damlanın parlak bir başı ve giderek sönümlenen bir izi vardır.",
+    "category": "Parıltı"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "drops": "Damla Sayısı",
+    "drop_size": "Damla Boyutu",
+    "random": "Rastgele Renkler",
+    "only_first": "Yalnızca İlk Renk",
+    "colors": "Kullanıcı Renkleri"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Çift Dönen Gökkuşağı",
+    "description": "Aygıtın merkezi etrafında senkron şekilde dönen, birbirine zıt iki gökkuşağı yayı.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "pattern": "Desen"
+    },
+    "speed": "Dönüş Hızı",
+    "colorSpeed": "Renk Hızı",
+    "frequency": "Frekans"
+  }
+}

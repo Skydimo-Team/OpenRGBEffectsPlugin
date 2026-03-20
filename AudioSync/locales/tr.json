@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Ses Senkronu",
+    "description": "Baskın ses frekansını gerçek zamanlı olarak izler, bunu bir ton değerine dönüştürür ve rengi beş döndürme modundan biriyle aygıta yayar.",
+    "category": "Ses"
+  },
+  "params": {
+    "groups": {
+      "color": "Renk",
+      "display": "Görünüm",
+      "response": "Tepki",
+      "edgeBeat": "Kenar Vuruşu"
+    },
+    "hueShift": "Ton Kaydırma",
+    "fadeSpeed": "Solma Hızı",
+    "saturationMode": "Doygunluk Modu",
+    "satModeNormal": "Normal",
+    "satModeHighAmp": "Yüksek Genlikleri Doygunlaştır",
+    "satModeBW": "Siyah Beyaz",
+    "rollMode": "Döndürme Modu",
+    "rollLinear": "Doğrusal Yatay",
+    "rollNone": "Döndürme Yok",
+    "rollRadial": "Radyal",
+    "rollWave": "Dalga",
+    "rollVertical": "Doğrusal Dikey",
+    "smoothness": "Yumuşaklık",
+    "bandpassRange": "Bant Geçiren Filtre",
+    "useAlbumArt": "Albüm Kapağı Renkleri",
+    "silentColor": "Sessizlik Yedek Rengi",
+    "silentColorValue": "Sessizlik Rengi",
+    "edgeBeat": "Kenar Vuruşu",
+    "edgeBeatHue": "Kenar Tonu",
+    "edgeBeatSaturation": "Kenar Doygunluğu",
+    "edgeBeatSensitivity": "Kenar Hassasiyeti"
+  }
+}

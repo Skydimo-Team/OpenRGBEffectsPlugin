@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "音訊同步",
+    "description": "即時追蹤主要音訊頻率，轉換為色相，並以五種滾動模式之一將顏色延展到整個裝置。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "color": "色彩",
+      "display": "顯示",
+      "response": "反應",
+      "edgeBeat": "邊緣節拍"
+    },
+    "hueShift": "色相位移",
+    "fadeSpeed": "淡出速度",
+    "saturationMode": "飽和度模式",
+    "satModeNormal": "一般",
+    "satModeHighAmp": "高振幅加強飽和",
+    "satModeBW": "黑白",
+    "rollMode": "滾動模式",
+    "rollLinear": "水平線性",
+    "rollNone": "不滾動",
+    "rollRadial": "放射狀",
+    "rollWave": "波浪",
+    "rollVertical": "垂直線性",
+    "smoothness": "平滑度",
+    "bandpassRange": "帶通濾波器",
+    "useAlbumArt": "專輯封面色彩",
+    "silentColor": "靜音備援顏色",
+    "silentColorValue": "靜音顏色",
+    "edgeBeat": "邊緣節拍",
+    "edgeBeatHue": "邊緣色相",
+    "edgeBeatSaturation": "邊緣飽和度",
+    "edgeBeatSensitivity": "邊緣靈敏度"
+  }
+}

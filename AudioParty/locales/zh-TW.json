@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "音訊派對",
+    "description": "將音訊頻譜分成三個區域：低頻驅動波形位移、中頻調整色相，而高頻則觸發隨機閃光燈效。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "motion": "動態",
+      "wave": "波形",
+      "zones": "區域",
+      "color": "色彩"
+    },
+    "speed": "速度",
+    "colorSpeed": "色彩速度",
+    "divisions": "分段",
+    "smoothness": "平滑度",
+    "effectThreshold": "燈效觸發閾值",
+    "motionZoneEnd": "動態區結束",
+    "colorZoneEnd": "色彩區結束",
+    "useAlbumArt": "專輯封面色彩"
+  }
+}

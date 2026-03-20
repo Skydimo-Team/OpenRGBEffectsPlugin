@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Dönen Işık Demeti",
+    "description": "Altı moddan birinde cihaz üzerinde süpürünen tek bir ışık demeti: saat yönünde, saat yönünün tersine, sarkaç, silecekler, yatay salınım veya dikey salınım.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "appearance": "Görünüm",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "mode": "Mod",
+    "glow": "Parlama",
+    "thickness": "Kalınlık",
+    "random_colors": "Rastgele Renkler",
+    "colors": "Renkler",
+    "modeOptions": {
+      "clockwise": "Saat yönünde",
+      "counterClockwise": "Saat yönünün tersine",
+      "pendulum": "Sarkaç",
+      "wipers": "Silecekler",
+      "swingH": "Yatay Salınım",
+      "swingV": "Dikey Salınım"
+    }
+  }
+}

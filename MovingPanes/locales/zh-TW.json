@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "移動窗格",
+    "description": "將裝置劃分為等大小的色塊，並以交錯方向滑動，營造同步對稱的動態效果。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "divisions": "分割數",
+    "reverse": "反向",
+    "colors": "顏色"
+  }
+}

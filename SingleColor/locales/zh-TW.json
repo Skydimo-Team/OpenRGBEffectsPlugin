@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "name": "單色",
+    "description": "以單一靜態顏色填滿所有 LED。",
+    "category": "實用"
+  },
+  "params": {
+    "groups": {
+      "color": "顏色"
+    },
+    "color": "顏色"
+  }
+}

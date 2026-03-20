@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Doldur",
+    "description": "Aygıtı bir uçtan düz bir renkle aşamalı olarak doldurur, ardından döngüye geçmeden önce tüm bölgeyi soldurur.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

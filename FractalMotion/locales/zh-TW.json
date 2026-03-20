@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "分形運動",
+    "description": "由最多 12 層頻率調變器疊加而成的複合正弦波，沿著 LED 捲動，並可調整振幅與背景衰減。",
+    "category": "漸層"
+  },
+  "params": {
+    "groups": {
+      "appearance": "外觀",
+      "animation": "動畫",
+      "fractal": "分形",
+      "color": "顏色"
+    },
+    "background": "背景",
+    "thickness": "厚度",
+    "speed": "速度",
+    "amplitude": "振幅",
+    "frequency": "頻率",
+    "freq_m1": "頻率 m1",
+    "freq_m2": "頻率 m2",
+    "freq_m3": "頻率 m3",
+    "freq_m4": "頻率 m4",
+    "freq_m5": "頻率 m5",
+    "freq_m6": "頻率 m6",
+    "freq_m7": "頻率 m7",
+    "freq_m8": "頻率 m8",
+    "freq_m9": "頻率 m9",
+    "freq_m10": "頻率 m10",
+    "freq_m11": "頻率 m11",
+    "freq_m12": "頻率 m12",
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Baloncuklar",
+    "description": "Rastgele renkli baloncuk halkaları oluşturur; bunlar dışa doğru genişler ve ekran karışım ışıma efektiyle solarak kaybolur.",
+    "category": "Işıltı"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Görünüm",
+      "animation": "Animasyon"
+    },
+    "background": "Arka Plan",
+    "colors": "Baloncuk Renkleri",
+    "max_bubbles": "Maks. Baloncuk",
+    "rarity": "Nadirlik",
+    "max_expansion": "Maks. Genişleme",
+    "thickness": "Kalınlık",
+    "speed": "Hız"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "Концентрические вращающиеся кольца в радужных или пользовательских цветах — вам не уйти от этого.",
+    "category": "Спектр"
+  },
+  "params": {
+    "groups": {
+      "animation": "Анимация",
+      "color": "Цвет",
+      "geometry": "Геометрия"
+    },
+    "speed": "Скорость",
+    "colorMode": "Режим цвета",
+    "colors": "Цвета",
+    "colorRotationSpeed": "Скорость вращения",
+    "colorRotationDirection": "Направление вращения",
+    "animationSpeed": "Скорость анимации",
+    "animationDirection": "Направление анимации",
+    "spacing": "Интервал",
+    "thickness": "Толщина",
+    "centerX": "Позиция X",
+    "centerY": "Позиция Y",
+    "colorModeOptions": {
+      "rainbow": "Радужный",
+      "custom": "Пользовательский"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "По часовой стрелке",
+      "counterClockwise": "Против часовой стрелки"
+    },
+    "animationDirectionOptions": {
+      "inside": "Внутрь",
+      "outside": "Наружу"
+    }
+  }
+}

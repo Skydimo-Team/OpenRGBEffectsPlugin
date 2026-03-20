@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Dönen Gökkuşağı",
+    "description": "Aygıtın merkezi etrafında dönen bir gökkuşağı yayı; dönüş hızı ve renk döngüsü hızı ayrı ayrı ayarlanabilir.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon"
+    },
+    "speed": "Dönüş Hızı",
+    "colorSpeed": "Renk Hızı",
+    "reverse": "Ters Çevir"
+  }
+}

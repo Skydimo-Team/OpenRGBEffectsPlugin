@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "音訊 VU 表",
+    "description": "依目前音訊音量比例填充 LED，並可自訂色相範圍與飽和度。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "response": "響應",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "smoothness": "平滑度",
+    "colorOffset": "色相偏移",
+    "colorSpread": "色相範圍",
+    "saturation": "飽和度",
+    "invertHue": "反轉色相",
+    "useAlbumArt": "專輯封面顏色"
+  }
+}

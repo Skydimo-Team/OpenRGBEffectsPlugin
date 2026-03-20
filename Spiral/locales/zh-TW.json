@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "螺旋",
+    "description": "依據極角與徑向距離繪製旋轉螺旋圖樣，支援彩虹或單色模式，並可調整螺旋密度。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "shape": "螺旋形狀",
+    "direction": "方向",
+    "colorMode": "顏色模式",
+    "color": "顏色",
+    "directionOptions": {
+      "counterClockwise": "逆時針",
+      "clockwise": "順時針"
+    },
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "singleColor": "單色"
+    }
+  }
+}

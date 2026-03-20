@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "音訊正弦波",
+    "description": "一條會捲動的正弦波，其振幅由音訊頻譜塑形，並可調整光暈、粗細與色彩模式。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "wave": "波形",
+      "response": "回應",
+      "color": "顏色"
+    },
+    "speed": "捲動速度",
+    "repeat": "重複",
+    "thickness": "粗細",
+    "glow": "光暈",
+    "oscillation": "振盪",
+    "smoothness": "平滑度",
+    "colorMode": "色彩模式",
+    "colorModeOptions": {
+      "spectrumCycle": "頻譜循環",
+      "static": "固定"
+    },
+    "colorChangeSpeed": "循環速度",
+    "useAlbumArt": "專輯封面色彩",
+    "backgroundColor": "背景",
+    "waveColor": "波形顏色"
+  }
+}

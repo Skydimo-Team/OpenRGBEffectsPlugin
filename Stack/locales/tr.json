@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Yığın",
+    "description": "Hareket eden bir ışık başlığı, aygıtın üzerinde süzülerek bir uçtan başlayıp bölge dolana kadar düz bir renği biriktirir, ardından sıfırlanır.",
+    "category": "Geçiş"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "direction": "Matris Yönü",
+    "directionOptions": {
+      "horizontal": "Yatay",
+      "vertical": "Dikey"
+    },
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

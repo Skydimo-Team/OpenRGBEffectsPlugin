@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "移動光點",
+    "description": "單一明亮光點會在 LED 上來回擺動，並可搭配可設定的背景色。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "random": "隨機顏色",
+    "color": "光點顏色",
+    "background": "背景顏色"
+  }
+}

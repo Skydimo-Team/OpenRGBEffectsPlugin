@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Dairesel Gökkuşağı",
+    "description": "Merkez noktadan dışa doğru yayılan eş merkezli gökkuşağı halkaları veya kareler, tünel benzeri bir derinlik efekti oluşturur.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "pattern": "Desen",
+      "center": "Merkez Konumu"
+    },
+    "speed": "Hız",
+    "frequency": "Frekans",
+    "shape": "Şekil",
+    "cx": "X Konumu",
+    "cy": "Y Konumu",
+    "shapeOptions": {
+      "circles": "Daireler",
+      "squares": "Kareler"
+    }
+  }
+}

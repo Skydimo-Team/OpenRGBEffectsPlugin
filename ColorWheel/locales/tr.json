@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Renk Çarkı",
+    "description": "Yapılandırılabilir bir merkez noktasından yayılan, dönen tam spektrumlu bir renk çarkı oluşturur.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "center": "Merkez Konumu"
+    },
+    "speed": "Hız",
+    "cx": "X Konumu",
+    "cy": "Y Konumu",
+    "direction": "Yön",
+    "directionOptions": {
+      "clockwise": "Saat yönünde",
+      "counterClockwise": "Saat yönünün tersine"
+    }
+  }
+}

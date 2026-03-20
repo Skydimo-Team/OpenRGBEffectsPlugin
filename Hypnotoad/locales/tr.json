@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "Gökkuşağı ya da özel renklerde eş merkezli dönen halkalar—bundan kaçamazsınız.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk",
+      "geometry": "Geometri"
+    },
+    "speed": "Hız",
+    "colorMode": "Renk modu",
+    "colors": "Renkler",
+    "colorRotationSpeed": "Dönüş hızı",
+    "colorRotationDirection": "Dönüş yönü",
+    "animationSpeed": "Animasyon hızı",
+    "animationDirection": "Animasyon yönü",
+    "spacing": "Aralık",
+    "thickness": "Kalınlık",
+    "centerX": "X konumu",
+    "centerY": "Y konumu",
+    "colorModeOptions": {
+      "rainbow": "Gökkuşağı",
+      "custom": "Özel"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "Saat yönünde",
+      "counterClockwise": "Saat yönünün tersine"
+    },
+    "animationDirectionOptions": {
+      "inside": "İçe doğru",
+      "outside": "Dışa doğru"
+    }
+  }
+}

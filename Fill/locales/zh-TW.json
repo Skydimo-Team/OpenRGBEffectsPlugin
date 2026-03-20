@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "填滿",
+    "description": "以純色從一端逐步填滿裝置，接著將整個區域淡出後重複播放。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

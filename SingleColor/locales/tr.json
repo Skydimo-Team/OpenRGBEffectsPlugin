@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "name": "Tek Renk",
+    "description": "Tüm LED'leri tek bir sabit renkle doldurur.",
+    "category": "Araçlar"
+  },
+  "params": {
+    "groups": {
+      "color": "Renk"
+    },
+    "color": "Renk"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "旋轉圓環",
+    "description": "兩個相對的圓環沿著裝置中心軌道運行，並以螢幕混合模式疊加彼此的光暈。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "glow": "光暈",
+    "radius": "半徑",
+    "reverse": "反轉",
+    "random": "隨機顏色",
+    "color1": "顏色 1",
+    "color2": "顏色 2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "ZigZag",
+    "description": "LED matris üzerinde sütun sütun, yılan benzeri bir iz bırakarak ilerler; gökkuşağı ya da özel renkte kübik parlaklık sönümlenmesine sahip bir kuyruk oluşturur.",
+    "category": "Geçiş"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "color_mode": "Renk Modu",
+    "color": "Renk",
+    "colorModeOptions": {
+      "rainbow": "Gökkuşağı",
+      "custom": "Özel"
+    }
+  }
+}

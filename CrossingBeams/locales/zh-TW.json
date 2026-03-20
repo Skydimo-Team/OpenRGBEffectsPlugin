@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "交叉光束",
+    "description": "兩道光束會獨立橫掃裝置，一道水平移動，另一道垂直移動。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "appearance": "外觀",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "h_speed": "水平速度",
+    "v_speed": "垂直速度",
+    "glow": "光暈",
+    "thickness": "厚度",
+    "random_colors": "隨機顏色",
+    "colors": "光束顏色"
+  }
+}

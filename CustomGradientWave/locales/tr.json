@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Özel Degrade Dalga",
+    "description": "Yön, yayılma ve palet seçilebilen kayan bir degrade dalga; hazır ayar kullanın ya da özel renkler tanımlayın.",
+    "category": "Degrade"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "palette": "Palet",
+      "geometry": "Geometri"
+    },
+    "speed": "Hız",
+    "preset": "Ön Ayar",
+    "colors": "Özel Renkler",
+    "direction": "Yön",
+    "height": "Yükseklik",
+    "width": "Genişlik",
+    "spread": "Yayılma",
+    "presetOptions": {
+      "unicornVomit": "Tekboynuz Kusmuğu",
+      "borealis": "Kuzey Işıkları",
+      "ocean": "Okyanus",
+      "pinkBlue": "Pembe/Mavi",
+      "pinkGold": "Pembe/Altın",
+      "pulse": "Nabız",
+      "purpleOrange": "Mor/Turuncu",
+      "lightBluePurple": "Açık Mavi/Mor",
+      "policeBeacon": "Polis Feneri",
+      "seabed": "Deniz Tabanı",
+      "sunset": "Gün Batımı",
+      "vaporwave": "Vaporwave",
+      "custom": "Özel"
+    },
+    "directionOptions": {
+      "horizontal": "Yatay",
+      "vertical": "Dikey",
+      "radialOut": "Dışa radyal",
+      "radialIn": "İçe radyal"
+    }
+  }
+}

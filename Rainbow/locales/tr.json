@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Rainbow",
+    "description": "Tüm LED'ler boyunca tam spektrumlu bir renk paletini kaydırır; yerleşik palet ön ayarları veya özel renklerle.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "palette": "Palet"
+    },
+    "speed": "Hız",
+    "preset": "Palet Ön Ayarı",
+    "colors": "Özel Renkler",
+    "presetOptions": {
+      "custom": "Özel",
+      "rainbow": "Gökkuşağı",
+      "sunset": "Gün batımı",
+      "ocean": "Okyanus",
+      "synthwave": "Synthwave"
+    }
+  }
+}

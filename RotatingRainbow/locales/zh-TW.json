@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "旋轉彩虹",
+    "description": "一道彩虹弧線會圍繞裝置中心旋轉，且旋轉速度與色彩循環速度可獨立調整。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫"
+    },
+    "speed": "旋轉速度",
+    "colorSpeed": "色彩速度",
+    "reverse": "反向"
+  }
+}

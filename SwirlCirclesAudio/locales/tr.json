@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Girdap Halka Ses",
+    "description": "Parlaklık yarıçapı ve yoğunluğu, genel ses seviyesine gerçek zamanlı olarak tepki veren iki yörüngesel halka.",
+    "category": "Ses"
+  },
+  "params": {
+    "groups": {
+      "motion": "Hareket",
+      "appearance": "Görünüm",
+      "response": "Yanıt",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "glow": "Parlaklık",
+    "radius": "Yarıçap",
+    "smoothness": "Pürüzsüzlük",
+    "colorMode": "Renk Modu",
+    "colorModeOptions": {
+      "randomCycle": "Rastgele Döngü",
+      "custom": "Özel"
+    },
+    "colors": "Renk Çifti",
+    "color1": "Renk 1",
+    "color2": "Renk 2"
+  }
+}

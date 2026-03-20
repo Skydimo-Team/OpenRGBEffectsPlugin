@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "自訂跑馬燈",
+    "description": "可捲動的跑馬燈，會依可設定的區段長度循環顯示使用者定義的顏色。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "colors": "顏色列表"
+  }
+}

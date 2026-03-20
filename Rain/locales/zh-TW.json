@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "雨滴",
+    "description": "模擬隨機排列欄位中落下的雨滴，每個雨滴都有明亮的頭部與逐漸淡出的尾巴。",
+    "category": "閃爍"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "drops": "雨滴數量",
+    "drop_size": "雨滴大小",
+    "random": "隨機顏色",
+    "only_first": "僅第一種顏色",
+    "colors": "使用者顏色"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Nefes Alma",
+    "description": "Tüm bölgeyi, kullanıcı tarafından seçilen renkler dizisiyle kademeli olarak solup belirginleşecek şekilde geçirir.",
+    "category": "Nefes Alma"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "random": "Rastgele Renkler",
+    "colors": "Renkler"
+  }
+}

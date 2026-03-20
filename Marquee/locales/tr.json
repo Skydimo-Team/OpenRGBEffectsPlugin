@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Marquee",
+    "description": "Aydınlatılan segmentler arasındaki boşluğu yapılandırılabilen, tek renkli kayan tabela efekti.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "spacing": "Aralık",
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

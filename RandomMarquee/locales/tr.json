@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Rastgele Marquee",
+    "description": "Her döngüde yönünü, hızını ve segment aralığını rastgele değiştiren kaydırmalı bir marquee.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

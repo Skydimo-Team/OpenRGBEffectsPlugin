@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "彗星",
+    "description": "帶有指數衰減尾跡的彗星掃過 LED，支援彩虹或自訂顏色。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "comet_size": "彗星大小",
+    "color_mode": "顏色模式",
+    "color": "彗星顏色",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自訂"
+    }
+  }
+}

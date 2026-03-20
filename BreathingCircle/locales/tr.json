@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Nefes Alan Daire",
+    "description": "Nefes ritmini taklit ederek yumuşakça genişleyip daralan dairesel bir halka.",
+    "category": "Nefes Alma"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "thickness": "Kalınlık",
+    "random": "Rastgele Renkler",
+    "color": "Renk"
+  }
+}

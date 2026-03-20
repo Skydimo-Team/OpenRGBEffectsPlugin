@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaic",
+    "description": "在裝置上隨機生成彩色方塊，短暫亮起後隨即淡出。",
+    "category": "閃爍"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "pattern": "圖案",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "rarity": "稀有度",
+    "random": "隨機顏色",
+    "colors": "方塊顏色"
+  }
+}

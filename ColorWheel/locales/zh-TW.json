@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "色彩輪盤",
+    "description": "渲染從可設定中心點向外輻射的旋轉全光譜色輪。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "center": "中心位置"
+    },
+    "speed": "速度",
+    "cx": "X 位置",
+    "cy": "Y 位置",
+    "direction": "方向",
+    "directionOptions": {
+      "clockwise": "順時針",
+      "counterClockwise": "逆時針"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "音訊視覺化",
+    "description": "在裝置上即時顯示音訊等化器，並支援多種前景與背景色彩樣式。",
+    "category": "音訊"
+  },
+  "params": {
+    "bg_mode": "背景模式",
+    "fg_mode": "前景模式",
+    "single_color_mode": "單色模式",
+    "bg_brightness": "背景亮度",
+    "anim_speed": "動畫速度",
+    "bg_timeout": "背景逾時",
+    "reactive_bg": "互動式背景",
+    "silent_bg": "靜音背景",
+    "avg_size": "平滑度",
+    "groups": {
+      "background": "背景",
+      "foreground": "前景",
+      "single_color": "單色",
+      "animation": "動畫",
+      "audio": "音訊"
+    },
+    "pattern": {
+      "black": "黑色",
+      "white": "白色",
+      "red": "紅色",
+      "orange": "橘色",
+      "yellow": "黃色",
+      "green": "綠色",
+      "cyan": "青色",
+      "blue": "藍色",
+      "purple": "紫色",
+      "electric_aquamarine": "電光海藍",
+      "red_blue": "紅 / 藍",
+      "cyan_orange": "青 / 橘",
+      "cyan_purple": "青 / 紫",
+      "cyan_electric_aquamarine": "青 / 電光海藍",
+      "green_yellow_red": "綠 / 黃 / 紅",
+      "green_white_red": "綠 / 白 / 紅",
+      "blue_cyan_white": "藍 / 青 / 白",
+      "red_white_blue": "紅 / 白 / 藍",
+      "rainbow_bars": "彩虹條",
+      "rainbow_bars_inv": "反向彩虹條",
+      "original": "原始",
+      "rainbow": "彩虹",
+      "color_wheel": "色輪",
+      "color_wheel_2": "色輪 2",
+      "spectrum_cycle": "頻譜循環",
+      "sinusoidal_cycle": "正弦循環"
+    },
+    "sc": {
+      "black": "黑色",
+      "white": "白色",
+      "red": "紅色",
+      "orange": "橘色",
+      "yellow": "黃色",
+      "green": "綠色",
+      "cyan": "青色",
+      "blue": "藍色",
+      "purple": "紫色",
+      "electric_aquamarine": "電光海藍",
+      "background": "背景",
+      "follow_background": "跟隨背景",
+      "follow_foreground": "跟隨前景"
+    }
+  }
+}

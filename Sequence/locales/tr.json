@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Dizi",
+    "description": "Bir renk listesini sırayla döngüye alır; her rengi belirlenen süre boyunca tutar ve aralarında yumuşak bir geçişle soluklaştırır.",
+    "category": "Geçiş"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "fadeTime": "Solma Süresi",
+    "colors": "Renkler"
+  }
+}

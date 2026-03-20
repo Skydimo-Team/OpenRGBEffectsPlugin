@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "螢幕鏡像",
+    "description": "即時擷取螢幕畫面，並將色彩映射至 LED 區域，提供亮度、飽和度、Gamma 與黑邊偵測控制。",
+    "category": "環境光"
+  },
+  "params": {
+    "groups": {
+      "image": "影像",
+      "blackBars": "黑邊偵測"
+    },
+    "smoothness": "平滑度",
+    "brightness": "亮度增益",
+    "saturation": "飽和度增益",
+    "gamma": "Gamma",
+    "blur": "模糊",
+    "autoCrop": "黑邊自動裁切",
+    "bbThreshold": "閾值 (%)",
+    "bbMode": "偵測模式",
+    "mode_default": "預設",
+    "mode_classic": "經典",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "穩定切換影格數",
+    "bbUnknownFrameCnt": "未知切換影格數",
+    "bbMaxInconsistentCnt": "最大不一致影格數",
+    "bbBlurRemoveCnt": "模糊安全邊界"
+  }
+}

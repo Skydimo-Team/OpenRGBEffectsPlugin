@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "呼吸",
+    "description": "將整個區域依照使用者選取的顏色序列淡入淡出。",
+    "category": "呼吸"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "色彩"
+    },
+    "speed": "速度",
+    "random": "隨機色彩",
+    "colors": "色彩"
+  }
+}

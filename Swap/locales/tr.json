@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Değişim",
+    "description": "Bir sınır soldan sağa süzülerek her geçişte iki renk arasında yer değiştirir.",
+    "category": "Geçiş"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "random": "Rastgele Renkler",
+    "colors": "Renkler"
+  }
+}

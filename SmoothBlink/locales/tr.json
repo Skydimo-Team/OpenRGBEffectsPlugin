@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Pürüzsüz Yanıp Sönme",
+    "description": "Yapılandırılabilir darbe sayısı, süresi ve aralığıyla; düz dolgu veya radyal daire modunda nefes alan bir darbe dizisi oluşturur.",
+    "category": "Nefes Alma"
+  },
+  "params": {
+    "groups": {
+      "timing": "Zamanlama",
+      "appearance": "Görünüm",
+      "color": "Renk"
+    },
+    "interval": "Aralık (s)",
+    "pulses": "Darbeler",
+    "pulse_duration": "Darbe Süresi (s)",
+    "strength": "Güç (%)",
+    "rendering": "İşleme",
+    "renderingOptions": {
+      "solid": "Düz",
+      "circle": "Daire"
+    },
+    "cx": "X Konumu",
+    "cy": "Y Konumu",
+    "random": "Rastgele Renkler",
+    "color1": "Darbe Rengi",
+    "color2": "Taban Rengi"
+  }
+}

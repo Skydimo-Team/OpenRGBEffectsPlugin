@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Ses Baloncukları",
+    "description": "Ses seviyesine göre tetiklenen, çıkış noktalarından dışa doğru genişleyen ve gradyan renklerle çizilen baloncuk halkaları.",
+    "category": "Ses"
+  },
+  "params": {
+    "groups": {
+      "color": "Renk",
+      "response": "Yanıt",
+      "bubbles": "Baloncuklar"
+    },
+    "preset": "Hazır Ayar",
+    "presetOptions": {
+      "unicornVomit": "Tekboynuz Kusmuğu",
+      "borealis": "Aurora",
+      "ocean": "Okyanus",
+      "pinkBlue": "Pembe/Mavi",
+      "pinkGold": "Pembe/Altın",
+      "pulse": "Darbe",
+      "purpleOrange": "Mor/Turuncu",
+      "lightBluePurple": "Açık Mavi/Mor",
+      "policeBeacon": "Polis Feneri",
+      "seabed": "Deniz Tabanı",
+      "sunset": "Gün Batımı",
+      "vaporwave": "Vaporwave"
+    },
+    "colors": "Gradyan Renkler",
+    "spawnMode": "Baloncuk Oluşumu",
+    "spawnModes": {
+      "randomXY": "Rastgele XY",
+      "randomX": "Rastgele X",
+      "randomY": "Rastgele Y",
+      "center": "Merkez"
+    },
+    "trigger": "Ses Tetikleyici",
+    "max_bubbles": "Maks. Baloncuk",
+    "max_expansion": "Maks. Genişleme",
+    "bubbles_thickness": "Baloncuk Kalınlığı",
+    "speed": "Hız",
+    "smoothness": "Yumuşaklık"
+  }
+}

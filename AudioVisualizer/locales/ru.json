@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Аудиовизуализатор",
+    "description": "Отображает в реальном времени аудиоэквалайзер на устройстве с несколькими вариантами цветовых схем переднего и заднего плана.",
+    "category": "Аудио"
+  },
+  "params": {
+    "bg_mode": "Режим фона",
+    "fg_mode": "Режим переднего плана",
+    "single_color_mode": "Режим одного цвета",
+    "bg_brightness": "Яркость фона",
+    "anim_speed": "Скорость анимации",
+    "bg_timeout": "Тайм-аут фона",
+    "reactive_bg": "Реактивный фон",
+    "silent_bg": "Тихий фон",
+    "avg_size": "Плавность",
+    "groups": {
+      "background": "Фон",
+      "foreground": "Передний план",
+      "single_color": "Один цвет",
+      "animation": "Анимация",
+      "audio": "Аудио"
+    },
+    "pattern": {
+      "black": "Черный",
+      "white": "Белый",
+      "red": "Красный",
+      "orange": "Оранжевый",
+      "yellow": "Желтый",
+      "green": "Зеленый",
+      "cyan": "Голубой",
+      "blue": "Синий",
+      "purple": "Фиолетовый",
+      "electric_aquamarine": "Электроаквамарин",
+      "red_blue": "Красный / Синий",
+      "cyan_orange": "Голубой / Оранжевый",
+      "cyan_purple": "Голубой / Фиолетовый",
+      "cyan_electric_aquamarine": "Голубой / Электроаквамарин",
+      "green_yellow_red": "Зеленый / Желтый / Красный",
+      "green_white_red": "Зеленый / Белый / Красный",
+      "blue_cyan_white": "Синий / Голубой / Белый",
+      "red_white_blue": "Красный / Белый / Синий",
+      "rainbow_bars": "Радужные полосы",
+      "rainbow_bars_inv": "Радужные полосы наоборот",
+      "original": "Оригинал",
+      "rainbow": "Радуга",
+      "color_wheel": "Цветовой круг",
+      "color_wheel_2": "Цветовой круг 2",
+      "spectrum_cycle": "Цикл спектра",
+      "sinusoidal_cycle": "Синусоидальный цикл"
+    },
+    "sc": {
+      "black": "Черный",
+      "white": "Белый",
+      "red": "Красный",
+      "orange": "Оранжевый",
+      "yellow": "Желтый",
+      "green": "Зеленый",
+      "cyan": "Голубой",
+      "blue": "Синий",
+      "purple": "Фиолетовый",
+      "electric_aquamarine": "Электроаквамарин",
+      "background": "Фон",
+      "follow_background": "Следовать за фоном",
+      "follow_foreground": "Следовать за передним планом"
+    }
+  }
+}

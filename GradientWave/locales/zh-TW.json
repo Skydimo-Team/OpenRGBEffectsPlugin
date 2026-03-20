@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "漸層波浪",
+    "description": "使用正弦運動在 LED 上來回掃動的雙色漸層。",
+    "category": "漸層"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "random": "隨機顏色",
+    "colors": "漸層顏色"
+  }
+}

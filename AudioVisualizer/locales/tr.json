@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Ses Görselleştirici",
+    "description": "Aygıt üzerinde çoklu ön plan ve arka plan renk desenleriyle gerçek zamanlı bir ses ekolayzırı gösterir.",
+    "category": "Ses"
+  },
+  "params": {
+    "bg_mode": "Arka Plan Modu",
+    "fg_mode": "Ön Plan Modu",
+    "single_color_mode": "Tek Renk Modu",
+    "bg_brightness": "Arka Plan Parlaklığı",
+    "anim_speed": "Animasyon Hızı",
+    "bg_timeout": "Arka Plan Zaman Aşımı",
+    "reactive_bg": "Duyarlı Arka Plan",
+    "silent_bg": "Sessiz Arka Plan",
+    "avg_size": "Yumuşaklık",
+    "groups": {
+      "background": "Arka Plan",
+      "foreground": "Ön Plan",
+      "single_color": "Tek Renk",
+      "animation": "Animasyon",
+      "audio": "Ses"
+    },
+    "pattern": {
+      "black": "Siyah",
+      "white": "Beyaz",
+      "red": "Kırmızı",
+      "orange": "Turuncu",
+      "yellow": "Sarı",
+      "green": "Yeşil",
+      "cyan": "Camgöbeği",
+      "blue": "Mavi",
+      "purple": "Mor",
+      "electric_aquamarine": "Elektrik Akuamarini",
+      "red_blue": "Kırmızı / Mavi",
+      "cyan_orange": "Camgöbeği / Turuncu",
+      "cyan_purple": "Camgöbeği / Mor",
+      "cyan_electric_aquamarine": "Camgöbeği / Elektrik Akuamarini",
+      "green_yellow_red": "Yeşil / Sarı / Kırmızı",
+      "green_white_red": "Yeşil / Beyaz / Kırmızı",
+      "blue_cyan_white": "Mavi / Camgöbeği / Beyaz",
+      "red_white_blue": "Kırmızı / Beyaz / Mavi",
+      "rainbow_bars": "Gökkuşağı Çubukları",
+      "rainbow_bars_inv": "Ters Gökkuşağı Çubukları",
+      "original": "Orijinal",
+      "rainbow": "Gökkuşağı",
+      "color_wheel": "Renk Çarkı",
+      "color_wheel_2": "Renk Çarkı 2",
+      "spectrum_cycle": "Spektrum Döngüsü",
+      "sinusoidal_cycle": "Sinüzoidal Döngü"
+    },
+    "sc": {
+      "black": "Siyah",
+      "white": "Beyaz",
+      "red": "Kırmızı",
+      "orange": "Turuncu",
+      "yellow": "Sarı",
+      "green": "Yeşil",
+      "cyan": "Camgöbeği",
+      "blue": "Mavi",
+      "purple": "Mor",
+      "electric_aquamarine": "Elektrik Akuamarini",
+      "background": "Arka Plan",
+      "follow_background": "Arka Planı İzle",
+      "follow_foreground": "Ön Planı İzle"
+    }
+  }
+}

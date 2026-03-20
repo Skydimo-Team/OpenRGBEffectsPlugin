@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Аудиосинхронизация",
+    "description": "Отслеживает доминирующую частоту звука в реальном времени, преобразует её в оттенок и распределяет цвет по устройству в одном из пяти режимов прокрутки.",
+    "category": "Аудио"
+  },
+  "params": {
+    "groups": {
+      "color": "Цвет",
+      "display": "Отображение",
+      "response": "Отклик",
+      "edgeBeat": "Edge Beat"
+    },
+    "hueShift": "Сдвиг оттенка",
+    "fadeSpeed": "Скорость затухания",
+    "saturationMode": "Режим насыщенности",
+    "satModeNormal": "Обычный",
+    "satModeHighAmp": "Насыщать высокие амплитуды",
+    "satModeBW": "Чёрно-белый",
+    "rollMode": "Режим прокрутки",
+    "rollLinear": "Линейный горизонтальный",
+    "rollNone": "Без прокрутки",
+    "rollRadial": "Радиальный",
+    "rollWave": "Волна",
+    "rollVertical": "Линейный вертикальный",
+    "smoothness": "Плавность",
+    "bandpassRange": "Полосовой фильтр",
+    "useAlbumArt": "Цвета обложки альбома",
+    "silentColor": "Резервный цвет при тишине",
+    "silentColorValue": "Цвет тишины",
+    "edgeBeat": "Edge Beat",
+    "edgeBeatHue": "Оттенок Edge",
+    "edgeBeatSaturation": "Насыщенность Edge",
+    "edgeBeatSensitivity": "Чувствительность Edge"
+  }
+}

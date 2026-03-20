@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Çapraz Işınlar",
+    "description": "Biri yatay, diğeri dikey olmak üzere cihazın üzerinde bağımsızca süpürünen iki ışık demeti.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "appearance": "Görünüm",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "h_speed": "Yatay Hız",
+    "v_speed": "Dikey Hız",
+    "glow": "Parlama",
+    "thickness": "Kalınlık",
+    "random_colors": "Rastgele Renkler",
+    "colors": "Işın Renkleri"
+  }
+}

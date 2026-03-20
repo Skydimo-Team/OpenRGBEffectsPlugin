@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "自訂漸層波",
+    "description": "可選擇方向、擴散與調色盤的捲動漸層波，可使用預設或自訂色彩。",
+    "category": "漸層"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "palette": "調色盤",
+      "geometry": "幾何"
+    },
+    "speed": "速度",
+    "preset": "預設",
+    "colors": "自訂色彩",
+    "direction": "方向",
+    "height": "高度",
+    "width": "寬度",
+    "spread": "擴散",
+    "presetOptions": {
+      "unicornVomit": "獨角獸彩虹",
+      "borealis": "極光",
+      "ocean": "海洋",
+      "pinkBlue": "粉紅/藍色",
+      "pinkGold": "粉紅/金色",
+      "pulse": "脈衝",
+      "purpleOrange": "紫色/橘色",
+      "lightBluePurple": "淺藍/紫色",
+      "policeBeacon": "警示燈",
+      "seabed": "海床",
+      "sunset": "夕陽",
+      "vaporwave": "蒸汽波",
+      "custom": "自訂"
+    },
+    "directionOptions": {
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "radialOut": "向外放射",
+      "radialIn": "向內放射"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "堆疊",
+    "description": "移動的光頭掃過裝置，從一端開始逐步堆疊純色，直到區域填滿後重設。",
+    "category": "轉場"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "direction": "矩陣方向",
+    "directionOptions": {
+      "horizontal": "水平",
+      "vertical": "垂直"
+    },
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

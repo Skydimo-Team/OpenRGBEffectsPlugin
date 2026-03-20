@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Hareketli Nokta",
+    "description": "Tek bir parlak nokta, yapılandırılabilir bir arka plan rengi üzerinde LED'ler boyunca ileri geri salınır.",
+    "category": "Hareket"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "random": "Rastgele Renk",
+    "color": "Nokta Rengi",
+    "background": "Arka Plan Rengi"
+  }
+}

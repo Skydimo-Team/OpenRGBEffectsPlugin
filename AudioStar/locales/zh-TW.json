@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "音訊星芒",
+    "description": "將各個音訊頻率區段對應到角度位置，呈現會隨音訊脈動的星形亮度圖樣。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "response": "反應",
+      "edgeBeat": "邊緣節拍"
+    },
+    "speed": "速度",
+    "smoothness": "平滑度",
+    "useAlbumArt": "專輯封面色彩",
+    "edgeBeat": "邊緣節拍",
+    "edgeBeatHue": "邊緣色相",
+    "edgeBeatSaturation": "邊緣飽和度",
+    "edgeBeatSensitivity": "邊緣靈敏度"
+  }
+}

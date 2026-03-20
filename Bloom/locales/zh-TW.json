@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "綻放",
+    "description": "每顆 LED 都會以各自隨機的速度在色相光譜中前進，在區域內形成彼此獨立綻放的色彩。",
+    "category": "光譜"
+  },
+  "params": {
+    "speed": "速度",
+    "saturation": "飽和度"
+  }
+}

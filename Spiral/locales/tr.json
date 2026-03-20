@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Sarmal",
+    "description": "Kutup açısı ve radyal mesafeye göre dönen bir sarmal çizer; ayarlanabilir sıkılıkta, gökkuşağı veya tek renk modunu destekler.",
+    "category": "Spektrum"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "shape": "Sarmal şekli",
+    "direction": "Yön",
+    "colorMode": "Renk modu",
+    "color": "Renk",
+    "directionOptions": {
+      "counterClockwise": "Saat yönünün tersine",
+      "clockwise": "Saat yönünde"
+    },
+    "colorModeOptions": {
+      "rainbow": "Gökkuşağı",
+      "singleColor": "Tek renk"
+    }
+  }
+}

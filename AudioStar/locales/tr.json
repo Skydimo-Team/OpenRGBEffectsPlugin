@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Ses Yıldızı",
+    "description": "Her bir ses frekans bandını açısal bir konuma eşler ve sesle birlikte nabız gibi atan yıldız biçimli bir parlaklık deseni oluşturur.",
+    "category": "Ses"
+  },
+  "params": {
+    "groups": {
+      "response": "Yanıt",
+      "edgeBeat": "Kenar Vuruşu"
+    },
+    "speed": "Hız",
+    "smoothness": "Yumuşaklık",
+    "useAlbumArt": "Albüm Kapağı Renkleri",
+    "edgeBeat": "Kenar Vuruşu",
+    "edgeBeatHue": "Kenar Tonu",
+    "edgeBeatSaturation": "Kenar Doygunluğu",
+    "edgeBeatSensitivity": "Kenar Hassasiyeti"
+  }
+}

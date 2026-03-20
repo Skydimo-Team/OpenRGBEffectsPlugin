@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaic",
+    "description": "Rastgele olarak cihaz genelinde renkli kareler oluşturur; bunlar kısa süreliğine yanar ve ardından sönerek kaybolur.",
+    "category": "Parıltı"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "pattern": "Desen",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "rarity": "Nadirlik",
+    "random": "Rastgele Renkler",
+    "colors": "Kare Renkleri"
+  }
+}

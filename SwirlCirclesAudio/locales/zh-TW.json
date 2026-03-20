@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "旋轉圓環音訊",
+    "description": "兩個環繞旋轉的圓圈，其光暈半徑與強度會即時回應整體音量。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "motion": "動態",
+      "appearance": "外觀",
+      "response": "回應",
+      "color": "色彩"
+    },
+    "speed": "速度",
+    "glow": "光暈",
+    "radius": "半徑",
+    "smoothness": "平滑度",
+    "colorMode": "色彩模式",
+    "colorModeOptions": {
+      "randomCycle": "隨機循環",
+      "custom": "自訂"
+    },
+    "colors": "色彩組合",
+    "color1": "色彩 1",
+    "color2": "色彩 2"
+  }
+}

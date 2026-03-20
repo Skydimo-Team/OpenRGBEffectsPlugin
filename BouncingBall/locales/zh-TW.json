@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "彈跳球",
+    "description": "模擬受物理重力與水平速度影響的小球在 LED 矩陣上彈跳。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "ball": "球",
+      "physics": "物理",
+      "color": "色彩"
+    },
+    "radius": "球半徑",
+    "gravity": "重力",
+    "horizontalVelocity": "水平速度",
+    "spectrumVelocity": "頻譜速度",
+    "dropHeight": "下落高度 %"
+  }
+}

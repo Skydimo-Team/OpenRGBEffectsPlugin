@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Yıldırım",
+    "description": "Hızla sönümlenen parlak flaşları rastgele tetikler; tam şerit veya LED başına modunda yıldırımı taklit eder.",
+    "category": "Parıltı"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animasyon",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "decay": "Sönüm",
+    "mode": "Mod",
+    "random": "Rastgele Renkler",
+    "color": "Renk",
+    "modeOptions": {
+      "wholeStrip": "Tüm şerit",
+      "perLed": "LED başına"
+    }
+  }
+}

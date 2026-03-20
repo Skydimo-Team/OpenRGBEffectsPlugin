@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "音訊泡泡",
+    "description": "由音量觸發、從生成點向外擴散的泡泡環，以漸層色彩渲染。",
+    "category": "音訊"
+  },
+  "params": {
+    "groups": {
+      "color": "色彩",
+      "response": "反應",
+      "bubbles": "泡泡"
+    },
+    "preset": "預設",
+    "presetOptions": {
+      "unicornVomit": "獨角獸彩虹吐彩",
+      "borealis": "極光",
+      "ocean": "海洋",
+      "pinkBlue": "粉紅/藍色",
+      "pinkGold": "粉紅/金色",
+      "pulse": "脈衝",
+      "purpleOrange": "紫色/橙色",
+      "lightBluePurple": "淺藍/紫色",
+      "policeBeacon": "警示燈",
+      "seabed": "海床",
+      "sunset": "夕陽",
+      "vaporwave": "蒸汽波"
+    },
+    "colors": "漸層色彩",
+    "spawnMode": "泡泡生成方式",
+    "spawnModes": {
+      "randomXY": "隨機 XY",
+      "randomX": "隨機 X",
+      "randomY": "隨機 Y",
+      "center": "中心"
+    },
+    "trigger": "音量觸發",
+    "max_bubbles": "最大泡泡數",
+    "max_expansion": "最大擴張",
+    "bubbles_thickness": "泡泡粗細",
+    "speed": "速度",
+    "smoothness": "平滑度"
+  }
+}

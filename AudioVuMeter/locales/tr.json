@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Ses VU Göstergesi",
+    "description": "LED'leri geçerli ses düzeyine orantılı olarak doldurur; yapılandırılabilir bir renk tonu aralığı ve doygunluk sunar.",
+    "category": "Ses"
+  },
+  "params": {
+    "groups": {
+      "response": "Yanıt",
+      "color": "Renk"
+    },
+    "speed": "Hız",
+    "smoothness": "Yumuşaklık",
+    "colorOffset": "Renk Tonu Kaydırması",
+    "colorSpread": "Renk Tonu Yayılımı",
+    "saturation": "Doygunluk",
+    "invertHue": "Renk Tonunu Ters Çevir",
+    "useAlbumArt": "Albüm Kapağı Renkleri"
+  }
+}

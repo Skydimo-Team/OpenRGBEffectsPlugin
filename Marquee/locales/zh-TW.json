@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "跑馬燈",
+    "description": "單色捲動跑馬燈，可設定點亮區段之間的間距。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "spacing": "間距",
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

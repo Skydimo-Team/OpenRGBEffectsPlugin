@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "閃耀淡出",
+    "description": "先淡入為純色，接著當閃光在區域內擴散並消散時，再逐漸淡出。",
+    "category": "閃耀"
+  },
+  "params": {
+    "groups": {
+      "timing": "時序",
+      "color": "顏色"
+    },
+    "off_time": "關閉時間 (秒)",
+    "fade_in_time": "淡入時間 (秒)",
+    "fade_out_time": "淡出時間 (秒)",
+    "random": "隨機顏色",
+    "color": "顏色"
+  }
+}

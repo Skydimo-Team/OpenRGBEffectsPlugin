@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "Ekran Yansıtma",
+    "description": "Ekranı gerçek zamanlı olarak yakalar ve renkleri LED bölgelerine eşler; parlaklık, doygunluk, gamma ve siyah kenar algılama denetimleri içerir.",
+    "category": "Ortam"
+  },
+  "params": {
+    "groups": {
+      "image": "Görüntü",
+      "blackBars": "Siyah Kenar Algılama"
+    },
+    "smoothness": "Akıcılık",
+    "brightness": "Parlaklık Kazancı",
+    "saturation": "Doygunluk Kazancı",
+    "gamma": "Gamma",
+    "blur": "Bulanıklık",
+    "autoCrop": "Siyah Kenar Kırpma",
+    "bbThreshold": "Eşik (%)",
+    "bbMode": "Algılama Modu",
+    "mode_default": "Varsayılan",
+    "mode_classic": "Klasik",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "Kararlı Geçiş Kareleri",
+    "bbUnknownFrameCnt": "Bilinmeyen Geçiş Kareleri",
+    "bbMaxInconsistentCnt": "Maksimum Tutarsız Kare",
+    "bbBlurRemoveCnt": "Bulanıklık Güvenlik Kenarı"
+  }
+}

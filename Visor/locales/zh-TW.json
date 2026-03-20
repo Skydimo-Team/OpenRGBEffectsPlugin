@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "遮陽板",
+    "description": "一個遮陽板形狀的光頭會來回掃動，在移動過程中在兩種顏色之間融合，並在每次反向時切換由哪個顏色領先。",
+    "category": "動態"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "width": "寬度",
+    "random": "隨機顏色",
+    "colors": "顏色"
+  }
+}

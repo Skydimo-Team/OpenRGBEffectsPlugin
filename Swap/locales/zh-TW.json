@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "交換",
+    "description": "一條邊界從左到右掃過，每次通過時在兩種顏色之間切換。",
+    "category": "過渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "random": "隨機顏色",
+    "colors": "顏色"
+  }
+}

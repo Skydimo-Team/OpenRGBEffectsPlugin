@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "序列",
+    "description": "依序循環切換顏色列表，每種顏色會維持一段時間，並以平滑淡出淡入的方式過渡到下一種。",
+    "category": "過渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "fadeTime": "淡化時間",
+    "colors": "顏色"
+  }
+}

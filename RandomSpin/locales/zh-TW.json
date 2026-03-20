@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "隨機旋轉",
+    "description": "一個雙色漸層沿著 LED 滾動，並隨機在不同速度與方向的旋轉，以及短暫停頓之間切換。",
+    "category": "過渡"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "顏色"
+    },
+    "speed": "速度",
+    "colors": "顏色"
+  }
+}

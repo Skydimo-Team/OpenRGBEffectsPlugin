@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "泡泡",
+    "description": "隨機生成彩色泡泡環，向外擴散並逐漸淡出，帶有螢幕混合發光效果。",
+    "category": "閃爍"
+  },
+  "params": {
+    "groups": {
+      "appearance": "外觀",
+      "animation": "動畫"
+    },
+    "background": "背景",
+    "colors": "泡泡顏色",
+    "max_bubbles": "最大泡泡數",
+    "rarity": "稀有度",
+    "max_expansion": "最大擴展",
+    "thickness": "厚度",
+    "speed": "速度"
+  }
+}

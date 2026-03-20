@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "彩虹色或自訂色彩的同心旋轉圓環——你逃不掉的。",
+    "category": "光譜"
+  },
+  "params": {
+    "groups": {
+      "animation": "動畫",
+      "color": "色彩",
+      "geometry": "幾何"
+    },
+    "speed": "速度",
+    "colorMode": "色彩模式",
+    "colors": "色彩",
+    "colorRotationSpeed": "旋轉速度",
+    "colorRotationDirection": "旋轉方向",
+    "animationSpeed": "動畫速度",
+    "animationDirection": "動畫方向",
+    "spacing": "間距",
+    "thickness": "厚度",
+    "centerX": "X 位置",
+    "centerY": "Y 位置",
+    "colorModeOptions": {
+      "rainbow": "彩虹",
+      "custom": "自訂"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "順時針",
+      "counterClockwise": "逆時針"
+    },
+    "animationDirectionOptions": {
+      "inside": "向內",
+      "outside": "向外"
+    }
+  }
+}
