@@ -2,7 +2,7 @@
   "meta": {
     "name": "Clock",
     "description": "Maps the current time to LED positions, independently lighting hour, minute, and second indicators on the strip.",
-    "category": "Utility"
+    "category": "Other"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "secondColor": "Second Color"
   }
 }
+

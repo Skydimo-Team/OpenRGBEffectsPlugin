@@ -2,7 +2,7 @@
   "meta": {
     "name": "光譜循環",
     "description": "所有 LED 會同步循環整個色相光譜，並始終讓整個區域維持一致的純色。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "saturation": "飽和度"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Spiral",
     "description": "Draws a rotating spiral from polar angle and radial distance, in rainbow or single-color mode with adjustable tightness.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -24,3 +24,4 @@
     }
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Dizi",
     "description": "Bir renk listesini sırayla döngüye alır; her rengi belirlenen süre boyunca tutar ve aralarında yumuşak bir geçişle soluklaştırır.",
-    "category": "Geçiş"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "Renkler"
   }
 }
+

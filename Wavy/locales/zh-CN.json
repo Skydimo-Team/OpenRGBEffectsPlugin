@@ -2,7 +2,7 @@
   "meta": {
     "name": "波浪",
     "description": "双色正弦波同时在 LED 上滚动并振荡振幅，形成流动的波浪效果。",
-    "category": "渐变"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "colors": "波浪颜色"
   }
 }
+

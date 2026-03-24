@@ -2,7 +2,7 @@
   "meta": {
     "name": "旋轉圓環",
     "description": "兩個相對的圓環沿著裝置中心軌道運行，並以螢幕混合模式疊加彼此的光暈。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "color2": "顏色 2"
   }
 }
+

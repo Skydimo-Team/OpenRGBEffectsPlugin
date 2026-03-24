@@ -2,7 +2,7 @@
   "meta": {
     "name": "双旋转彩虹",
     "description": "两段对称彩虹弧围绕设备中心同步旋转。",
-    "category": "光谱"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "frequency": "频率"
   }
 }
+

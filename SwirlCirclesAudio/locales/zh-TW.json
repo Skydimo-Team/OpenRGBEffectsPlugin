@@ -2,7 +2,7 @@
   "meta": {
     "name": "旋轉圓環音訊",
     "description": "兩個環繞旋轉的圓圈，其光暈半徑與強度會即時回應整體音量。",
-    "category": "音訊"
+    "category": "音樂"
   },
   "params": {
     "groups": {
@@ -25,3 +25,4 @@
     "color2": "色彩 2"
   }
 }
+

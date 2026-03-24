@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rotating Rainbow",
     "description": "A rainbow arc that rotates around the center of the device, with independently adjustable rotation and color cycling speeds.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "reverse": "Reverse"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "時鐘",
     "description": "將目前時間對應到 LED 位置，在燈條上獨立點亮時、分、秒指示燈。",
-    "category": "實用"
+    "category": "其他"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "secondColor": "秒針色彩"
   }
 }
+

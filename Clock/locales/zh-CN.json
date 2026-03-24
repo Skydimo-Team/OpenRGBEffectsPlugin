@@ -2,7 +2,7 @@
   "meta": {
     "name": "时钟",
     "description": "将当前时间映射到 LED 位置，在灯带上独立点亮时、分、秒指示灯。",
-    "category": "实用"
+    "category": "其他"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "secondColor": "秒针颜色"
   }
 }
+

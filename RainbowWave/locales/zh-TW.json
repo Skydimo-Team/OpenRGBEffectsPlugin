@@ -2,7 +2,7 @@
   "meta": {
     "name": "彩虹波浪",
     "description": "完整的彩虹光譜會以可調整的速度與頻率，持續在 LED 上滑動。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "frequency": "頻率"
   }
 }
+

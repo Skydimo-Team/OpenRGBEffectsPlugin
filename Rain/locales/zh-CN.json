@@ -2,7 +2,7 @@
   "meta": {
     "name": "雨滴",
     "description": "模拟随机列中的下落雨滴，每个雨滴具有亮眼头部与逐渐消退的尾迹。",
-    "category": "闪烁"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "colors": "用户颜色"
   }
 }
+

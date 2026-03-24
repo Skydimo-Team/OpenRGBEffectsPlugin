@@ -2,7 +2,7 @@
   "meta": {
     "name": "Breathing",
     "description": "Fades the entire zone in and out through a sequence of user-selected colors.",
-    "category": "Breathing"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "Colors"
   }
 }
+

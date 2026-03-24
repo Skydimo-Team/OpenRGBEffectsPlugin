@@ -2,7 +2,7 @@
   "meta": {
     "name": "音频正弦波",
     "description": "振幅由音频频谱调制的滚动正弦波，支持辉光、粗细与颜色模式调节。",
-    "category": "音频"
+    "category": "音乐"
   },
   "params": {
     "groups": {
@@ -27,3 +27,4 @@
     "waveColor": "波形颜色"
   }
 }
+

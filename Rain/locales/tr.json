@@ -2,7 +2,7 @@
   "meta": {
     "name": "Yağmur",
     "description": "Rastgele sütunlarda düşen damlaları simüle eder; her damlanın parlak bir başı ve giderek sönümlenen bir izi vardır.",
-    "category": "Parıltı"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "colors": "Kullanıcı Renkleri"
   }
 }
+

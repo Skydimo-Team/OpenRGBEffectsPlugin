@@ -2,7 +2,7 @@
   "meta": {
     "name": "Zıplayan Top",
     "description": "Fizik tabanlı yerçekimi ve yatay hız ile bir topun LED matrisi üzerinde sekerek ilerlemesini simüle eder.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "dropHeight": "Düşme Yüksekliği %"
   }
 }
+

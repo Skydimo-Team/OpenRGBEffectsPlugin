@@ -2,7 +2,7 @@
   "meta": {
     "name": "锯齿蛇",
     "description": "以蛇形路径按列遍历 LED 矩阵，以三次方亮度衰减呈现彩虹或自定义颜色的尾迹。",
-    "category": "过渡"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     }
   }
 }
+

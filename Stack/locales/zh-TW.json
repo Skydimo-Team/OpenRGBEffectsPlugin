@@ -2,7 +2,7 @@
   "meta": {
     "name": "堆疊",
     "description": "移動的光頭掃過裝置，從一端開始逐步堆疊純色，直到區域填滿後重設。",
-    "category": "轉場"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "color": "顏色"
   }
 }
+

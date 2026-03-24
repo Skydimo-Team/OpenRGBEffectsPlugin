@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rainbow",
     "description": "Tüm LED'ler boyunca tam spektrumlu bir renk paletini kaydırır; yerleşik palet ön ayarları veya özel renklerle.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     }
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Random Spin",
     "description": "A two-color gradient scrolling across the LEDs that randomly alternates between spinning—at a random speed and direction—and briefly pausing.",
-    "category": "Transition"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "Colors"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Pürüzsüz Yanıp Sönme",
     "description": "Yapılandırılabilir darbe sayısı, süresi ve aralığıyla; düz dolgu veya radyal daire modunda nefes alan bir darbe dizisi oluşturur.",
-    "category": "Nefes Alma"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -26,3 +26,4 @@
     "color2": "Taban Rengi"
   }
 }
+

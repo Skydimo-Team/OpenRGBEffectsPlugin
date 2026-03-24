@@ -2,7 +2,7 @@
   "meta": {
     "name": "色彩輪盤",
     "description": "渲染從可設定中心點向外輻射的旋轉全光譜色輪。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     }
   }
 }
+

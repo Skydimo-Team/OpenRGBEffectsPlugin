@@ -2,7 +2,7 @@
   "meta": {
     "name": "旋转彩虹",
     "description": "彩虹弧围绕设备中心旋转，旋转速度与颜色循环速度可独立调节。",
-    "category": "光谱"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "reverse": "反转"
   }
 }
+

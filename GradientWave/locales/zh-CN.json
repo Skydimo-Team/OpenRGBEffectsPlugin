@@ -2,7 +2,7 @@
   "meta": {
     "name": "渐变波浪",
     "description": "双色渐变以正弦运动在 LED 上来回扫动。",
-    "category": "渐变"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "渐变颜色"
   }
 }
+

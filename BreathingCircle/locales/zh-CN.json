@@ -2,7 +2,7 @@
   "meta": {
     "name": "呼吸圆环",
     "description": "圆形光环平滑扩展与收缩，模拟呼吸节律。",
-    "category": "呼吸"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "颜色"
   }
 }
+

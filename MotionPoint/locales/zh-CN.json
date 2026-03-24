@@ -2,7 +2,7 @@
   "meta": {
     "name": "运动光点",
     "description": "单个亮点在 LED 上来回振荡，背景颜色可配置。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "background": "背景颜色"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Dönen Işık Demeti",
     "description": "Altı moddan birinde cihaz üzerinde süpürünen tek bir ışık demeti: saat yönünde, saat yönünün tersine, sarkaç, silecekler, yatay salınım veya dikey salınım.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -26,3 +26,4 @@
     }
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "自訂漸層波",
     "description": "可選擇方向、擴散與調色盤的捲動漸層波，可使用預設或自訂色彩。",
-    "category": "漸層"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -40,3 +40,4 @@
     }
   }
 }
+

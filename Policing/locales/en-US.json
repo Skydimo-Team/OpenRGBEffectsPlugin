@@ -2,7 +2,7 @@
   "meta": {
     "name": "Policing",
     "description": "A light beam sweeps back and forth, flashing the entire zone at the end of each pass before reversing direction.",
-    "category": "Breathing"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "Color"
   }
 }
+

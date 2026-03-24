@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rain",
     "description": "Simulates falling rain with droplets in randomized columns, each having a bright head and a gradually fading tail.",
-    "category": "Sparkle"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "colors": "User Colors"
   }
 }
+

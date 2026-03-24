@@ -2,7 +2,7 @@
   "meta": {
     "name": "Vizör",
     "description": "Vizör biçimli bir ışık başlığı ileri geri süzülür; hareket ederken iki renk arasında geçiş yapar ve her yön değişiminde önde gelen rengi değiştirir.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "Renkler"
   }
 }
+

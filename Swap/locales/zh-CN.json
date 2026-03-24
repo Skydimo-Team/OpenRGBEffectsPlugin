@@ -2,7 +2,7 @@
   "meta": {
     "name": "交替",
     "description": "分界线从左到右扫过，每次切换时两种颜色互换。",
-    "category": "过渡"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "颜色"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Single Color",
     "description": "Fills every LED with a single static color.",
-    "category": "Utility"
+    "category": "Other"
   },
   "params": {
     "groups": {
@@ -11,3 +11,4 @@
     "color": "Color"
   }
 }
+

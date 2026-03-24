@@ -2,7 +2,7 @@
   "meta": {
     "name": "泡泡",
     "description": "隨機生成彩色泡泡環，向外擴散並逐漸淡出，帶有螢幕混合發光效果。",
-    "category": "閃爍"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "speed": "速度"
   }
 }
+

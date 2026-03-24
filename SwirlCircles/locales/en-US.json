@@ -2,7 +2,7 @@
   "meta": {
     "name": "Swirl Circles",
     "description": "Two diametrically opposite circles orbit the center of the device and blend their glows with screen-mode compositing.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "color2": "Color 2"
   }
 }
+

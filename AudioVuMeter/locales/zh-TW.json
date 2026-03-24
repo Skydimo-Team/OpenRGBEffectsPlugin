@@ -2,7 +2,7 @@
   "meta": {
     "name": "音訊 VU 表",
     "description": "依目前音訊音量比例填充 LED，並可自訂色相範圍與飽和度。",
-    "category": "音訊"
+    "category": "音樂"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "useAlbumArt": "專輯封面顏色"
   }
 }
+

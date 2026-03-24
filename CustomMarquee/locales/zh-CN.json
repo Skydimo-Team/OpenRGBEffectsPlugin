@@ -2,7 +2,7 @@
   "meta": {
     "name": "自定义跑马灯",
     "description": "循环滚动用户自定义颜色段的跑马灯效果。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "颜色列表"
   }
 }
+

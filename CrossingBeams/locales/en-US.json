@@ -2,7 +2,7 @@
   "meta": {
     "name": "Crossing Beams",
     "description": "Two light beams that sweep across the device independently—one horizontally and one vertically.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "colors": "Beam Colors"
   }
 }
+

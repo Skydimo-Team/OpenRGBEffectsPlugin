@@ -2,7 +2,7 @@
   "meta": {
     "name": "彗星",
     "description": "帶有指數衰減尾跡的彗星掃過 LED，支援彩虹或自訂顏色。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     }
   }
 }
+

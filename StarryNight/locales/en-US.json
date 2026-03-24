@@ -2,7 +2,7 @@
   "meta": {
     "name": "Starry Night",
     "description": "Random LEDs light up as stars—each fading in, holding, then fading out—against a background of adjustable brightness.",
-    "category": "Sparkle"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "star_on_time": "Star On Time"
   }
 }
+

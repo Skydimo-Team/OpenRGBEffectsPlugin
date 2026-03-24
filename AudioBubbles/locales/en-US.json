@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Bubbles",
     "description": "Bubble rings that expand outward from spawn points, triggered by audio volume, rendered with gradient colors.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -41,3 +41,4 @@
     "smoothness": "Smoothness"
   }
 }
+

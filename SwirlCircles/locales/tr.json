@@ -2,7 +2,7 @@
   "meta": {
     "name": "Girdap Daireler",
     "description": "Birbirine tam zıt iki daire, cihazın merkezinin etrafında döner ve parıltılarını ekran modu birleştirmesiyle harmanlar.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "color2": "Renk 2"
   }
 }
+

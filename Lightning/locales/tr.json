@@ -2,7 +2,7 @@
   "meta": {
     "name": "Yıldırım",
     "description": "Hızla sönümlenen parlak flaşları rastgele tetikler; tam şerit veya LED başına modunda yıldırımı taklit eder.",
-    "category": "Parıltı"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -20,3 +20,4 @@
     }
   }
 }
+

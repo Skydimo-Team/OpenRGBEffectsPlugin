@@ -2,7 +2,7 @@
   "meta": {
     "name": "Visor",
     "description": "A visor-shaped light head sweeps back and forth, blending between two colors in transit and swapping which color leads on each reversal.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "Colors"
   }
 }
+

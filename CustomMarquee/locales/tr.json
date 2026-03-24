@@ -2,7 +2,7 @@
   "meta": {
     "name": "Özel Marquee",
     "description": "Yapılandırılabilir parça uzunluklarında kullanıcı tanımlı renkler arasında döngü yapan kaydırmalı bir marquee.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "Renkler"
   }
 }
+

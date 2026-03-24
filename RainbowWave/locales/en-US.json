@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rainbow Wave",
     "description": "A full rainbow spectrum that slides continuously across the LEDs at a configurable speed and frequency.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "frequency": "Frequency"
   }
 }
+

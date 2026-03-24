@@ -2,7 +2,7 @@
   "meta": {
     "name": "雨滴",
     "description": "模擬隨機排列欄位中落下的雨滴，每個雨滴都有明亮的頭部與逐漸淡出的尾巴。",
-    "category": "閃爍"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "colors": "使用者顏色"
   }
 }
+

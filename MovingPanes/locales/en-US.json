@@ -2,7 +2,7 @@
   "meta": {
     "name": "Moving Panes",
     "description": "Divides the device into equally-sized color panes that slide in alternating directions, creating a synchronized symmetrical motion.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "Colors"
   }
 }
+

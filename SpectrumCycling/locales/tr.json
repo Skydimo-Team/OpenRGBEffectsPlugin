@@ -2,7 +2,7 @@
   "meta": {
     "name": "Spektrum Döngüsü",
     "description": "Tüm LED'ler tam renk tonları spektrumu boyunca birlikte döngü yapar ve tüm bölgede her zaman tekdüze, düz bir renk korunur.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "saturation": "Doygunluk"
   }
 }
+

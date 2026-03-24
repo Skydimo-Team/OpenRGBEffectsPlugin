@@ -2,7 +2,7 @@
   "meta": {
     "name": "Saat",
     "description": "Geçerli saati LED konumlarına eşler; saat, dakika ve saniye göstergelerini şerit üzerinde bağımsız olarak yakar.",
-    "category": "Yardımcı Araç"
+    "category": "Diğer"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "secondColor": "Saniye Rengi"
   }
 }
+

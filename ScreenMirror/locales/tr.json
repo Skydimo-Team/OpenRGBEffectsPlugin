@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ekran Yansıtma",
     "description": "Ekranı gerçek zamanlı olarak yakalar ve renkleri LED bölgelerine eşler; parlaklık, doygunluk, gamma ve siyah kenar algılama denetimleri içerir.",
-    "category": "Ortam"
+    "category": "Ekran Senkronu"
   },
   "params": {
     "groups": {
@@ -27,3 +27,4 @@
     "bbBlurRemoveCnt": "Bulanıklık Güvenlik Kenarı"
   }
 }
+

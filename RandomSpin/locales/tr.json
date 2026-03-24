@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rastgele Dönüş",
     "description": "LED’ler boyunca kayan iki renkli bir geçiş; rastgele hız ve yönde döner ve kısa süreliğine duraklar.",
-    "category": "Geçiş"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "Renkler"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Yığın",
     "description": "Hareket eden bir ışık başlığı, aygıtın üzerinde süzülerek bir uçtan başlayıp bölge dolana kadar düz bir renği biriktirir, ardından sıfırlanır.",
-    "category": "Geçiş"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "color": "Renk"
   }
 }
+

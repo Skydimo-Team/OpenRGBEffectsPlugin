@@ -2,7 +2,7 @@
   "meta": {
     "name": "随机跑马灯",
     "description": "每次循环均随机改变滚动方向、速度与段间距的跑马灯。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "颜色"
   }
 }
+

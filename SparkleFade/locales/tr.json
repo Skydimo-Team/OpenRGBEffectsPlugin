@@ -2,7 +2,7 @@
   "meta": {
     "name": "Parıltılı Solma",
     "description": "Tek bir renge yumuşakça geçer, ardından bölgede yayılan ve dağılan parıltılarla birlikte o rengi yavaşça söndürür.",
-    "category": "Parıltı"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "color": "Renk"
   }
 }
+

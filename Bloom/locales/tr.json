@@ -2,10 +2,11 @@
   "meta": {
     "name": "Bloom",
     "description": "Her bir LED, renk tonu spektrumu boyunca kendi rastgele hızında ilerler; böylece bölge genelinde bağımsız olarak açan renkler oluşturur.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "speed": "Hız",
     "saturation": "Doygunluk"
   }
 }
+

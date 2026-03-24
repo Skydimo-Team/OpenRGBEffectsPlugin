@@ -2,7 +2,7 @@
   "meta": {
     "name": "Gradyan Dalga",
     "description": "İki renkli bir gradyan, sinüzoidal hareket kullanarak LED'lerin üzerinde ileri geri süzülür.",
-    "category": "Gradyan"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "Gradyan Renkleri"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Gün Doğumu",
     "description": "Zaman içinde genişleyip parlaklığı artan dört aşamalı radyal bir gradyan; gün doğumu veya gün batımını simüle eder, döngü ya da tek seferlik çalıştırma seçenekleriyle.",
-    "category": "Yardımcı Araç"
+    "category": "Diğer"
   },
   "params": {
     "groups": {
@@ -20,3 +20,4 @@
     "colors": "Renkler"
   }
 }
+

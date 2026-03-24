@@ -2,7 +2,7 @@
   "meta": {
     "name": "Rainbow",
     "description": "Scrolls a full-spectrum color palette across all LEDs, with built-in palette presets or custom colors.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -21,4 +21,5 @@
     }
   }
 }
+
 

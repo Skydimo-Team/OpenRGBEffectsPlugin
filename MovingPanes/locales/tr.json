@@ -2,7 +2,7 @@
   "meta": {
     "name": "Hareketli Paneller",
     "description": "Cihazı eşit boyutlu renk panellerine böler; bu paneller dönüşümlü yönlerde kayarak senkronize ve simetrik bir hareket oluşturur.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "Renkler"
   }
 }
+

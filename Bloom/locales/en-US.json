@@ -2,10 +2,11 @@
   "meta": {
     "name": "Bloom",
     "description": "Each LED advances through the hue spectrum at its own randomized pace, creating independently blooming colors across the zone.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "speed": "Speed",
     "saturation": "Saturation"
   }
 }
+

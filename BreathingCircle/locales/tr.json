@@ -2,7 +2,7 @@
   "meta": {
     "name": "Nefes Alan Daire",
     "description": "Nefes ritmini taklit ederek yumuşakça genişleyip daralan dairesel bir halka.",
-    "category": "Nefes Alma"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "Renk"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Hareketli Nokta",
     "description": "Tek bir parlak nokta, yapılandırılabilir bir arka plan rengi üzerinde LED'ler boyunca ileri geri salınır.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "background": "Arka Plan Rengi"
   }
 }
+

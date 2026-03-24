@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Visualizer",
     "description": "Renders a real-time audio equalizer on the device with multiple foreground and background color patterns.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "bg_mode": "Background Mode",
@@ -66,3 +66,4 @@
     }
   }
 }
+

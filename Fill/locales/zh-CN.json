@@ -2,7 +2,7 @@
   "meta": {
     "name": "填充",
     "description": "从一端以纯色逐步填满设备，填满后整个区域淡出，然后循环重复。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "颜色"
   }
 }
+

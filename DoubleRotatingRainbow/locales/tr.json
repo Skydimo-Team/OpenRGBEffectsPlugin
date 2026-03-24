@@ -2,7 +2,7 @@
   "meta": {
     "name": "Çift Dönen Gökkuşağı",
     "description": "Aygıtın merkezi etrafında senkron şekilde dönen, birbirine zıt iki gökkuşağı yayı.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "frequency": "Frekans"
   }
 }
+

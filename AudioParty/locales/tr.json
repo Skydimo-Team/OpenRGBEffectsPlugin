@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Party",
     "description": "Ses spektrumunu üç bölgeye ayırır: düşük frekanslar dalga kaymasını yönetir, orta frekanslar tonu değiştirir ve yüksek frekanslar rastgele flaş efektlerini tetikler.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     "useAlbumArt": "Albüm Kapağı Renkleri"
   }
 }
+

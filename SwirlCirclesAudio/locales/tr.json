@@ -2,7 +2,7 @@
   "meta": {
     "name": "Girdap Halka Ses",
     "description": "Parlaklık yarıçapı ve yoğunluğu, genel ses seviyesine gerçek zamanlı olarak tepki veren iki yörüngesel halka.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -25,3 +25,4 @@
     "color2": "Renk 2"
   }
 }
+

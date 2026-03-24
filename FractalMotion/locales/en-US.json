@@ -2,7 +2,7 @@
   "meta": {
     "name": "Fractal Motion",
     "description": "A composite sine wave built from up to 12 layered frequency modulators, scrolling across the LEDs with adjustable amplitude and background falloff.",
-    "category": "Gradient"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -32,3 +32,4 @@
     "color": "Color"
   }
 }
+

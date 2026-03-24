@@ -2,7 +2,7 @@
   "meta": {
     "name": "Renk Çarkı",
     "description": "Yapılandırılabilir bir merkez noktasından yayılan, dönen tam spektrumlu bir renk çarkı oluşturur.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     }
   }
 }
+

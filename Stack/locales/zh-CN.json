@@ -2,7 +2,7 @@
   "meta": {
     "name": "堆叠",
     "description": "移动光头扫过设备，从一端逐步堆叠纯色至区域填满，然后重置。",
-    "category": "过渡"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "color": "颜色"
   }
 }
+

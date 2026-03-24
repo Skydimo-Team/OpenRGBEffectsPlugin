@@ -2,7 +2,7 @@
   "meta": {
     "name": "漩涡圆环",
     "description": "两个对称圆环绕设备中心轨道运行，以滤色合成方式叠加各自的辉光。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "color2": "颜色 2"
   }
 }
+

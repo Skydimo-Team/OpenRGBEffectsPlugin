@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Sine",
     "description": "A scrolling sine wave whose amplitude is shaped by the audio spectrum, with adjustable glow, thickness, and color modes.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -27,3 +27,4 @@
     "waveColor": "Wave Color"
   }
 }
+

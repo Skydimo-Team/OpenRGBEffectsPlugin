@@ -2,7 +2,7 @@
   "meta": {
     "name": "音频同步",
     "description": "实时追踪主频率并转换为色调，以五种滚动模式之一将颜色铺展至设备。",
-    "category": "音频"
+    "category": "音乐"
   },
   "params": {
     "groups": {
@@ -34,3 +34,4 @@
     "edgeBeatSensitivity": "边缘灵敏度"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Spectrum Cycling",
     "description": "All LEDs cycle together through the full hue spectrum, maintaining a uniform solid color across the entire zone at all times.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "saturation": "Saturation"
   }
 }
+

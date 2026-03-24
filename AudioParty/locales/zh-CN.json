@@ -2,7 +2,7 @@
   "meta": {
     "name": "音频派对",
     "description": "将频谱分为三段：低频驱动波形位移，中频变换色调，高频触发随机闪光特效。",
-    "category": "音频"
+    "category": "音乐"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     "useAlbumArt": "专辑封面着色"
   }
 }
+

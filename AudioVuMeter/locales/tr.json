@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses VU Göstergesi",
     "description": "LED'leri geçerli ses düzeyine orantılı olarak doldurur; yapılandırılabilir bir renk tonu aralığı ve doygunluk sunar.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "useAlbumArt": "Albüm Kapağı Renkleri"
   }
 }
+

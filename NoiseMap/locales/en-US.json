@@ -2,7 +2,7 @@
   "meta": {
     "name": "Noise Map",
     "description": "An animated simplex noise field with configurable frequency, amplitude, and octaves, rendered in rainbow or custom gradient colors.",
-    "category": "Gradient"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -40,3 +40,4 @@
     }
   }
 }
+

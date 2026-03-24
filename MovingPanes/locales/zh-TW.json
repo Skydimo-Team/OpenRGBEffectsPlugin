@@ -2,7 +2,7 @@
   "meta": {
     "name": "移動窗格",
     "description": "將裝置劃分為等大小的色塊，並以交錯方向滑動，營造同步對稱的動態效果。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "顏色"
   }
 }
+

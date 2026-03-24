@@ -2,7 +2,7 @@
   "meta": {
     "name": "星夜",
     "description": "隨機 LED 會像星星般亮起——各自先淡入、停留片刻，再淡出——映襯在可調亮度的背景之上。",
-    "category": "閃爍"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "star_on_time": "星星亮起時間"
   }
 }
+

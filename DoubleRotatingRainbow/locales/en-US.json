@@ -2,7 +2,7 @@
   "meta": {
     "name": "Double Rotating Rainbow",
     "description": "Two diametrically opposite rainbow arcs rotating in sync around the center of the device.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "frequency": "Frequency"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Dairesel Gökkuşağı",
     "description": "Merkez noktadan dışa doğru yayılan eş merkezli gökkuşağı halkaları veya kareler, tünel benzeri bir derinlik efekti oluşturur.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     }
   }
 }
+

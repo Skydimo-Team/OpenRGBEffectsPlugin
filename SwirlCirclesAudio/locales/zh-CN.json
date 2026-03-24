@@ -2,7 +2,7 @@
   "meta": {
     "name": "音频漩涡圆环",
     "description": "两个轨道旋转的圆环，辉光半径与强度实时响应整体音量变化。",
-    "category": "音频"
+    "category": "音乐"
   },
   "params": {
     "groups": {
@@ -25,3 +25,4 @@
     "color2": "颜色 2"
   }
 }
+

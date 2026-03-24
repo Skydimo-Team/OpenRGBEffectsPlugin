@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Party",
     "description": "Splits the audio spectrum into three zones: low frequencies drive wave displacement, mid frequencies shift the hue, and high frequencies trigger random flash effects.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     "useAlbumArt": "Album Art Colors"
   }
 }
+

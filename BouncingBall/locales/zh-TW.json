@@ -2,7 +2,7 @@
   "meta": {
     "name": "彈跳球",
     "description": "模擬受物理重力與水平速度影響的小球在 LED 矩陣上彈跳。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -17,3 +17,4 @@
     "dropHeight": "下落高度 %"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "呼吸圓環",
     "description": "一個圓形光環會平滑地擴張與收縮，模擬呼吸節奏。",
-    "category": "呼吸"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "顏色"
   }
 }
+

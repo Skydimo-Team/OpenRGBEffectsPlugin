@@ -2,7 +2,7 @@
   "meta": {
     "name": "閃電",
     "description": "隨機觸發快速衰減的強光閃爍，模擬閃電效果，支援整條燈帶或逐 LED 模式。",
-    "category": "閃爍"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -20,3 +20,4 @@
     }
   }
 }
+

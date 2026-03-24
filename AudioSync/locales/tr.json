@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses Senkronu",
     "description": "Baskın ses frekansını gerçek zamanlı olarak izler, bunu bir ton değerine dönüştürür ve rengi beş döndürme modundan biriyle aygıta yayar.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -34,3 +34,4 @@
     "edgeBeatSensitivity": "Kenar Hassasiyeti"
   }
 }
+

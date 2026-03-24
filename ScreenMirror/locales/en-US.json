@@ -2,7 +2,7 @@
   "meta": {
     "name": "Screen Mirror",
     "description": "Captures the screen in real time and maps the colors to the LED zones, with brightness, saturation, gamma, and black-bar detection controls.",
-    "category": "Ambient"
+    "category": "Screen Sync"
   },
   "params": {
     "groups": {
@@ -27,4 +27,5 @@
     "bbBlurRemoveCnt": "Blur Safety Border"
   }
 }
+
 

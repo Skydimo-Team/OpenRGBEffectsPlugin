@@ -2,7 +2,7 @@
   "meta": {
     "name": "Dalgalı",
     "description": "LED'ler boyunca aynı anda kayarak genliği dalgalanan iki renkli bir sinüs dalgası; akışkan bir dalga hareketi oluşturur.",
-    "category": "Degrade"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "colors": "Dalga Renkleri"
   }
 }
+

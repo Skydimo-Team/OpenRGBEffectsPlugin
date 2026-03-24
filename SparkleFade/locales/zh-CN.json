@@ -2,7 +2,7 @@
   "meta": {
     "name": "闪烁消散",
     "description": "整个区域淡入纯色后，以扩散消散的闪烁效果逐渐淡出。",
-    "category": "闪烁"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "color": "颜色"
   }
 }
+

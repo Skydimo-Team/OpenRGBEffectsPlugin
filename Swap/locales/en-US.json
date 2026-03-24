@@ -2,7 +2,7 @@
   "meta": {
     "name": "Swap",
     "description": "A boundary sweeps left to right, swapping between two colors on each pass.",
-    "category": "Transition"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "Colors"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Sequence",
     "description": "Cycles through a list of colors, holding each one for a set interval with a smooth fade transition between them.",
-    "category": "Transition"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "Colors"
   }
 }
+

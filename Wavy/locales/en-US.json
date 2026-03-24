@@ -2,7 +2,7 @@
   "meta": {
     "name": "Wavy",
     "description": "A two-color sine wave that simultaneously scrolls across the LEDs and oscillates in amplitude, creating fluid wave motion.",
-    "category": "Gradient"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "colors": "Wave Colors"
   }
 }
+

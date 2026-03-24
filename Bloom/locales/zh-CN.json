@@ -2,10 +2,11 @@
   "meta": {
     "name": "绽放",
     "description": "每颗 LED 以独立的随机速度在色相谱上连续前进，在整个区域形成各自绽放的颜色效果。",
-    "category": "光谱"
+    "category": "幻彩"
   },
   "params": {
     "speed": "速度",
     "saturation": "饱和度"
   }
 }
+

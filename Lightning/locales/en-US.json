@@ -2,7 +2,7 @@
   "meta": {
     "name": "Lightning",
     "description": "Randomly triggers bright flashes that quickly decay, simulating lightning in whole-strip or per-LED mode.",
-    "category": "Sparkle"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -20,3 +20,4 @@
     }
   }
 }
+

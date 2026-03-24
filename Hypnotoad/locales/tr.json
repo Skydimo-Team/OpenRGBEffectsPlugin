@@ -2,7 +2,7 @@
   "meta": {
     "name": "Hypnotoad",
     "description": "Gökkuşağı ya da özel renklerde eş merkezli dönen halkalar—bundan kaçamazsınız.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -35,3 +35,4 @@
     }
   }
 }
+

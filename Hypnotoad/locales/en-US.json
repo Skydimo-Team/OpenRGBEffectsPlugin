@@ -2,7 +2,7 @@
   "meta": {
     "name": "Hypnotoad",
     "description": "Concentric rotating rings in rainbow or custom colors—you won't escape this.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -35,3 +35,4 @@
     }
   }
 }
+

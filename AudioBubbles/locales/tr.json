@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses Baloncukları",
     "description": "Ses seviyesine göre tetiklenen, çıkış noktalarından dışa doğru genişleyen ve gradyan renklerle çizilen baloncuk halkaları.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -41,3 +41,4 @@
     "smoothness": "Yumuşaklık"
   }
 }
+

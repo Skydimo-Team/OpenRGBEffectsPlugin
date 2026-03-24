@@ -2,7 +2,7 @@
   "meta": {
     "name": "雙重旋轉彩虹",
     "description": "兩段直徑相對的彩虹弧線，圍繞裝置中心同步旋轉。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "frequency": "頻率"
   }
 }
+

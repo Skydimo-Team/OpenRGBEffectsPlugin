@@ -2,7 +2,7 @@
   "meta": {
     "name": "Custom Marquee",
     "description": "A scrolling marquee that cycles through user-defined colors in configurable segment lengths.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "Colors"
   }
 }
+

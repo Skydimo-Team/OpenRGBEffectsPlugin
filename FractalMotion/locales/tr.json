@@ -2,7 +2,7 @@
   "meta": {
     "name": "Fractal Hareket",
     "description": "En fazla 12 katmanlı frekans modülatöründen oluşan bileşik bir sinüs dalgası; ayarlanabilir genlik ve arka plan sönümüyle LED'ler boyunca kayar.",
-    "category": "Degrade"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -32,3 +32,4 @@
     "color": "Renk"
   }
 }
+

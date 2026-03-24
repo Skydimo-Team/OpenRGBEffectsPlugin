@@ -2,7 +2,7 @@
   "meta": {
     "name": "彩虹",
     "description": "將完整光譜色盤在所有 LED 上捲動顯示，內建多種色盤預設或自訂色彩。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     }
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "呼吸",
     "description": "将整个区域在用户选择的颜色序列之间依次淡入淡出。",
-    "category": "呼吸"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "颜色列表"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Sunrise",
     "description": "A four-stop radial gradient that expands and brightens over time, simulating a sunrise or sunset, with loop or single-run options.",
-    "category": "Utility"
+    "category": "Other"
   },
   "params": {
     "groups": {
@@ -20,3 +20,4 @@
     "colors": "Colors"
   }
 }
+

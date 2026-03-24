@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses Görselleştirici",
     "description": "Aygıt üzerinde çoklu ön plan ve arka plan renk desenleriyle gerçek zamanlı bir ses ekolayzırı gösterir.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "bg_mode": "Arka Plan Modu",
@@ -66,3 +66,4 @@
     }
   }
 }
+

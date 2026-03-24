@@ -2,7 +2,7 @@
   "meta": {
     "name": "Sarmal",
     "description": "Kutup açısı ve radyal mesafeye göre dönen bir sarmal çizer; ayarlanabilir sıkılıkta, gökkuşağı veya tek renk modunu destekler.",
-    "category": "Spektrum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -24,3 +24,4 @@
     }
   }
 }
+

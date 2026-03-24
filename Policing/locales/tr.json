@@ -2,7 +2,7 @@
   "meta": {
     "name": "Polis Işığı",
     "description": "Bir ışık huzmesi ileri geri tarar; her geçişin sonunda yönünü değiştirmeden önce tüm bölgeyi bir kez yanıp söndürür.",
-    "category": "Solunum"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "Renk"
   }
 }
+

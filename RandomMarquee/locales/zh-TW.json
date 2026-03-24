@@ -2,7 +2,7 @@
   "meta": {
     "name": "隨機跑馬燈",
     "description": "一種會在每個循環隨機改變捲動方向、速度與區段間距的跑馬燈效果。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "顏色"
   }
 }
+

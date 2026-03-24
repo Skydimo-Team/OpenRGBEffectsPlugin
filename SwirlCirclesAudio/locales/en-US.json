@@ -2,7 +2,7 @@
   "meta": {
     "name": "Swirl Circles Audio",
     "description": "Two orbiting circles whose glow radius and intensity respond in real time to the overall audio volume.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -25,3 +25,4 @@
     "color2": "Color 2"
   }
 }
+

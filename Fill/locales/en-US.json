@@ -2,7 +2,7 @@
   "meta": {
     "name": "Fill",
     "description": "Progressively fills the device from one end with a solid color, then fades the entire zone out before repeating.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "Color"
   }
 }
+

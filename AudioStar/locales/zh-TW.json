@@ -2,7 +2,7 @@
   "meta": {
     "name": "音訊星芒",
     "description": "將各個音訊頻率區段對應到角度位置，呈現會隨音訊脈動的星形亮度圖樣。",
-    "category": "音訊"
+    "category": "音樂"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "edgeBeatSensitivity": "邊緣靈敏度"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "音频星光",
     "description": "将各音频频率映射到角度位置，渲染随音频脉动的星形亮度图案。",
-    "category": "音频"
+    "category": "音乐"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "edgeBeatSensitivity": "边缘灵敏度"
   }
 }
+

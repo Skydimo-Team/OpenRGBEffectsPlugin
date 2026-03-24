@@ -2,7 +2,7 @@
   "meta": {
     "name": "Mosaic",
     "description": "随机在设备上生成彩色色块，短暂点亮后逐渐消失。",
-    "category": "闪烁"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "colors": "色块颜色"
   }
 }
+

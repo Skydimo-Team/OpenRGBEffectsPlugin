@@ -2,7 +2,7 @@
   "meta": {
     "name": "屏幕同步",
     "description": "实时捕获屏幕并将颜色映射至 LED 区域，支持亮度、饱和度、Gamma 与黑边检测调节。",
-    "category": "环境光"
+    "category": "同屏"
   },
   "params": {
     "groups": {
@@ -27,4 +27,5 @@
     "bbBlurRemoveCnt": "模糊安全边界"
   }
 }
+
 

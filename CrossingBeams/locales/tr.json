@@ -2,7 +2,7 @@
   "meta": {
     "name": "Çapraz Işınlar",
     "description": "Biri yatay, diğeri dikey olmak üzere cihazın üzerinde bağımsızca süpürünen iki ışık demeti.",
-    "category": "Hareket"
+    "category": "Renkli"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     "colors": "Işın Renkleri"
   }
 }
+

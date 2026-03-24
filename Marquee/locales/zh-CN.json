@@ -2,7 +2,7 @@
   "meta": {
     "name": "跑马灯",
     "description": "单色滚动跑马灯，支持配置点亮段之间的 LED 间距。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "color": "颜色"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses Yıldızı",
     "description": "Her bir ses frekans bandını açısal bir konuma eşler ve sesle birlikte nabız gibi atan yıldız biçimli bir parlaklık deseni oluşturur.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "edgeBeatSensitivity": "Kenar Hassasiyeti"
   }
 }
+

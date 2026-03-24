@@ -2,7 +2,7 @@
   "meta": {
     "name": "序列",
     "description": "循环遍历颜色列表，每种颜色保持一段时间后以平滑渐变过渡到下一种。",
-    "category": "过渡"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "colors": "颜色"
   }
 }
+

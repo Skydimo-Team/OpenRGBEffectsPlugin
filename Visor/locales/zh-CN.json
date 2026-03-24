@@ -2,7 +2,7 @@
   "meta": {
     "name": "光束扫视",
     "description": "遮阳板状光头来回扫动，移动中在两色之间融合，每次换向时前后颜色互换。",
-    "category": "动态"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -15,3 +15,4 @@
     "colors": "颜色"
   }
 }
+

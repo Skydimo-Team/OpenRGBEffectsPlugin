@@ -2,7 +2,7 @@
   "meta": {
     "name": "星夜",
     "description": "随机 LED 点亮为星点，各自淡入后保持片刻再淡出，衬托于可调亮度的背景之上。",
-    "category": "闪烁"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "star_on_time": "星星持续时间"
   }
 }
+

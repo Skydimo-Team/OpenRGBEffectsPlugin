@@ -2,7 +2,7 @@
   "meta": {
     "name": "分形运动",
     "description": "由最多 12 层频率调制叠加的复合正弦波，沿 LED 滚动，支持振幅与背景衰减调节。",
-    "category": "渐变"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -32,3 +32,4 @@
     "color": "颜色"
   }
 }
+

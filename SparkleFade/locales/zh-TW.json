@@ -2,7 +2,7 @@
   "meta": {
     "name": "閃耀淡出",
     "description": "先淡入為純色，接著當閃光在區域內擴散並消散時，再逐漸淡出。",
-    "category": "閃耀"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "color": "顏色"
   }
 }
+

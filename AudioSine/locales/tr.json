@@ -2,7 +2,7 @@
   "meta": {
     "name": "Ses Sinüsü",
     "description": "Genliği ses spektrumuna göre şekillenen, ayarlanabilir parlama, kalınlık ve renk modlarına sahip kaydırmalı bir sinüs dalgası.",
-    "category": "Ses"
+    "category": "Müzik"
   },
   "params": {
     "groups": {
@@ -27,3 +27,4 @@
     "waveColor": "Dalga Rengi"
   }
 }
+

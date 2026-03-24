@@ -2,7 +2,7 @@
   "meta": {
     "name": "Mosaic",
     "description": "Randomly spawns colored tiles across the device that briefly light up then fade out.",
-    "category": "Sparkle"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -16,3 +16,4 @@
     "colors": "Tile Colors"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "Random Marquee",
     "description": "A scrolling marquee that randomly changes its direction, speed, and segment spacing on each cycle.",
-    "category": "Motion"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "Color"
   }
 }
+

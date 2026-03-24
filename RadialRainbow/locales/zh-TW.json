@@ -2,7 +2,7 @@
   "meta": {
     "name": "徑向彩虹",
     "description": "同心彩虹圓環或方塊從中心點向外放射，營造出隧道般的深度效果。",
-    "category": "光譜"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -21,3 +21,4 @@
     }
   }
 }
+

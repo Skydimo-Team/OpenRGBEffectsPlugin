@@ -2,7 +2,7 @@
   "meta": {
     "name": "螢幕鏡像",
     "description": "即時擷取螢幕畫面，並將色彩映射至 LED 區域，提供亮度、飽和度、Gamma 與黑邊偵測控制。",
-    "category": "環境光"
+    "category": "同屏"
   },
   "params": {
     "groups": {
@@ -27,3 +27,4 @@
     "bbBlurRemoveCnt": "模糊安全邊界"
   }
 }
+

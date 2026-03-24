@@ -2,7 +2,7 @@
   "meta": {
     "name": "填滿",
     "description": "以純色從一端逐步填滿裝置，接著將整個區域淡出後重複播放。",
-    "category": "動態"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -14,3 +14,4 @@
     "color": "顏色"
   }
 }
+

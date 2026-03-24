@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Sync",
     "description": "Tracks the dominant audio frequency in real time, converts it to a hue, and spreads the color across the device in one of five roll modes.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -34,3 +34,4 @@
     "edgeBeatSensitivity": "Edge Sensitivity"
   }
 }
+

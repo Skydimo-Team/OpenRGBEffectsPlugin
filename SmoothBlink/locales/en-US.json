@@ -2,7 +2,7 @@
   "meta": {
     "name": "Smooth Blink",
     "description": "Generates a breathing pulse sequence with configurable pulse count, duration, and interval, in solid-fill or radial circle mode.",
-    "category": "Breathing"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -26,3 +26,4 @@
     "color2": "Base Color"
   }
 }
+

@@ -2,7 +2,7 @@
   "meta": {
     "name": "随机旋转",
     "description": "双色渐变沿 LED 滚动，随机在不同速度与方向的旋转和短暂停顿之间切换。",
-    "category": "过渡"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "colors": "颜色"
   }
 }
+

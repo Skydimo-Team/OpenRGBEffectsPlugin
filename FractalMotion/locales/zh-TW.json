@@ -2,7 +2,7 @@
   "meta": {
     "name": "分形運動",
     "description": "由最多 12 層頻率調變器疊加而成的複合正弦波，沿著 LED 捲動，並可調整振幅與背景衰減。",
-    "category": "漸層"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -32,3 +32,4 @@
     "color": "顏色"
   }
 }
+

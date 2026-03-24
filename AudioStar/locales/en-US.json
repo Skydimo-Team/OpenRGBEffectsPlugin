@@ -2,7 +2,7 @@
   "meta": {
     "name": "Audio Star",
     "description": "Maps each audio frequency bin to an angular position, rendering a star-shaped brightness pattern that pulses with the audio.",
-    "category": "Audio"
+    "category": "Music"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     "edgeBeatSensitivity": "Edge Sensitivity"
   }
 }
+

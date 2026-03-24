@@ -2,7 +2,7 @@
   "meta": {
     "name": "Color Wheel",
     "description": "Renders a rotating full-spectrum color wheel radiating from a configurable center point.",
-    "category": "Spectrum"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -19,3 +19,4 @@
     }
   }
 }
+

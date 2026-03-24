@@ -2,7 +2,7 @@
   "meta": {
     "name": "ZigZag",
     "description": "Traces a snake path column by column through the LED matrix, with a cubic brightness falloff tail in rainbow or custom color.",
-    "category": "Transition"
+    "category": "Colorful"
   },
   "params": {
     "groups": {
@@ -18,3 +18,4 @@
     }
   }
 }
+

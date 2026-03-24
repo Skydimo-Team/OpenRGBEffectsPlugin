@@ -2,7 +2,7 @@
   "meta": {
     "name": "光谱循环",
     "description": "所有 LED 同步循环遍历完整色相谱，始终以整体纯色呈现。",
-    "category": "光谱"
+    "category": "幻彩"
   },
   "params": {
     "groups": {
@@ -13,3 +13,4 @@
     "saturation": "饱和度"
   }
 }
+
