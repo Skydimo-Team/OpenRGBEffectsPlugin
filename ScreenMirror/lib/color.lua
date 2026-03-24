@@ -17,6 +17,30 @@ local function round(x)
   return math.ceil(x - 0.5)
 end
 
+local function smooth_channel(prev, target, factor)
+  if prev == target then
+    return target
+  end
+
+  local value = prev + (target - prev) * factor
+  local rounded = clamp255(round(value))
+  local prev_rounded = clamp255(round(prev))
+
+  if rounded == prev_rounded then
+    if target > prev then
+      rounded = math.min(255, rounded + 1)
+    else
+      rounded = math.max(0, rounded - 1)
+    end
+  end
+
+  if math.abs(target - rounded) <= 0.5 then
+    return target
+  end
+
+  return rounded
+end
+
 function M.unpack_rgb(packed)
   packed = packed or 0
   local r = math.floor(packed / 65536) % 256
@@ -80,9 +104,9 @@ function M.smooth(prev_packed, target_packed, smoothness)
   local tr, tg, tb = M.unpack_rgb(target_packed)
   local factor = (100.0 - smoothness) / 100.0
 
-  local r = pr + (tr - pr) * factor
-  local g = pg + (tg - pg) * factor
-  local b = pb + (tb - pb) * factor
+  local r = smooth_channel(pr, tr, factor)
+  local g = smooth_channel(pg, tg, factor)
+  local b = smooth_channel(pb, tb, factor)
   return M.pack_rgb(r, g, b)
 end
 

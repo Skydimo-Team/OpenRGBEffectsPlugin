@@ -49,6 +49,10 @@ function plugin.on_tick(t, buffer, width, height)
   end
 
   if not screen or type(screen.capture) ~= "function" then
+    state.previous_buffer = {}
+    if state.border_processor and type(state.border_processor.reset_state) == "function" then
+      state.border_processor:reset_state()
+    end
     renderer.fill_black(buffer)
     return
   end
@@ -61,6 +65,10 @@ function plugin.on_tick(t, buffer, width, height)
 
   local frame = screen.capture(cap_w, cap_h)
   if not frame then
+    state.previous_buffer = {}
+    if state.border_processor and type(state.border_processor.reset_state) == "function" then
+      state.border_processor:reset_state()
+    end
     renderer.fill_black(buffer)
     return
   end
