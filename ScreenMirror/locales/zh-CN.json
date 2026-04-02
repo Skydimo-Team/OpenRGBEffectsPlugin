@@ -13,6 +13,7 @@
     "brightness": "亮度增益",
     "saturation": "饱和度增益",
     "gamma": "Gamma 校正",
+    "colorTemperature": "色温 (K)",
     "blur": "模糊程度",
     "autoCrop": "黑边裁剪",
     "bbThreshold": "判定阈值 (%)",

@@ -53,6 +53,16 @@
       "max": 4
     },
     {
+      "key": "colorTemperature",
+      "label": "params.colorTemperature",
+      "group": "params.groups.image",
+      "kind": "slider",
+      "default": 6500,
+      "min": 2000,
+      "max": 10000,
+      "step": 100
+    },
+    {
       "key": "blur",
       "label": "params.blur",
       "group": "params.groups.image",

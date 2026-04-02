@@ -13,6 +13,7 @@
     "brightness": "Brightness Gain",
     "saturation": "Saturation Gain",
     "gamma": "Gamma",
+    "colorTemperature": "Color Temperature (K)",
     "blur": "Blur",
     "autoCrop": "Black Bar Crop",
     "bbThreshold": "Threshold (%)",

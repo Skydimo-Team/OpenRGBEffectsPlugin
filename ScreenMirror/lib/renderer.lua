@@ -40,6 +40,9 @@ function M.apply_params(cfg, p)
   if type(p.gamma) == "number" then
     cfg.gamma = clamp(p.gamma, 0.1, 4.0)
   end
+  if type(p.colorTemperature) == "number" then
+    cfg.colorTemperature = round(clamp(p.colorTemperature, 2000, 10000))
+  end
   if type(p.blur) == "number" then
     cfg.blur = clamp(p.blur, 0, 50)
   end
@@ -199,7 +202,7 @@ local function apply_gaussian_blur(layout_w, layout_h, colors, radius)
   return blur_vertical(width, height, horiz, weights, radius)
 end
 
-local function sample(frame, ratio_x, ratio_y, crop, cfg)
+local function sample(frame, ratio_x, ratio_y, crop, cfg, temp_r, temp_g, temp_b)
   local fw = frame.width or 1
   local fh = frame.height or 1
   if fw <= 0 then
@@ -238,6 +241,7 @@ local function sample(frame, ratio_x, ratio_y, crop, cfg)
   local r, g, b = color.unpack_rgb(packed)
 
   r, g, b = color.apply_saturation(r, g, b, cfg.saturation)
+  r, g, b = color.apply_color_temperature(r, g, b, temp_r, temp_g, temp_b)
   r, g, b = color.apply_brightness(r, g, b, cfg.brightness)
   r, g, b = color.apply_gamma(r, g, b, cfg.gamma)
 
@@ -274,6 +278,8 @@ function M.render(frame, buffer, width, height, state, cfg)
     bp:set_enabled(false)
   end
 
+  local temp_r, temp_g, temp_b = color.color_temperature_gains(cfg.colorTemperature)
+
   local colors = {}
   local i = 1
   for y = 0, height - 1 do
@@ -283,7 +289,7 @@ function M.render(frame, buffer, width, height, state, cfg)
         break
       end
       local rx = width == 1 and 0.5 or (x + 0.5) / width
-      local target = sample(frame, rx, ry, crop, cfg)
+      local target = sample(frame, rx, ry, crop, cfg, temp_r, temp_g, temp_b)
       local prev_packed = prev[i] or target
       local out = color.smooth(prev_packed, target, cfg.smoothness or 0)
       prev[i] = out

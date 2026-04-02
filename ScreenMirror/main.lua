@@ -8,6 +8,7 @@ local config = {
   brightness = 1.0,
   saturation = 1.0,
   gamma = 1.0,
+  colorTemperature = 6500,
   blur = 0,
   autoCrop = false,
   bbThreshold = 5,

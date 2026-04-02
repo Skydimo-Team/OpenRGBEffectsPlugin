@@ -13,6 +13,7 @@
     "brightness": "Parlaklık Kazancı",
     "saturation": "Doygunluk Kazancı",
     "gamma": "Gamma",
+    "colorTemperature": "Renk Sıcaklığı (K)",
     "blur": "Bulanıklık",
     "autoCrop": "Siyah Kenar Kırpma",
     "bbThreshold": "Eşik (%)",
