@@ -7,7 +7,8 @@
   "params": {
     "groups": {
       "appearance": "Görünüm",
-      "animation": "Animasyon"
+      "animation": "Animasyon",
+      "density": "Yoğunluk"
     },
     "background": "Arka Plan",
     "colors": "Baloncuk Renkleri",

@@ -38,22 +38,12 @@
       "group": "params.groups.appearance"
     },
     {
-      "key": "max_bubbles",
-      "label": "params.max_bubbles",
+      "key": "speed",
+      "label": "params.speed",
       "kind": "slider",
-      "default": 10,
+      "default": 1,
       "min": 1,
-      "max": 20,
-      "step": 1,
-      "group": "params.groups.animation"
-    },
-    {
-      "key": "rarity",
-      "label": "params.rarity",
-      "kind": "slider",
-      "default": 50,
-      "min": 1,
-      "max": 1000,
+      "max": 100,
       "step": 1,
       "group": "params.groups.animation"
     },
@@ -78,14 +68,25 @@
       "group": "params.groups.animation"
     },
     {
-      "key": "speed",
-      "label": "params.speed",
+      "key": "max_bubbles",
+      "label": "params.max_bubbles",
       "kind": "slider",
-      "default": 1,
+      "default": 10,
       "min": 1,
-      "max": 100,
+      "max": 20,
       "step": 1,
-      "group": "params.groups.animation"
+      "group": "params.groups.density",
+      "groupCollapsed": true
+    },
+    {
+      "key": "rarity",
+      "label": "params.rarity",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 1000,
+      "step": 1,
+      "group": "params.groups.density"
     }
   ]
 }

@@ -61,56 +61,6 @@
       "step": 1
     },
     {
-      "key": "frequency",
-      "label": "params.frequency",
-      "group": "params.groups.noise",
-      "kind": "slider",
-      "default": 0.12,
-      "min": 0.0001,
-      "max": 0.5,
-      "step": 0.0001
-    },
-    {
-      "key": "amplitude",
-      "label": "params.amplitude",
-      "group": "params.groups.noise",
-      "kind": "slider",
-      "default": 3.9,
-      "min": 0.0001,
-      "max": 5,
-      "step": 0.0001
-    },
-    {
-      "key": "lacunarity",
-      "label": "params.lacunarity",
-      "group": "params.groups.noise",
-      "kind": "slider",
-      "default": 0.75,
-      "min": 0.0001,
-      "max": 5,
-      "step": 0.0001
-    },
-    {
-      "key": "persistence",
-      "label": "params.persistence",
-      "group": "params.groups.noise",
-      "kind": "slider",
-      "default": 0.5,
-      "min": 0.0001,
-      "max": 5,
-      "step": 0.0001
-    },
-    {
-      "key": "octaves",
-      "label": "params.octaves",
-      "group": "params.groups.noise",
-      "kind": "slider",
-      "default": 2,
-      "min": 1,
-      "max": 20,
-      "step": 1
-    },
-    {
       "key": "colors_choice",
       "label": "params.mode",
       "group": "params.groups.color",
@@ -178,6 +128,57 @@
         "equals": 2,
         "behavior": "hide"
       }
+    },
+    {
+      "key": "frequency",
+      "label": "params.frequency",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.12,
+      "min": 0.0001,
+      "max": 0.5,
+      "step": 0.0001,
+      "groupCollapsed": true
+    },
+    {
+      "key": "amplitude",
+      "label": "params.amplitude",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 3.9,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "lacunarity",
+      "label": "params.lacunarity",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.75,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "persistence",
+      "label": "params.persistence",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 0.5,
+      "min": 0.0001,
+      "max": 5,
+      "step": 0.0001
+    },
+    {
+      "key": "octaves",
+      "label": "params.octaves",
+      "group": "params.groups.noise",
+      "kind": "slider",
+      "default": 2,
+      "min": 1,
+      "max": 20,
+      "step": 1
     }
   ]
 }

@@ -69,7 +69,8 @@
       "kind": "slider",
       "default": 8,
       "min": 1,
-      "max": 16
+      "max": 16,
+      "groupCollapsed": true
     },
     {
       "key": "colorMode",

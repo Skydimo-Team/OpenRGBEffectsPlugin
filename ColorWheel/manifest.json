@@ -26,6 +26,23 @@
       "step": 1
     },
     {
+      "key": "direction",
+      "label": "params.direction",
+      "group": "params.groups.animation",
+      "kind": "select",
+      "default": 0,
+      "options": [
+        {
+          "label": "params.directionOptions.clockwise",
+          "value": 0
+        },
+        {
+          "label": "params.directionOptions.counterClockwise",
+          "value": 1
+        }
+      ]
+    },
+    {
       "key": "cx",
       "label": "params.cx",
       "group": "params.groups.center",
@@ -44,23 +61,6 @@
       "min": 0,
       "max": 100,
       "step": 1
-    },
-    {
-      "key": "direction",
-      "label": "params.direction",
-      "group": "params.groups.animation",
-      "kind": "select",
-      "default": 0,
-      "options": [
-        {
-          "label": "params.directionOptions.clockwise",
-          "value": 0
-        },
-        {
-          "label": "params.directionOptions.counterClockwise",
-          "value": 1
-        }
-      ]
     }
   ]
 }

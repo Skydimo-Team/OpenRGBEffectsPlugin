@@ -25,6 +25,31 @@
       "max": 200,
       "step": 1
     },
+      {
+        "key": "direction",
+        "label": "params.direction",
+        "group": "params.groups.animation",
+        "kind": "select",
+        "default": 0,
+        "options": [
+          {
+            "label": "params.directionOptions.horizontal",
+            "value": 0
+          },
+          {
+            "label": "params.directionOptions.vertical",
+            "value": 1
+          },
+          {
+            "label": "params.directionOptions.radialOut",
+            "value": 2
+          },
+          {
+            "label": "params.directionOptions.radialIn",
+            "value": 3
+          }
+        ]
+      },
     {
       "key": "preset",
       "label": "params.preset",
@@ -109,31 +134,6 @@
       }
     },
     {
-      "key": "direction",
-      "label": "params.direction",
-      "group": "params.groups.geometry",
-      "kind": "select",
-      "default": 0,
-      "options": [
-        {
-          "label": "params.directionOptions.horizontal",
-          "value": 0
-        },
-        {
-          "label": "params.directionOptions.vertical",
-          "value": 1
-        },
-        {
-          "label": "params.directionOptions.radialOut",
-          "value": 2
-        },
-        {
-          "label": "params.directionOptions.radialIn",
-          "value": 3
-        }
-      ]
-    },
-    {
       "key": "height",
       "label": "params.height",
       "group": "params.groups.geometry",
@@ -141,7 +141,8 @@
       "default": 50,
       "min": 0,
       "max": 100,
-      "step": 1
+      "step": 1,
+      "groupCollapsed": true
     },
     {
       "key": "width",

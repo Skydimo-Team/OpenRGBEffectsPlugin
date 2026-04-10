@@ -57,6 +57,13 @@
       ]
     },
     {
+      "key": "useAlbumArt",
+      "label": "params.useAlbumArt",
+      "group": "params.groups.color",
+      "kind": "toggle",
+      "default": false
+    },
+    {
       "key": "rollMode",
       "label": "params.rollMode",
       "group": "params.groups.display",
@@ -86,34 +93,6 @@
       ]
     },
     {
-      "key": "avgSize",
-      "label": "params.smoothness",
-      "group": "params.groups.response",
-      "kind": "slider",
-      "default": 8,
-      "min": 1,
-      "max": 16
-    },
-    {
-      "key": "bandpassRange",
-      "label": "params.bandpassRange",
-      "group": "params.groups.response",
-      "kind": "range-slider",
-      "default": [
-        0,
-        255
-      ],
-      "min": 0,
-      "max": 255
-    },
-    {
-      "key": "useAlbumArt",
-      "label": "params.useAlbumArt",
-      "group": "params.groups.color",
-      "kind": "toggle",
-      "default": false
-    },
-    {
       "key": "silentColor",
       "label": "params.silentColor",
       "group": "params.groups.display",
@@ -133,11 +112,34 @@
       }
     },
     {
+      "key": "avgSize",
+      "label": "params.smoothness",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 8,
+      "min": 1,
+      "max": 16,
+      "groupCollapsed": true
+    },
+    {
+      "key": "bandpassRange",
+      "label": "params.bandpassRange",
+      "group": "params.groups.response",
+      "kind": "range-slider",
+      "default": [
+        0,
+        255
+      ],
+      "min": 0,
+      "max": 255
+    },
+    {
       "key": "edgeBeat",
       "label": "params.edgeBeat",
       "group": "params.groups.edgeBeat",
       "kind": "toggle",
-      "default": false
+      "default": false,
+      "groupCollapsed": true
     },
     {
       "key": "edgeBeatHue",

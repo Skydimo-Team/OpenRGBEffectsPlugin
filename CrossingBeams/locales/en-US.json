@@ -8,7 +8,9 @@
     "groups": {
       "animation": "Animation",
       "appearance": "Appearance",
-      "color": "Color"
+      "color": "Color",
+      "axisMotion": "Axis Motion",
+      "glowTuning": "Glow Tuning"
     },
     "speed": "Speed",
     "h_speed": "Horizontal Speed",

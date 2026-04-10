@@ -7,7 +7,8 @@
   "params": {
     "groups": {
       "appearance": "Внешний вид",
-      "animation": "Анимация"
+      "animation": "Анимация",
+      "density": "Плотность"
     },
     "background": "Фон",
     "colors": "Цвета пузырьков",

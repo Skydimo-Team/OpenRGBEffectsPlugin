@@ -7,6 +7,7 @@
   "params": {
     "groups": {
       "image": "Görüntü",
+      "processing": "Görüntü İşleme",
       "blackBars": "Siyah Kenar Algılama"
     },
     "smoothness": "Akıcılık",

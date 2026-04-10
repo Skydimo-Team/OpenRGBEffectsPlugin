@@ -7,6 +7,7 @@
   "params": {
     "groups": {
       "image": "影像",
+      "processing": "影像處理",
       "blackBars": "黑邊偵測"
     },
     "smoothness": "平滑度",

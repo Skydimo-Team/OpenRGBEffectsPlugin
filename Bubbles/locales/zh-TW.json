@@ -7,7 +7,8 @@
   "params": {
     "groups": {
       "appearance": "外觀",
-      "animation": "動畫"
+      "animation": "動畫",
+      "density": "密度"
     },
     "background": "背景",
     "colors": "泡泡顏色",

@@ -26,31 +26,32 @@
       "step": 1
     },
     {
-      "key": "glow",
-      "label": "params.glow",
-      "group": "params.groups.animation",
-      "kind": "slider",
-      "default": 50,
-      "min": 1,
-      "max": 100,
-      "step": 1
-    },
-    {
-      "key": "radius",
-      "label": "params.radius",
-      "group": "params.groups.animation",
-      "kind": "slider",
-      "default": 0,
-      "min": 0,
-      "max": 100,
-      "step": 1
-    },
-    {
       "key": "reverse",
       "label": "params.reverse",
       "group": "params.groups.animation",
       "kind": "toggle",
       "default": false
+    },
+    {
+      "key": "glow",
+      "label": "params.glow",
+      "group": "params.groups.appearance",
+      "kind": "slider",
+      "default": 50,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "groupCollapsed": true
+    },
+    {
+      "key": "radius",
+      "label": "params.radius",
+      "group": "params.groups.appearance",
+      "kind": "slider",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 1
     },
     {
       "key": "random",

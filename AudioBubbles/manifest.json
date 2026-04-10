@@ -117,16 +117,6 @@
       ]
     },
     {
-      "key": "trigger",
-      "label": "params.trigger",
-      "group": "params.groups.response",
-      "kind": "slider",
-      "default": 30,
-      "min": 1,
-      "max": 100,
-      "step": 1
-    },
-    {
       "key": "max_bubbles",
       "label": "params.max_bubbles",
       "group": "params.groups.bubbles",
@@ -165,6 +155,17 @@
       "min": 1,
       "max": 1000,
       "step": 1
+    },
+    {
+      "key": "trigger",
+      "label": "params.trigger",
+      "group": "params.groups.response",
+      "kind": "slider",
+      "default": 30,
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "groupCollapsed": true
     },
     {
       "key": "avgSize",

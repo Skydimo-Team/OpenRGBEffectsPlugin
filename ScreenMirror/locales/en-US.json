@@ -7,6 +7,7 @@
   "params": {
     "groups": {
       "image": "Image",
+      "processing": "Image Processing",
       "blackBars": "Black Bar Detection"
     },
     "smoothness": "Smoothness",

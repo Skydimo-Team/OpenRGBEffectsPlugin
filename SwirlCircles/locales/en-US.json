@@ -7,6 +7,7 @@
   "params": {
     "groups": {
       "animation": "Animation",
+      "appearance": "Appearance",
       "color": "Color"
     },
     "speed": "Speed",

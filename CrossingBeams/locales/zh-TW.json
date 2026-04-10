@@ -8,7 +8,9 @@
     "groups": {
       "animation": "動畫",
       "appearance": "外觀",
-      "color": "顏色"
+      "color": "顏色",
+      "axisMotion": "軸向運動",
+      "glowTuning": "光暈微調"
     },
     "speed": "速度",
     "h_speed": "水平速度",

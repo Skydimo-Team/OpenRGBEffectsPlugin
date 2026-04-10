@@ -8,7 +8,9 @@
     "groups": {
       "animation": "Animasyon",
       "appearance": "Görünüm",
-      "color": "Renk"
+      "color": "Renk",
+      "axisMotion": "Eksen Hareketi",
+      "glowTuning": "Parlama Ayarı"
     },
     "speed": "Hız",
     "h_speed": "Yatay Hız",

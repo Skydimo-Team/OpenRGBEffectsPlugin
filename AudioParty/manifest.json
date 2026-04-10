@@ -38,7 +38,7 @@
     {
       "key": "divisions",
       "label": "params.divisions",
-      "group": "params.groups.wave",
+      "group": "params.groups.motion",
       "kind": "slider",
       "default": 4,
       "min": 2,
@@ -52,7 +52,8 @@
       "kind": "slider",
       "default": 8,
       "min": 1,
-      "max": 16
+      "max": 16,
+      "groupCollapsed": true
     },
     {
       "key": "effectThreshold",
@@ -61,7 +62,8 @@
       "kind": "slider",
       "default": 20,
       "min": 5,
-      "max": 80
+      "max": 80,
+      "groupCollapsed": true
     },
     {
       "key": "motionZoneEnd",

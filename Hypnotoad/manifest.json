@@ -25,6 +25,33 @@
       "max": 100,
       "step": 1
     },
+      {
+        "key": "animation_speed",
+        "label": "params.animationSpeed",
+        "group": "params.groups.animation",
+        "kind": "slider",
+        "default": 10,
+        "min": 10,
+        "max": 99,
+        "step": 1
+      },
+      {
+        "key": "animation_direction",
+        "label": "params.animationDirection",
+        "group": "params.groups.animation",
+        "kind": "select",
+        "default": 0,
+        "options": [
+          {
+            "label": "params.animationDirectionOptions.inside",
+            "value": 0
+          },
+          {
+            "label": "params.animationDirectionOptions.outside",
+            "value": 1
+          }
+        ]
+      },
     {
       "key": "color_mode",
       "label": "params.colorMode",
@@ -81,33 +108,6 @@
         },
         {
           "label": "params.colorRotationDirectionOptions.counterClockwise",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "key": "animation_speed",
-      "label": "params.animationSpeed",
-      "group": "params.groups.animation",
-      "kind": "slider",
-      "default": 10,
-      "min": 10,
-      "max": 99,
-      "step": 1
-    },
-    {
-      "key": "animation_direction",
-      "label": "params.animationDirection",
-      "group": "params.groups.animation",
-      "kind": "select",
-      "default": 0,
-      "options": [
-        {
-          "label": "params.animationDirectionOptions.inside",
-          "value": 0
-        },
-        {
-          "label": "params.animationDirectionOptions.outside",
           "value": 1
         }
       ]

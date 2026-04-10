@@ -130,6 +130,16 @@
       ]
     },
     {
+      "key": "bg_brightness",
+      "label": "params.bg_brightness",
+      "group": "params.groups.background",
+      "kind": "slider",
+      "default": 100,
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
       "key": "fg_mode",
       "label": "params.fg_mode",
       "group": "params.groups.foreground",
@@ -304,16 +314,6 @@
       ]
     },
     {
-      "key": "bg_brightness",
-      "label": "params.bg_brightness",
-      "group": "params.groups.background",
-      "kind": "slider",
-      "default": 100,
-      "min": 0,
-      "max": 100,
-      "step": 1
-    },
-    {
       "key": "anim_speed",
       "label": "params.anim_speed",
       "group": "params.groups.animation",
@@ -324,28 +324,29 @@
       "step": 1
     },
     {
+      "key": "reactive_bg",
+      "label": "params.reactive_bg",
+      "group": "params.groups.audio",
+      "kind": "toggle",
+      "default": false,
+      "groupCollapsed": true
+    },
+    {
+      "key": "silent_bg",
+      "label": "params.silent_bg",
+      "group": "params.groups.audio",
+      "kind": "toggle",
+      "default": false
+    },
+    {
       "key": "bg_timeout",
       "label": "params.bg_timeout",
-      "group": "params.groups.background",
+      "group": "params.groups.audio",
       "kind": "slider",
       "default": 120,
       "min": 0,
       "max": 600,
       "step": 1
-    },
-    {
-      "key": "reactive_bg",
-      "label": "params.reactive_bg",
-      "group": "params.groups.background",
-      "kind": "toggle",
-      "default": false
-    },
-    {
-      "key": "silent_bg",
-      "label": "params.silent_bg",
-      "group": "params.groups.background",
-      "kind": "toggle",
-      "default": false
     },
     {
       "key": "avg_size",

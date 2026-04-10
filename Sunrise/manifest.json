@@ -25,6 +25,20 @@
       "max": 20,
       "step": 1
     },
+      {
+        "key": "run_once",
+        "label": "params.run_once",
+        "group": "params.groups.animation",
+        "kind": "toggle",
+        "default": false
+      },
+      {
+        "key": "motion",
+        "label": "params.motion",
+        "group": "params.groups.animation",
+        "kind": "toggle",
+        "default": false
+      },
     {
       "key": "intensity",
       "label": "params.intensity",
@@ -33,7 +47,7 @@
       "default": 80,
       "min": 1,
       "max": 99,
-      "step": 1
+        "step": 1
     },
     {
       "key": "intensity_speed",
@@ -64,20 +78,6 @@
       "min": 1,
       "max": 50,
       "step": 1
-    },
-    {
-      "key": "run_once",
-      "label": "params.run_once",
-      "group": "params.groups.animation",
-      "kind": "toggle",
-      "default": false
-    },
-    {
-      "key": "motion",
-      "label": "params.motion",
-      "group": "params.groups.animation",
-      "kind": "toggle",
-      "default": false
     },
     {
       "key": "colors",
