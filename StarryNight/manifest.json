@@ -33,6 +33,13 @@
       "group": "params.groups.appearance"
     },
     {
+      "key": "random",
+      "label": "params.random",
+      "kind": "toggle",
+      "default": false,
+      "group": "params.groups.appearance"
+    },
+    {
       "key": "colors",
       "label": "params.colors",
       "kind": "multi-color",
@@ -43,6 +50,11 @@
       ],
       "minCount": 1,
       "maxCount": 10,
+      "dependency": {
+        "key": "random",
+        "equals": false,
+        "behavior": "hide"
+      },
       "group": "params.groups.appearance"
     },
     {

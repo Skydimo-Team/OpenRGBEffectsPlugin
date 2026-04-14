@@ -11,6 +11,7 @@
     },
     "background": "Background Color",
     "bg_brightness": "Background Brightness",
+    "random": "Random Colors",
     "colors": "Star Colors",
     "density": "Star Density",
     "fade_in_speed": "Fade In Time",

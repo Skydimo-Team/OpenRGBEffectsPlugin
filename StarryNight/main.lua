@@ -33,6 +33,7 @@ local FADE_RANGE_SEL = 50.0  -- reference slider value for fade range
 ----------------------------------------------------------------------------
 local bg_r, bg_g, bg_b = 0, 0, 0
 local bg_brightness    = 50
+local random_enabled   = false
 local density          = 50
 local fade_in_speed    = 50
 local fade_out_speed   = 50
@@ -90,8 +91,11 @@ local function lerp_rgb(r1, g1, b1, r2, g2, b2, t)
            math_floor(b1 + (b2 - b1) * t + 0.5)
 end
 
---- Pick a random star color from the palette
+--- Pick a star color based on the current color mode
 local function pick_star_color()
+    if random_enabled then
+        return host.hsv_to_rgb(math_random() * 360.0, 1.0, 1.0)
+    end
     if #palette == 0 then return 255, 255, 255 end
     local c = palette[math_random(1, #palette)]
     return c.r, c.g, c.b
@@ -277,6 +281,9 @@ function plugin.on_params(p)
     end
     if type(p.bg_brightness) == "number" then
         bg_brightness = p.bg_brightness
+    end
+    if type(p.random) == "boolean" then
+        random_enabled = p.random
     end
     if type(p.density) == "number" then
         density = p.density

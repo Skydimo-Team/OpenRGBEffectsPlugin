@@ -11,6 +11,7 @@
     },
     "background": "背景顏色",
     "bg_brightness": "背景亮度",
+    "random": "隨機顏色",
     "colors": "星星顏色",
     "density": "星星密度",
     "fade_in_speed": "淡入時間",
