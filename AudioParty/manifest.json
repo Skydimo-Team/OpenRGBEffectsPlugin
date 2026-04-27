@@ -52,8 +52,7 @@
       "kind": "slider",
       "default": 8,
       "min": 1,
-      "max": 16,
-      "groupCollapsed": true
+      "max": 16
     },
     {
       "key": "effectThreshold",
@@ -62,8 +61,7 @@
       "kind": "slider",
       "default": 20,
       "min": 5,
-      "max": 80,
-      "groupCollapsed": true
+      "max": 80
     },
     {
       "key": "motionZoneEnd",

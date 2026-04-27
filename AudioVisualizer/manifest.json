@@ -328,8 +328,7 @@
       "label": "params.reactive_bg",
       "group": "params.groups.audio",
       "kind": "toggle",
-      "default": false,
-      "groupCollapsed": true
+      "default": false
     },
     {
       "key": "silent_bg",

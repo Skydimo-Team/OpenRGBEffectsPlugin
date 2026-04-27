@@ -47,8 +47,7 @@
       "label": "params.edgeBeat",
       "group": "params.groups.edgeBeat",
       "kind": "toggle",
-      "default": false,
-      "groupCollapsed": true
+      "default": false
     },
     {
       "key": "edgeBeatHue",

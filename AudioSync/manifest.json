@@ -118,8 +118,7 @@
       "kind": "slider",
       "default": 8,
       "min": 1,
-      "max": 16,
-      "groupCollapsed": true
+      "max": 16
     },
     {
       "key": "bandpassRange",
@@ -138,8 +137,7 @@
       "label": "params.edgeBeat",
       "group": "params.groups.edgeBeat",
       "kind": "toggle",
-      "default": false,
-      "groupCollapsed": true
+      "default": false
     },
     {
       "key": "edgeBeatHue",

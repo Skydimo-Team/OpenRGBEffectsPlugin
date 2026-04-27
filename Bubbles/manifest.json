@@ -75,8 +75,7 @@
       "min": 1,
       "max": 20,
       "step": 1,
-      "group": "params.groups.density",
-      "groupCollapsed": true
+      "group": "params.groups.density"
     },
     {
       "key": "rarity",

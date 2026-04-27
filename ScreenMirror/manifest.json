@@ -41,8 +41,7 @@
       "kind": "slider",
       "default": 80,
       "min": 0,
-      "max": 100,
-      "groupCollapsed": true
+      "max": 100
     },
     {
       "key": "gamma",
@@ -86,7 +85,6 @@
       "default": 5,
       "min": 0,
       "max": 100,
-      "groupCollapsed": true,
       "dependency": {
         "key": "autoCrop",
         "behavior": "hide",
