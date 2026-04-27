@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Punto en movimiento",
+    "description": "Un único punto brillante oscila de un lado a otro sobre los LED con un color de fondo configurable.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Color aleatorio",
+    "color": "Color del punto",
+    "background": "Color de fondo"
+  }
+}

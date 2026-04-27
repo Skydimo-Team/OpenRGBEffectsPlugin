@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Cercles tourbillonnants",
+    "description": "Deux cercles diamétralement opposés orbitent autour du centre de l'appareil et fusionnent leur halo avec une composition en mode écran.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Apparence",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "glow": "Halo",
+    "radius": "Rayon",
+    "reverse": "Inverser",
+    "random": "Couleurs aléatoires",
+    "color1": "Couleur 1",
+    "color2": "Couleur 2"
+  }
+}

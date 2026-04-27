@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Zufälliger Lauflichteffekt",
+    "description": "Ein laufender Lauflichteffekt, der bei jedem Zyklus zufällig Richtung, Geschwindigkeit und Segmentabstand ändert.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

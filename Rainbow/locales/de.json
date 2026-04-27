@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Regenbogen",
+    "description": "Scrollt eine Vollspektrum-Farbpalette über alle LEDs, mit integrierten Palettenvorgaben oder benutzerdefinierten Farben.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette"
+    },
+    "speed": "Geschwindigkeit",
+    "preset": "Palettenvorgabe",
+    "colors": "Benutzerdefinierte Farben",
+    "presetOptions": {
+      "custom": "Benutzerdefiniert",
+      "rainbow": "Regenbogen",
+      "sunset": "Sonnenuntergang",
+      "ocean": "Ozean",
+      "synthwave": "Synthwave"
+    }
+  }
+}

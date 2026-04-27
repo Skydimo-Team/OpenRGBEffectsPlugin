@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Relleno",
+    "description": "Rellena progresivamente el dispositivo desde un extremo con un color sólido y luego desvanece toda la zona antes de repetir.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

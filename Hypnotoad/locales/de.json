@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "Konzentrische rotierende Ringe in Regenbogen- oder benutzerdefinierten Farben – diesem Effekt entkommst du nicht.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe",
+      "geometry": "Geometrie"
+    },
+    "speed": "Geschwindigkeit",
+    "colorMode": "Farbmodus",
+    "colors": "Farben",
+    "colorRotationSpeed": "Rotationsgeschwindigkeit",
+    "colorRotationDirection": "Rotationsrichtung",
+    "animationSpeed": "Animationsgeschwindigkeit",
+    "animationDirection": "Animationsrichtung",
+    "spacing": "Abstand",
+    "thickness": "Dicke",
+    "centerX": "X-Position",
+    "centerY": "Y-Position",
+    "colorModeOptions": {
+      "rainbow": "Regenbogen",
+      "custom": "Benutzerdefiniert"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "Im Uhrzeigersinn",
+      "counterClockwise": "Gegen den Uhrzeigersinn"
+    },
+    "animationDirectionOptions": {
+      "inside": "Nach innen",
+      "outside": "Nach außen"
+    }
+  }
+}

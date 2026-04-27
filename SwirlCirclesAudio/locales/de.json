@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Audio-Wirbelkreise",
+    "description": "Zwei kreisende Kreise, deren Leuchtradius und Intensität in Echtzeit auf die Gesamtlautstärke des Audios reagieren.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "motion": "Bewegung",
+      "appearance": "Aussehen",
+      "response": "Reaktion",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "glow": "Leuchten",
+    "radius": "Radius",
+    "smoothness": "Glättung",
+    "colorMode": "Farbmodus",
+    "colorModeOptions": {
+      "randomCycle": "Zufallszyklus",
+      "custom": "Benutzerdefiniert"
+    },
+    "colors": "Farbpaar",
+    "color1": "Farbe 1",
+    "color2": "Farbe 2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Cercle respirant",
+    "description": "Anneau circulaire qui se dilate et se contracte en douceur pour simuler une respiration.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "thickness": "Épaisseur",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

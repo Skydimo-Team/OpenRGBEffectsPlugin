@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Sequenz",
+    "description": "Wechselt durch eine Liste von Farben, hält jede für ein festgelegtes Intervall und verwendet dazwischen eine sanfte Überblendung.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "fadeTime": "Ausblendzeit",
+    "colors": "Farben"
+  }
+}

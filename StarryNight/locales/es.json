@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Noche estrellada",
+    "description": "LED aleatorios se iluminan como estrellas: cada uno aparece suavemente, permanece encendido y luego se desvanece, sobre un fondo con brillo ajustable.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Apariencia",
+      "animation": "Animación"
+    },
+    "background": "Color de fondo",
+    "bg_brightness": "Brillo de fondo",
+    "random": "Colores aleatorios",
+    "colors": "Colores de las estrellas",
+    "density": "Densidad de estrellas",
+    "fade_in_speed": "Tiempo de entrada",
+    "fade_out_speed": "Tiempo de salida",
+    "star_on_time": "Tiempo encendida de la estrella"
+  }
+}

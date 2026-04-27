@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Vague dégradée",
+    "description": "Dégradé bicolore qui balaie les LED d'avant en arrière avec un mouvement sinusoïdal.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs du dégradé"
+  }
+}

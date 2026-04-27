@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaïque",
+    "description": "Fait apparaître aléatoirement des tuiles colorées sur l'appareil, qui s'allument brièvement puis s'estompent.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Motif",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "rarity": "Rareté",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs des tuiles"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Spektrumzyklus",
+    "description": "Alle LEDs durchlaufen gemeinsam das vollständige Farbspektrum und behalten dabei jederzeit eine gleichmäßige Vollfarbe über die gesamte Zone bei.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "saturation": "Sättigung"
+  }
+}

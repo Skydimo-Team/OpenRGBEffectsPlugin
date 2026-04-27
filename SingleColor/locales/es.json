@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "name": "Color único",
+    "description": "Rellena cada LED con un único color estático.",
+    "category": "Otro"
+  },
+  "params": {
+    "groups": {
+      "color": "Color"
+    },
+    "color": "Color"
+  }
+}

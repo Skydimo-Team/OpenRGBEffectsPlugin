@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "name": "Bildschirmspiegelung",
+    "description": "Erfasst den Bildschirm in Echtzeit und ordnet die Farben den LED-Zonen zu, mit Steuerungen für Helligkeit, Sättigung, Gamma und Schwarzbalkenerkennung.",
+    "category": "Bildschirm-Sync"
+  },
+  "params": {
+    "groups": {
+      "image": "Bild",
+      "processing": "Bildverarbeitung",
+      "blackBars": "Schwarzbalkenerkennung"
+    },
+    "smoothness": "Glättung",
+    "brightness": "Helligkeitsverstärkung",
+    "saturation": "Sättigungsverstärkung",
+    "gamma": "Gamma",
+    "colorTemperature": "Farbtemperatur (K)",
+    "blur": "Weichzeichnung",
+    "autoCrop": "Schwarzbalken-Zuschnitt",
+    "bbThreshold": "Schwellenwert (%)",
+    "bbMode": "Erkennungsmodus",
+    "mode_default": "Standard",
+    "mode_classic": "Klassisch",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "Stabile Umschaltframes",
+    "bbUnknownFrameCnt": "Unbekannte Umschaltframes",
+    "bbMaxInconsistentCnt": "Max. inkonsistente Frames",
+    "bbBlurRemoveCnt": "Sicherheitsrand für Weichzeichnung"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Zigzag",
+    "description": "Trace un chemin serpent colonne par colonne dans la matrice LED, avec une traîne à décroissance cubique de luminosité en mode arc-en-ciel ou couleur personnalisée.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "color_mode": "Mode de couleur",
+    "color": "Couleur",
+    "colorModeOptions": {
+      "rainbow": "Arc-en-ciel",
+      "custom": "Personnalisé"
+    }
+  }
+}

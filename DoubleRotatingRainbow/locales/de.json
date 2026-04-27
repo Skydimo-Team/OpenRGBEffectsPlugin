@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Doppelter rotierender Regenbogen",
+    "description": "Zwei einander gegenüberliegende Regenbogenbögen, die synchron um das Zentrum des Geräts rotieren.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Muster"
+    },
+    "speed": "Rotationsgeschwindigkeit",
+    "colorSpeed": "Farbgeschwindigkeit",
+    "frequency": "Frequenz"
+  }
+}

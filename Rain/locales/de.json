@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Regen",
+    "description": "Simuliert fallenden Regen mit Tropfen in zufälligen Spalten, jeweils mit einem hellen Kopf und einem allmählich ausblendenden Schweif.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "drops": "Tropfen",
+    "drop_size": "Tropfengröße",
+    "random": "Zufällige Farben",
+    "only_first": "Nur erste Farbe",
+    "colors": "Benutzerfarben"
+  }
+}

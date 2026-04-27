@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Espiral",
+    "description": "Dibuja una espiral giratoria a partir del ángulo polar y la distancia radial, en modo arcoíris o de un solo color con ajuste de compactación.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "shape": "Forma de la espiral",
+    "direction": "Dirección",
+    "colorMode": "Modo de color",
+    "color": "Color",
+    "directionOptions": {
+      "counterClockwise": "Antihorario",
+      "clockwise": "Horario"
+    },
+    "colorModeOptions": {
+      "rainbow": "Arcoíris",
+      "singleColor": "Color único"
+    }
+  }
+}

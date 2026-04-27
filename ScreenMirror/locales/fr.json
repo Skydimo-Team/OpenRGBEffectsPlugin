@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "name": "Miroir d'écran",
+    "description": "Capture l'écran en temps réel et associe les couleurs aux zones LED, avec des réglages de luminosité, saturation, gamma et détection des bandes noires.",
+    "category": "Synchronisation d'écran"
+  },
+  "params": {
+    "groups": {
+      "image": "Image",
+      "processing": "Traitement d'image",
+      "blackBars": "Détection des bandes noires"
+    },
+    "smoothness": "Lissage",
+    "brightness": "Gain de luminosité",
+    "saturation": "Gain de saturation",
+    "gamma": "Gamma",
+    "colorTemperature": "Température de couleur (K)",
+    "blur": "Flou",
+    "autoCrop": "Rognage des bandes noires",
+    "bbThreshold": "Seuil (%)",
+    "bbMode": "Mode de détection",
+    "mode_default": "Par défaut",
+    "mode_classic": "Classique",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "Images de bascule stables",
+    "bbUnknownFrameCnt": "Images de bascule inconnues",
+    "bbMaxInconsistentCnt": "Nb max d'images incohérentes",
+    "bbBlurRemoveCnt": "Marge de sécurité du flou"
+  }
+}

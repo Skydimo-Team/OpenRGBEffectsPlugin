@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Clignotement doux",
+    "description": "Génère une séquence de pulsations respiratoires avec nombre de pulsations, durée et intervalle configurables, en mode remplissage plein ou cercle radial.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "timing": "Temporalité",
+      "appearance": "Apparence",
+      "color": "Couleur"
+    },
+    "interval": "Intervalle (s)",
+    "pulses": "Impulsions",
+    "pulse_duration": "Durée d'impulsion (s)",
+    "strength": "Intensité (%)",
+    "rendering": "Rendu",
+    "renderingOptions": {
+      "solid": "Plein",
+      "circle": "Cercle"
+    },
+    "cx": "Position X",
+    "cy": "Position Y",
+    "random": "Couleurs aléatoires",
+    "color1": "Couleur de l'impulsion",
+    "color2": "Couleur de base"
+  }
+}

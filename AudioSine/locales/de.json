@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "Audio-Sinus",
+    "description": "Eine laufende Sinuswelle, deren Amplitude vom Audiospektrum geformt wird, mit einstellbarem Leuchten, Dicke und Farbmodus.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "wave": "Welle",
+      "response": "Reaktion",
+      "color": "Farbe"
+    },
+    "speed": "Scrollgeschwindigkeit",
+    "repeat": "Wiederholen",
+    "thickness": "Dicke",
+    "glow": "Leuchten",
+    "oscillation": "Oszillation",
+    "smoothness": "Glättung",
+    "colorMode": "Farbmodus",
+    "colorModeOptions": {
+      "spectrumCycle": "Spektrumzyklus",
+      "static": "Statisch"
+    },
+    "colorChangeSpeed": "Zyklusgeschwindigkeit",
+    "useAlbumArt": "Albumcover-Farben",
+    "backgroundColor": "Hintergrund",
+    "waveColor": "Wellenfarbe"
+  }
+}

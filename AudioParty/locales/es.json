@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Fiesta de audio",
+    "description": "Divide el espectro de audio en tres zonas: las frecuencias bajas impulsan el desplazamiento de la onda, las medias cambian el tono y las altas activan destellos aleatorios.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "motion": "Movimiento",
+      "wave": "Onda",
+      "zones": "Zonas",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "colorSpeed": "Velocidad del color",
+    "divisions": "Divisiones",
+    "smoothness": "Suavizado",
+    "effectThreshold": "Umbral del efecto",
+    "motionZoneEnd": "Fin de la zona de movimiento",
+    "colorZoneEnd": "Fin de la zona de color",
+    "useAlbumArt": "Colores de la portada"
+  }
+}

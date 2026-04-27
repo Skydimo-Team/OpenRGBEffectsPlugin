@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Spirale",
+    "description": "Zeichnet eine rotierende Spirale aus Polarwinkel und radialer Distanz im Regenbogen- oder Einfarbmodus mit einstellbarer Dichte.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "shape": "Spiralform",
+    "direction": "Richtung",
+    "colorMode": "Farbmodus",
+    "color": "Farbe",
+    "directionOptions": {
+      "counterClockwise": "Gegen den Uhrzeigersinn",
+      "clockwise": "Im Uhrzeigersinn"
+    },
+    "colorModeOptions": {
+      "rainbow": "Regenbogen",
+      "singleColor": "Einzelfarbe"
+    }
+  }
+}

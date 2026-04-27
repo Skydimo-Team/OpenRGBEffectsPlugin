@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Balle rebondissante",
+    "description": "Simule une balle avec gravité physique et vitesse horizontale rebondissant sur la matrice LED.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "ball": "Balle",
+      "physics": "Physique",
+      "color": "Couleur"
+    },
+    "radius": "Rayon de la balle",
+    "gravity": "Gravité",
+    "horizontalVelocity": "Vitesse horizontale",
+    "spectrumVelocity": "Vitesse du spectre",
+    "dropHeight": "Hauteur de chute %"
+  }
+}

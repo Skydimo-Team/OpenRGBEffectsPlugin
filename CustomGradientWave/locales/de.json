@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Benutzerdefinierte Verlaufwelle",
+    "description": "Eine laufende Verlaufwelle mit wählbarer Richtung, Ausbreitung und Palette – verwende eine Vorgabe oder definiere eigene Farben.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette",
+      "geometry": "Geometrie"
+    },
+    "speed": "Geschwindigkeit",
+    "preset": "Vorgabe",
+    "colors": "Benutzerdefinierte Farben",
+    "direction": "Richtung",
+    "height": "Höhe",
+    "width": "Breite",
+    "spread": "Ausbreitung",
+    "presetOptions": {
+      "unicornVomit": "Einhorn-Erbrochenes",
+      "borealis": "Borealis",
+      "ocean": "Ozean",
+      "pinkBlue": "Pink/Blau",
+      "pinkGold": "Pink/Gold",
+      "pulse": "Pulse",
+      "purpleOrange": "Lila/Orange",
+      "lightBluePurple": "Hellblau/Lila",
+      "policeBeacon": "Polizeileuchte",
+      "seabed": "Meeresboden",
+      "sunset": "Sonnenuntergang",
+      "vaporwave": "Vaporwave",
+      "custom": "Benutzerdefiniert"
+    },
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertikal",
+      "radialOut": "Radial nach außen",
+      "radialIn": "Radial nach innen"
+    }
+  }
+}

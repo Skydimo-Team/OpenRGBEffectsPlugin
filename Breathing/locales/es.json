@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Respiración",
+    "description": "Desvanece toda la zona de entrada y salida mediante una secuencia de colores seleccionados por el usuario.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Colores aleatorios",
+    "colors": "Colores"
+  }
+}

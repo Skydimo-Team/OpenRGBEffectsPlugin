@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "Fraktale Bewegung",
+    "description": "Eine zusammengesetzte Sinuswelle aus bis zu 12 geschichteten Frequenzmodulatoren, die mit einstellbarer Amplitude und Hintergrundabfall über die LEDs läuft.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Aussehen",
+      "animation": "Animation",
+      "fractal": "Fraktal",
+      "color": "Farbe"
+    },
+    "background": "Hintergrund",
+    "thickness": "Dicke",
+    "speed": "Geschwindigkeit",
+    "amplitude": "Amplitude",
+    "frequency": "Frequenz",
+    "freq_m1": "Freq m1",
+    "freq_m2": "Freq m2",
+    "freq_m3": "Freq m3",
+    "freq_m4": "Freq m4",
+    "freq_m5": "Freq m5",
+    "freq_m6": "Freq m6",
+    "freq_m7": "Freq m7",
+    "freq_m8": "Freq m8",
+    "freq_m9": "Freq m9",
+    "freq_m10": "Freq m10",
+    "freq_m11": "Freq m11",
+    "freq_m12": "Freq m12",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

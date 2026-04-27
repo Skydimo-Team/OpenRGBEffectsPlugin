@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Paneles móviles",
+    "description": "Divide el dispositivo en paneles de color del mismo tamaño que se deslizan en direcciones alternas, creando un movimiento simétrico sincronizado.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "divisions": "Divisiones",
+    "reverse": "Invertir",
+    "colors": "Colores"
+  }
+}

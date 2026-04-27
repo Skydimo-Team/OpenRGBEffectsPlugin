@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Roue chromatique",
+    "description": "Affiche une roue chromatique rotative à spectre complet rayonnant depuis un point central configurable.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "center": "Position du centre"
+    },
+    "speed": "Vitesse",
+    "cx": "Position X",
+    "cy": "Position Y",
+    "direction": "Direction",
+    "directionOptions": {
+      "clockwise": "Sens horaire",
+      "counterClockwise": "Sens antihoraire"
+    }
+  }
+}

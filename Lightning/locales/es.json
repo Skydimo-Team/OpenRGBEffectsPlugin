@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Relámpago",
+    "description": "Activa destellos brillantes aleatorios que se desvanecen rápidamente, simulando relámpagos en modo de tira completa o por LED.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "decay": "Decaimiento",
+    "mode": "Modo",
+    "random": "Colores aleatorios",
+    "color": "Color",
+    "modeOptions": {
+      "wholeStrip": "Tira completa",
+      "perLed": "Por LED"
+    }
+  }
+}

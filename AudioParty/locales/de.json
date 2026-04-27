@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Audio-Party",
+    "description": "Teilt das Audiospektrum in drei Bereiche: Tiefe Frequenzen steuern die Wellenverschiebung, mittlere Frequenzen verschieben den Farbton und hohe Frequenzen lösen zufällige Blitzeffekte aus.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "motion": "Bewegung",
+      "wave": "Welle",
+      "zones": "Zonen",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "colorSpeed": "Farbgeschwindigkeit",
+    "divisions": "Unterteilungen",
+    "smoothness": "Glättung",
+    "effectThreshold": "Effektschwelle",
+    "motionZoneEnd": "Ende der Bewegungszone",
+    "colorZoneEnd": "Ende der Farbzone",
+    "useAlbumArt": "Albumcover-Farben"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Ondulado",
+    "description": "Onda sinusoidal de dos colores que se desplaza por los LED mientras oscila en amplitud, creando un movimiento fluido.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "wave": "Onda",
+      "color": "Color"
+    },
+    "wave_frequency": "Frecuencia de la onda",
+    "wave_speed": "Velocidad de la onda",
+    "oscillation_speed": "Velocidad de oscilación",
+    "random": "Colores aleatorios",
+    "colors": "Colores de la onda"
+  }
+}

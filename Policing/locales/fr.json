@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Gyrophare police",
+    "description": "Un faisceau lumineux balaie d'avant en arrière, fait clignoter toute la zone à la fin de chaque passage puis inverse sa direction.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "width": "Largeur",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

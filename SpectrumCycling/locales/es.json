@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Ciclo espectral",
+    "description": "Todos los LED recorren juntos el espectro completo de tonos, manteniendo en todo momento un color sólido uniforme en toda la zona.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "saturation": "Saturación"
+  }
+}

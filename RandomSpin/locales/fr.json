@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Rotation aléatoire",
+    "description": "Un dégradé bicolore défilant sur les LED alterne aléatoirement entre une rotation — à vitesse et direction aléatoires — et de brèves pauses.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "colors": "Couleurs"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "name": "Espejo de pantalla",
+    "description": "Captura la pantalla en tiempo real y asigna los colores a las zonas LED, con controles de brillo, saturación, gamma y detección de barras negras.",
+    "category": "Sincronización de pantalla"
+  },
+  "params": {
+    "groups": {
+      "image": "Imagen",
+      "processing": "Procesamiento de imagen",
+      "blackBars": "Detección de barras negras"
+    },
+    "smoothness": "Suavizado",
+    "brightness": "Ganancia de brillo",
+    "saturation": "Ganancia de saturación",
+    "gamma": "Gamma",
+    "colorTemperature": "Temperatura de color (K)",
+    "blur": "Desenfoque",
+    "autoCrop": "Recorte de barras negras",
+    "bbThreshold": "Umbral (%)",
+    "bbMode": "Modo de detección",
+    "mode_default": "Predeterminado",
+    "mode_classic": "Clásico",
+    "mode_osd": "OSD",
+    "mode_letterbox": "Letterbox",
+    "bbBorderFrameCnt": "Fotogramas de cambio estables",
+    "bbUnknownFrameCnt": "Fotogramas de cambio desconocidos",
+    "bbMaxInconsistentCnt": "Máx. de fotogramas inconsistentes",
+    "bbBlurRemoveCnt": "Borde de seguridad del desenfoque"
+  }
+}

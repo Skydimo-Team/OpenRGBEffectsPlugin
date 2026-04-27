@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "Seno de audio",
+    "description": "Onda sinusoidal desplazable cuya amplitud está moldeada por el espectro de audio, con brillo, grosor y modos de color ajustables.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "wave": "Onda",
+      "response": "Respuesta",
+      "color": "Color"
+    },
+    "speed": "Velocidad de desplazamiento",
+    "repeat": "Repetir",
+    "thickness": "Grosor",
+    "glow": "Brillo",
+    "oscillation": "Oscilación",
+    "smoothness": "Suavizado",
+    "colorMode": "Modo de color",
+    "colorModeOptions": {
+      "spectrumCycle": "Ciclo espectral",
+      "static": "Estático"
+    },
+    "colorChangeSpeed": "Velocidad del ciclo",
+    "useAlbumArt": "Colores de la portada",
+    "backgroundColor": "Fondo",
+    "waveColor": "Color de la onda"
+  }
+}

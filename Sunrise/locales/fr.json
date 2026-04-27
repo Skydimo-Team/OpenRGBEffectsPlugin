@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Lever de soleil",
+    "description": "Dégradé radial à quatre étapes qui s'étend et s'éclaircit au fil du temps pour simuler un lever ou coucher de soleil, avec options de boucle ou d'exécution unique.",
+    "category": "Autre"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "effect": "Effet",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "intensity": "Intensité",
+    "intensity_speed": "Vitesse d'intensité",
+    "radius": "Rayon",
+    "grow_speed": "Vitesse de croissance",
+    "run_once": "Exécuter une seule fois",
+    "motion": "Mouvement",
+    "colors": "Couleurs"
+  }
+}

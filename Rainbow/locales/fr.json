@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Arc-en-ciel",
+    "description": "Fait défiler une palette de couleurs à spectre complet sur toutes les LED, avec des palettes prédéfinies intégrées ou des couleurs personnalisées.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette"
+    },
+    "speed": "Vitesse",
+    "preset": "Préréglage de palette",
+    "colors": "Couleurs personnalisées",
+    "presetOptions": {
+      "custom": "Personnalisé",
+      "rainbow": "Arc-en-ciel",
+      "sunset": "Coucher de soleil",
+      "ocean": "Océan",
+      "synthwave": "Synthwave"
+    }
+  }
+}

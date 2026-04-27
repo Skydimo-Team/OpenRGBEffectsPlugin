@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Ola arcoíris",
+    "description": "Un espectro arcoíris completo se desliza continuamente por los LED con velocidad y frecuencia configurables.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "pattern": "Patrón"
+    },
+    "speed": "Velocidad",
+    "frequency": "Frecuencia"
+  }
+}

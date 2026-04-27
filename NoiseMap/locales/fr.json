@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Carte de bruit",
+    "description": "Champ de bruit simplex animé avec fréquence, amplitude et octaves configurables, rendu en mode arc-en-ciel ou couleurs dégradées personnalisées.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "noise": "Bruit",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "motion": "Mouvement",
+    "motionSpeed": "Vitesse de mouvement",
+    "frequency": "Fréquence",
+    "amplitude": "Amplitude",
+    "lacunarity": "Lacunarité",
+    "persistence": "Persistance",
+    "octaves": "Octaves",
+    "mode": "Mode",
+    "preset": "Préréglage",
+    "colors": "Couleurs du dégradé",
+    "motionOptions": {
+      "up": "Haut",
+      "down": "Bas",
+      "left": "Gauche",
+      "right": "Droite"
+    },
+    "modeOptions": {
+      "rainbow": "Arc-en-ciel",
+      "inverseRainbow": "Arc-en-ciel inversé",
+      "custom": "Personnalisé"
+    },
+    "presetOptions": {
+      "lava": "Lave",
+      "borealis": "Boréalis",
+      "ocean": "Océan",
+      "chemicals": "Produits chimiques"
+    }
+  }
+}

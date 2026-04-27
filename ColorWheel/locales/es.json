@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Rueda de color",
+    "description": "Renderiza una rueda de color de espectro completo giratoria que irradia desde un punto central configurable.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "center": "Posición central"
+    },
+    "speed": "Velocidad",
+    "cx": "Posición X",
+    "cy": "Posición Y",
+    "direction": "Dirección",
+    "directionOptions": {
+      "clockwise": "Horario",
+      "counterClockwise": "Antihorario"
+    }
+  }
+}

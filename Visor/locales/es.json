@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Visor",
+    "description": "Una cabeza de luz con forma de visor se mueve de un lado a otro, mezcla dos colores durante el recorrido e intercambia cuál lidera en cada inversión.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "width": "Ancho",
+    "random": "Colores aleatorios",
+    "colors": "Colores"
+  }
+}

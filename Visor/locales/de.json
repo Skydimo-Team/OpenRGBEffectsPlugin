@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Visier",
+    "description": "Ein visierförmiger Lichtkopf fährt hin und her, mischt während der Bewegung zwei Farben und tauscht bei jeder Umkehr die führende Farbe.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "width": "Breite",
+    "random": "Zufällige Farben",
+    "colors": "Farben"
+  }
+}

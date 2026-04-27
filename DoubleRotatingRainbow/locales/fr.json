@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Double arc-en-ciel rotatif",
+    "description": "Deux arcs arc-en-ciel diamétralement opposés tournent en synchronisation autour du centre de l'appareil.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Motif"
+    },
+    "speed": "Vitesse de rotation",
+    "colorSpeed": "Vitesse des couleurs",
+    "frequency": "Fréquence"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Visualiseur audio",
+    "description": "Affiche un égaliseur audio en temps réel sur l'appareil avec plusieurs motifs de couleurs au premier plan et en arrière-plan.",
+    "category": "Musique"
+  },
+  "params": {
+    "bg_mode": "Mode d'arrière-plan",
+    "fg_mode": "Mode de premier plan",
+    "single_color_mode": "Mode couleur unique",
+    "bg_brightness": "Luminosité d'arrière-plan",
+    "anim_speed": "Vitesse d'animation",
+    "bg_timeout": "Délai d'arrière-plan",
+    "reactive_bg": "Arrière-plan réactif",
+    "silent_bg": "Arrière-plan silencieux",
+    "avg_size": "Lissage",
+    "groups": {
+      "background": "Arrière-plan",
+      "foreground": "Premier plan",
+      "single_color": "Couleur unique",
+      "animation": "Animation",
+      "audio": "Audio"
+    },
+    "pattern": {
+      "black": "Noir",
+      "white": "Blanc",
+      "red": "Rouge",
+      "orange": "Orange",
+      "yellow": "Jaune",
+      "green": "Vert",
+      "cyan": "Cyan",
+      "blue": "Bleu",
+      "purple": "Violet",
+      "electric_aquamarine": "Aigue-marine électrique",
+      "red_blue": "Rouge / Bleu",
+      "cyan_orange": "Cyan / Orange",
+      "cyan_purple": "Cyan / Violet",
+      "cyan_electric_aquamarine": "Cyan / Aigue-marine électrique",
+      "green_yellow_red": "Vert / Jaune / Rouge",
+      "green_white_red": "Vert / Blanc / Rouge",
+      "blue_cyan_white": "Bleu / Cyan / Blanc",
+      "red_white_blue": "Rouge / Blanc / Bleu",
+      "rainbow_bars": "Barres arc-en-ciel",
+      "rainbow_bars_inv": "Barres arc-en-ciel inversées",
+      "original": "Original",
+      "rainbow": "Arc-en-ciel",
+      "color_wheel": "Roue chromatique",
+      "color_wheel_2": "Roue chromatique 2",
+      "spectrum_cycle": "Cycle spectral",
+      "sinusoidal_cycle": "Cycle sinusoïdal"
+    },
+    "sc": {
+      "black": "Noir",
+      "white": "Blanc",
+      "red": "Rouge",
+      "orange": "Orange",
+      "yellow": "Jaune",
+      "green": "Vert",
+      "cyan": "Cyan",
+      "blue": "Bleu",
+      "purple": "Violet",
+      "electric_aquamarine": "Aigue-marine électrique",
+      "background": "Arrière-plan",
+      "follow_background": "Suivre l'arrière-plan",
+      "follow_foreground": "Suivre le premier plan"
+    }
+  }
+}

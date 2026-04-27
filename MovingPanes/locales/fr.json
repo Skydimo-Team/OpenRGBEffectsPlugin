@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Panneaux mobiles",
+    "description": "Divise l'appareil en panneaux de couleur de taille égale qui glissent dans des directions alternées, créant un mouvement symétrique synchronisé.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "divisions": "Divisions",
+    "reverse": "Inverser",
+    "colors": "Couleurs"
+  }
+}

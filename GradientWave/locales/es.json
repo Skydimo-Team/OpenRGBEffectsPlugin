@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Ola de gradiente",
+    "description": "Degradado de dos colores que recorre los LED de un lado a otro con movimiento sinusoidal.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Colores aleatorios",
+    "colors": "Colores del degradado"
+  }
+}

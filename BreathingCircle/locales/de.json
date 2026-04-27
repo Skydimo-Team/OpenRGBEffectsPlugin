@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Atemkreis",
+    "description": "Ein kreisförmiger Ring, der sich sanft ausdehnt und zusammenzieht und so einen Atemrhythmus simuliert.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "thickness": "Dicke",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

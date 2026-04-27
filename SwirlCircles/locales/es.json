@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Círculos en espiral",
+    "description": "Dos círculos diametralmente opuestos orbitan el centro del dispositivo y mezclan su brillo con composición en modo pantalla.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "appearance": "Apariencia",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "glow": "Brillo",
+    "radius": "Radio",
+    "reverse": "Invertir",
+    "random": "Colores aleatorios",
+    "color1": "Color 1",
+    "color2": "Color 2"
+  }
+}

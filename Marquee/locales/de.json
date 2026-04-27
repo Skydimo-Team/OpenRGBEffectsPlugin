@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Lauflichteffekt",
+    "description": "Ein einfarbiger Lauflichteffekt mit einstellbarem Abstand zwischen den leuchtenden Segmenten.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "spacing": "Abstand",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

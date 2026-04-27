@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Komet",
+    "description": "Ein Komet mit exponentiell ausblendendem Schweif bewegt sich in Regenbogen- oder benutzerdefinierter Farbe über die LEDs.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "comet_size": "Kometengröße",
+    "color_mode": "Farbmodus",
+    "color": "Kometenfarbe",
+    "colorModeOptions": {
+      "rainbow": "Regenbogen",
+      "custom": "Benutzerdefiniert"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Spirale",
+    "description": "Dessine une spirale rotative à partir de l'angle polaire et de la distance radiale, en mode arc-en-ciel ou monochrome avec serrage réglable.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "shape": "Forme de la spirale",
+    "direction": "Direction",
+    "colorMode": "Mode de couleur",
+    "color": "Couleur",
+    "directionOptions": {
+      "counterClockwise": "Sens antihoraire",
+      "clockwise": "Sens horaire"
+    },
+    "colorModeOptions": {
+      "rainbow": "Arc-en-ciel",
+      "singleColor": "Couleur unique"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Horloge",
+    "description": "Associe l'heure actuelle à des positions LED et éclaire indépendamment les indicateurs d'heure, de minute et de seconde sur la bande.",
+    "category": "Autre"
+  },
+  "params": {
+    "groups": {
+      "clock": "Horloge",
+      "colors": "Couleurs"
+    },
+    "clockMode": "Mode horloge",
+    "clockModeOptions": {
+      "12hour": "12 heures",
+      "24hour": "24 heures"
+    },
+    "hourColor": "Couleur des heures",
+    "minuteColor": "Couleur des minutes",
+    "secondColor": "Couleur des secondes"
+  }
+}

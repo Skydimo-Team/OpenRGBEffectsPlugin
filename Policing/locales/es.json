@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Luz policial",
+    "description": "Un haz de luz va y viene, hace destellar toda la zona al final de cada pasada y luego invierte la dirección.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "width": "Ancho",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

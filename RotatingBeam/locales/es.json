@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Haz giratorio",
+    "description": "Un único haz de luz recorre el dispositivo en uno de seis modos: horario, antihorario, péndulo, limpiaparabrisas, oscilación horizontal u oscilación vertical.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "appearance": "Apariencia",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "mode": "Modo",
+    "glow": "Brillo",
+    "thickness": "Grosor",
+    "random_colors": "Colores aleatorios",
+    "colors": "Colores",
+    "modeOptions": {
+      "clockwise": "Horario",
+      "counterClockwise": "Antihorario",
+      "pendulum": "Péndulo",
+      "wipers": "Limpiaparabrisas",
+      "swingH": "Balanceo horizontal",
+      "swingV": "Balanceo vertical"
+    }
+  }
+}

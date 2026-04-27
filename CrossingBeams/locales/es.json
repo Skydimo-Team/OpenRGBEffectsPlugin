@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Haces cruzados",
+    "description": "Dos haces de luz recorren el dispositivo de forma independiente: uno horizontal y otro vertical.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "appearance": "Apariencia",
+      "color": "Color",
+      "axisMotion": "Movimiento de eje",
+      "glowTuning": "Ajuste del brillo"
+    },
+    "speed": "Velocidad",
+    "h_speed": "Velocidad horizontal",
+    "v_speed": "Velocidad vertical",
+    "glow": "Brillo",
+    "thickness": "Grosor",
+    "random_colors": "Colores aleatorios",
+    "colors": "Colores del haz"
+  }
+}

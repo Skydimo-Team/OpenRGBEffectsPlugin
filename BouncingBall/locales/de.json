@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Springender Ball",
+    "description": "Simuliert einen Ball mit physikbasierter Schwerkraft und horizontaler Geschwindigkeit, der über die LED-Matrix springt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "ball": "Ball",
+      "physics": "Physik",
+      "color": "Farbe"
+    },
+    "radius": "Ballradius",
+    "gravity": "Schwerkraft",
+    "horizontalVelocity": "Horizontale Geschwindigkeit",
+    "spectrumVelocity": "Spektrumgeschwindigkeit",
+    "dropHeight": "Fallhöhe %"
+  }
+}

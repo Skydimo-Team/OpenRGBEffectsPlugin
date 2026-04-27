@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Zufällige Drehung",
+    "description": "Ein zweifarbiger Verlauf, der über die LEDs scrollt und zufällig zwischen Drehung – mit zufälliger Geschwindigkeit und Richtung – und kurzen Pausen wechselt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "colors": "Farben"
+  }
+}

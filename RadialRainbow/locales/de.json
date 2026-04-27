@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Radialer Regenbogen",
+    "description": "Konzentrische Regenbogenringe oder -quadrate strahlen von einem Mittelpunkt nach außen und erzeugen einen tunnelartigen Tiefeneffekt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Muster",
+      "center": "Mittelpunktposition"
+    },
+    "speed": "Geschwindigkeit",
+    "frequency": "Frequenz",
+    "shape": "Form",
+    "cx": "X-Position",
+    "cy": "Y-Position",
+    "shapeOptions": {
+      "circles": "Kreise",
+      "squares": "Quadrate"
+    }
+  }
+}

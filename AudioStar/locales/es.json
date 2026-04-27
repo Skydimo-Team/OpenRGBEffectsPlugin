@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Estrella de audio",
+    "description": "Asigna cada banda de frecuencia de audio a una posición angular y renderiza un patrón de brillo en forma de estrella que pulsa con el audio.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "response": "Respuesta",
+      "edgeBeat": "Golpe de borde"
+    },
+    "speed": "Velocidad",
+    "smoothness": "Suavizado",
+    "useAlbumArt": "Colores de la portada",
+    "edgeBeat": "Golpe de borde",
+    "edgeBeatHue": "Tono del borde",
+    "edgeBeatSaturation": "Saturación del borde",
+    "edgeBeatSensitivity": "Sensibilidad del borde"
+  }
+}

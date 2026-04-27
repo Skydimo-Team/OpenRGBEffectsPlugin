@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Bulles audio",
+    "description": "Anneaux de bulles qui s'étendent depuis des points d'apparition, déclenchés par le volume audio et rendus avec des couleurs dégradées.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "color": "Couleur",
+      "response": "Réponse",
+      "bubbles": "Bulles"
+    },
+    "preset": "Préréglage",
+    "presetOptions": {
+      "unicornVomit": "Vomi de licorne",
+      "borealis": "Boréalis",
+      "ocean": "Océan",
+      "pinkBlue": "Rose/Bleu",
+      "pinkGold": "Rose/Or",
+      "pulse": "Pulse",
+      "purpleOrange": "Violet/Orange",
+      "lightBluePurple": "Bleu clair/Violet",
+      "policeBeacon": "Gyrophare de police",
+      "seabed": "Fond marin",
+      "sunset": "Coucher de soleil",
+      "vaporwave": "Vaporwave"
+    },
+    "colors": "Couleurs du dégradé",
+    "spawnMode": "Apparition des bulles",
+    "spawnModes": {
+      "randomXY": "XY aléatoire",
+      "randomX": "X aléatoire",
+      "randomY": "Y aléatoire",
+      "center": "Centre"
+    },
+    "trigger": "Déclencheur de volume",
+    "max_bubbles": "Nb max de bulles",
+    "max_expansion": "Expansion maximale",
+    "bubbles_thickness": "Épaisseur des bulles",
+    "speed": "Vitesse",
+    "smoothness": "Lissage"
+  }
+}

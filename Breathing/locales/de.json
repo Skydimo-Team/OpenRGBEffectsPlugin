@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Atmen",
+    "description": "Blendet die gesamte Zone in einer Sequenz aus benutzergewählten Farben ein und aus.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "random": "Zufällige Farben",
+    "colors": "Farben"
+  }
+}

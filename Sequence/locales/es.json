@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Secuencia",
+    "description": "Recorre una lista de colores, manteniendo cada uno durante un intervalo establecido con una transición suave entre ellos.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "fadeTime": "Tiempo de desvanecimiento",
+    "colors": "Colores"
+  }
+}

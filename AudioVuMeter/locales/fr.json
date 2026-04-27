@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "VU-mètre audio",
+    "description": "Remplit les LED proportionnellement au niveau audio actuel, avec une plage de teinte et une saturation configurables.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "response": "Réponse",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "smoothness": "Lissage",
+    "colorOffset": "Décalage de teinte",
+    "colorSpread": "Répartition de la teinte",
+    "saturation": "Saturation",
+    "invertHue": "Inverser la teinte",
+    "useAlbumArt": "Couleurs de la pochette"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "Florecimiento",
+    "description": "Cada LED avanza por el espectro de tono a su propio ritmo aleatorio, creando colores que florecen de forma independiente en toda la zona.",
+    "category": "Colorido"
+  },
+  "params": {
+    "speed": "Velocidad",
+    "saturation": "Saturación"
+  }
+}

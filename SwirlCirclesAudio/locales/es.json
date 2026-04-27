@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Círculos en espiral de audio",
+    "description": "Dos círculos en órbita cuyo radio de brillo e intensidad responden en tiempo real al volumen general del audio.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "motion": "Movimiento",
+      "appearance": "Apariencia",
+      "response": "Respuesta",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "glow": "Brillo",
+    "radius": "Radio",
+    "smoothness": "Suavizado",
+    "colorMode": "Modo de color",
+    "colorModeOptions": {
+      "randomCycle": "Ciclo aleatorio",
+      "custom": "Personalizado"
+    },
+    "colors": "Par de colores",
+    "color1": "Color 1",
+    "color2": "Color 2"
+  }
+}

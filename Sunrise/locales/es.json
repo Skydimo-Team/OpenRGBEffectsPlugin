@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Amanecer",
+    "description": "Degradado radial de cuatro paradas que se expande y se ilumina con el tiempo, simulando un amanecer o atardecer, con opciones de bucle o ejecución única.",
+    "category": "Otro"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "effect": "Efecto",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "intensity": "Intensidad",
+    "intensity_speed": "Velocidad de intensidad",
+    "radius": "Radio",
+    "grow_speed": "Velocidad de crecimiento",
+    "run_once": "Ejecutar solo una vez",
+    "motion": "Movimiento",
+    "colors": "Colores"
+  }
+}

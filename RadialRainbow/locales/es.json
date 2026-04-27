@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Arcoíris radial",
+    "description": "Anillos o cuadrados arcoíris concéntricos irradian hacia afuera desde un punto central, creando un efecto de profundidad tipo túnel.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "pattern": "Patrón",
+      "center": "Posición central"
+    },
+    "speed": "Velocidad",
+    "frequency": "Frecuencia",
+    "shape": "Forma",
+    "cx": "Posición X",
+    "cy": "Posición Y",
+    "shapeOptions": {
+      "circles": "Círculos",
+      "squares": "Cuadrados"
+    }
+  }
+}

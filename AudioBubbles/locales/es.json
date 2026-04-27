@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Burbujas de audio",
+    "description": "Anillos de burbujas que se expanden hacia afuera desde puntos de aparición, activados por el volumen de audio y renderizados con colores degradados.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "color": "Color",
+      "response": "Respuesta",
+      "bubbles": "Burbujas"
+    },
+    "preset": "Preajuste",
+    "presetOptions": {
+      "unicornVomit": "Vómito de unicornio",
+      "borealis": "Borealis",
+      "ocean": "Océano",
+      "pinkBlue": "Rosa/Azul",
+      "pinkGold": "Rosa/Oro",
+      "pulse": "Pulse",
+      "purpleOrange": "Morado/Naranja",
+      "lightBluePurple": "Azul claro/Morado",
+      "policeBeacon": "Baliza policial",
+      "seabed": "Fondo marino",
+      "sunset": "Atardecer",
+      "vaporwave": "Vaporwave"
+    },
+    "colors": "Colores del degradado",
+    "spawnMode": "Generación de burbujas",
+    "spawnModes": {
+      "randomXY": "XY aleatoria",
+      "randomX": "X aleatoria",
+      "randomY": "Y aleatoria",
+      "center": "Centro"
+    },
+    "trigger": "Disparador por volumen",
+    "max_bubbles": "Máx. de burbujas",
+    "max_expansion": "Expansión máxima",
+    "bubbles_thickness": "Grosor de las burbujas",
+    "speed": "Velocidad",
+    "smoothness": "Suavizado"
+  }
+}

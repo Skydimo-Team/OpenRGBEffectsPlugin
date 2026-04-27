@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Point mobile",
+    "description": "Un point lumineux unique oscille d'avant en arrière sur les LED sur un fond configurable.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleur aléatoire",
+    "color": "Couleur du point",
+    "background": "Couleur d'arrière-plan"
+  }
+}

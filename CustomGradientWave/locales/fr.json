@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Vague dégradée personnalisée",
+    "description": "Vague dégradée défilante avec direction, étendue et palette au choix — utilisez un préréglage ou définissez vos propres couleurs.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "palette": "Palette",
+      "geometry": "Géométrie"
+    },
+    "speed": "Vitesse",
+    "preset": "Préréglage",
+    "colors": "Couleurs personnalisées",
+    "direction": "Direction",
+    "height": "Hauteur",
+    "width": "Largeur",
+    "spread": "Étendue",
+    "presetOptions": {
+      "unicornVomit": "Vomi de licorne",
+      "borealis": "Boréalis",
+      "ocean": "Océan",
+      "pinkBlue": "Rose/Bleu",
+      "pinkGold": "Rose/Or",
+      "pulse": "Pulse",
+      "purpleOrange": "Violet/Orange",
+      "lightBluePurple": "Bleu clair/Violet",
+      "policeBeacon": "Gyrophare de police",
+      "seabed": "Fond marin",
+      "sunset": "Coucher de soleil",
+      "vaporwave": "Vaporwave",
+      "custom": "Personnalisé"
+    },
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "radialOut": "Radial vers l'extérieur",
+      "radialIn": "Radial vers l'intérieur"
+    }
+  }
+}

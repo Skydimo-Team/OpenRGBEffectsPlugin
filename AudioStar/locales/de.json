@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Audio-Stern",
+    "description": "Ordnet jedes Audio-Frequenzband einer Winkelposition zu und rendert ein sternförmiges Helligkeitsmuster, das mit dem Audio pulsiert.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "response": "Reaktion",
+      "edgeBeat": "Kantenimpuls"
+    },
+    "speed": "Geschwindigkeit",
+    "smoothness": "Glättung",
+    "useAlbumArt": "Albumcover-Farben",
+    "edgeBeat": "Kantenimpuls",
+    "edgeBeatHue": "Randfarbton",
+    "edgeBeatSaturation": "Randsättigung",
+    "edgeBeatSensitivity": "Randempfindlichkeit"
+  }
+}

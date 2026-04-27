@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "Blüte",
+    "description": "Jede LED durchläuft das Farbspektrum in ihrem eigenen zufälligen Tempo und erzeugt so unabhängig aufblühende Farben in der gesamten Zone.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "speed": "Geschwindigkeit",
+    "saturation": "Sättigung"
+  }
+}

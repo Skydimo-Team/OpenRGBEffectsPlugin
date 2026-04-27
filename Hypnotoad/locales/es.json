@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "Anillos concéntricos giratorios en colores arcoíris o personalizados: no escaparás de esto.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color",
+      "geometry": "Geometría"
+    },
+    "speed": "Velocidad",
+    "colorMode": "Modo de color",
+    "colors": "Colores",
+    "colorRotationSpeed": "Velocidad de rotación",
+    "colorRotationDirection": "Dirección de rotación",
+    "animationSpeed": "Velocidad de animación",
+    "animationDirection": "Dirección de la animación",
+    "spacing": "Espaciado",
+    "thickness": "Grosor",
+    "centerX": "Posición X",
+    "centerY": "Posición Y",
+    "colorModeOptions": {
+      "rainbow": "Arcoíris",
+      "custom": "Personalizado"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "Horario",
+      "counterClockwise": "Antihorario"
+    },
+    "animationDirectionOptions": {
+      "inside": "Hacia dentro",
+      "outside": "Hacia fuera"
+    }
+  }
+}

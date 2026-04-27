@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Audio-Visualisierer",
+    "description": "Rendert einen Echtzeit-Audio-Equalizer auf dem Gerät mit mehreren Vordergrund- und Hintergrund-Farbmustern.",
+    "category": "Musik"
+  },
+  "params": {
+    "bg_mode": "Hintergrundmodus",
+    "fg_mode": "Vordergrundmodus",
+    "single_color_mode": "Einfarbmodus",
+    "bg_brightness": "Hintergrundhelligkeit",
+    "anim_speed": "Animationsgeschwindigkeit",
+    "bg_timeout": "Hintergrund-Timeout",
+    "reactive_bg": "Reaktiver Hintergrund",
+    "silent_bg": "Stiller Hintergrund",
+    "avg_size": "Glättung",
+    "groups": {
+      "background": "Hintergrund",
+      "foreground": "Vordergrund",
+      "single_color": "Einzelfarbe",
+      "animation": "Animation",
+      "audio": "Audio"
+    },
+    "pattern": {
+      "black": "Schwarz",
+      "white": "Weiß",
+      "red": "Rot",
+      "orange": "Orange",
+      "yellow": "Gelb",
+      "green": "Grün",
+      "cyan": "Cyan",
+      "blue": "Blau",
+      "purple": "Lila",
+      "electric_aquamarine": "Elektrisches Aquamarin",
+      "red_blue": "Rot / Blau",
+      "cyan_orange": "Cyan / Orange",
+      "cyan_purple": "Cyan / Lila",
+      "cyan_electric_aquamarine": "Cyan / Elektrisches Aquamarin",
+      "green_yellow_red": "Grün / Gelb / Rot",
+      "green_white_red": "Grün / Weiß / Rot",
+      "blue_cyan_white": "Blau / Cyan / Weiß",
+      "red_white_blue": "Rot / Weiß / Blau",
+      "rainbow_bars": "Regenbogenbalken",
+      "rainbow_bars_inv": "Umgekehrte Regenbogenbalken",
+      "original": "Original",
+      "rainbow": "Regenbogen",
+      "color_wheel": "Farbrad",
+      "color_wheel_2": "Farbrad 2",
+      "spectrum_cycle": "Spektrumzyklus",
+      "sinusoidal_cycle": "Sinusförmiger Zyklus"
+    },
+    "sc": {
+      "black": "Schwarz",
+      "white": "Weiß",
+      "red": "Rot",
+      "orange": "Orange",
+      "yellow": "Gelb",
+      "green": "Grün",
+      "cyan": "Cyan",
+      "blue": "Blau",
+      "purple": "Lila",
+      "electric_aquamarine": "Elektrisches Aquamarin",
+      "background": "Hintergrund",
+      "follow_background": "Hintergrund folgen",
+      "follow_foreground": "Vordergrund folgen"
+    }
+  }
+}

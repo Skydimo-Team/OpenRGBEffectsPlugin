@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Pelota rebotando",
+    "description": "Simula una pelota con gravedad basada en física y velocidad horizontal rebotando por la matriz LED.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "ball": "Pelota",
+      "physics": "Física",
+      "color": "Color"
+    },
+    "radius": "Radio de la pelota",
+    "gravity": "Gravedad",
+    "horizontalVelocity": "Velocidad horizontal",
+    "spectrumVelocity": "Velocidad del espectro",
+    "dropHeight": "Altura de caída %"
+  }
+}

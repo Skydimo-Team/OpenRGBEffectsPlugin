@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Reloj",
+    "description": "Asigna la hora actual a posiciones LED, iluminando de forma independiente los indicadores de hora, minuto y segundo en la tira.",
+    "category": "Otro"
+  },
+  "params": {
+    "groups": {
+      "clock": "Reloj",
+      "colors": "Colores"
+    },
+    "clockMode": "Modo de reloj",
+    "clockModeOptions": {
+      "12hour": "12 horas",
+      "24hour": "24 horas"
+    },
+    "hourColor": "Color de la hora",
+    "minuteColor": "Color del minuto",
+    "secondColor": "Color del segundo"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Marquesina personalizada",
+    "description": "Marquesina desplazable que recorre colores definidos por el usuario con longitudes de segmento configurables.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "colors": "Colores"
+  }
+}

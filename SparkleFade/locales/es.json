@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Desvanecimiento brillante",
+    "description": "Hace aparecer un color sólido y luego lo desvanece mientras destellos se expanden y se disuelven por toda la zona.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "timing": "Temporización",
+      "color": "Color"
+    },
+    "off_time": "Tiempo apagado (s)",
+    "fade_in_time": "Tiempo de entrada (s)",
+    "fade_out_time": "Tiempo de salida (s)",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Marquee personnalisée",
+    "description": "Marquee défilante qui fait défiler des couleurs définies par l'utilisateur avec des longueurs de segment configurables.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "colors": "Couleurs"
+  }
+}

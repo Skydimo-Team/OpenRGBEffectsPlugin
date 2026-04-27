@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Apilado",
+    "description": "Una cabeza de luz en movimiento recorre el dispositivo, apilando un color sólido desde un extremo hasta llenar la zona y luego reinicia.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "direction": "Dirección de la matriz",
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Stapel",
+    "description": "Ein bewegter Lichtkopf fährt über das Gerät und stapelt eine Vollfarbe von einem Ende aus, bis die Zone gefüllt ist, und setzt dann zurück.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "direction": "Matrixrichtung",
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertikal"
+    },
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Cercles tourbillonnants audio",
+    "description": "Deux cercles en orbite dont le rayon du halo et l'intensité réagissent en temps réel au volume audio global.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "motion": "Mouvement",
+      "appearance": "Apparence",
+      "response": "Réponse",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "glow": "Halo",
+    "radius": "Rayon",
+    "smoothness": "Lissage",
+    "colorMode": "Mode de couleur",
+    "colorModeOptions": {
+      "randomCycle": "Cycle aléatoire",
+      "custom": "Personnalisé"
+    },
+    "colors": "Paire de couleurs",
+    "color1": "Couleur 1",
+    "color2": "Couleur 2"
+  }
+}

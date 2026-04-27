@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Arc-en-ciel radial",
+    "description": "Des anneaux ou carrés arc-en-ciel concentriques rayonnent depuis un point central, créant un effet de profondeur en tunnel.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Motif",
+      "center": "Position du centre"
+    },
+    "speed": "Vitesse",
+    "frequency": "Fréquence",
+    "shape": "Forme",
+    "cx": "Position X",
+    "cy": "Position Y",
+    "shapeOptions": {
+      "circles": "Cercles",
+      "squares": "Carrés"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Faisceau rotatif",
+    "description": "Un seul faisceau lumineux balaie l'appareil selon l'un des six modes suivants : horaire, antihoraire, pendule, essuie-glaces, oscillation horizontale ou oscillation verticale.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Apparence",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "mode": "Mode",
+    "glow": "Halo",
+    "thickness": "Épaisseur",
+    "random_colors": "Couleurs aléatoires",
+    "colors": "Couleurs",
+    "modeOptions": {
+      "clockwise": "Sens horaire",
+      "counterClockwise": "Sens antihoraire",
+      "pendulum": "Pendule",
+      "wipers": "Essuie-glaces",
+      "swingH": "Balancement horizontal",
+      "swingV": "Balancement vertical"
+    }
+  }
+}

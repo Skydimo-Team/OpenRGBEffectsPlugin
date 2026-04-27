@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Füllen",
+    "description": "Füllt das Gerät schrittweise von einem Ende mit einer Vollfarbe und blendet dann die gesamte Zone aus, bevor der Vorgang wiederholt wird.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

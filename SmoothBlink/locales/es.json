@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Parpadeo suave",
+    "description": "Genera una secuencia de pulsos respiratorios con número de pulsos, duración e intervalo configurables, en modo de relleno sólido o círculo radial.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "timing": "Temporización",
+      "appearance": "Apariencia",
+      "color": "Color"
+    },
+    "interval": "Intervalo (s)",
+    "pulses": "Pulsos",
+    "pulse_duration": "Duración del pulso (s)",
+    "strength": "Intensidad (%)",
+    "rendering": "Renderizado",
+    "renderingOptions": {
+      "solid": "Sólido",
+      "circle": "Círculo"
+    },
+    "cx": "Posición X",
+    "cy": "Posición Y",
+    "random": "Colores aleatorios",
+    "color1": "Color del pulso",
+    "color2": "Color base"
+  }
+}

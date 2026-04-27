@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Séquence",
+    "description": "Parcourt une liste de couleurs, conserve chacune pendant un intervalle défini avec une transition en fondu douce entre elles.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "fadeTime": "Temps de fondu",
+    "colors": "Couleurs"
+  }
+}

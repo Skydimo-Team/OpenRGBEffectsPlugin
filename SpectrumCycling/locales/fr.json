@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Cycle spectral",
+    "description": "Toutes les LED parcourent ensemble tout le spectre de teinte, en conservant en permanence une couleur unie uniforme sur toute la zone.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "saturation": "Saturation"
+  }
+}

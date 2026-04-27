@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Nuit étoilée",
+    "description": "Des LED aléatoires s'illuminent comme des étoiles — chacune apparaît en fondu, reste allumée, puis s'estompe — sur un arrière-plan à luminosité réglable.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Apparence",
+      "animation": "Animation"
+    },
+    "background": "Couleur d'arrière-plan",
+    "bg_brightness": "Luminosité d'arrière-plan",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs des étoiles",
+    "density": "Densité des étoiles",
+    "fade_in_speed": "Temps de fondu entrant",
+    "fade_out_speed": "Temps de fondu sortant",
+    "star_on_time": "Durée d'allumage des étoiles"
+  }
+}

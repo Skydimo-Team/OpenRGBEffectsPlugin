@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Arcoíris",
+    "description": "Desplaza una paleta de color de espectro completo por todos los LED, con preajustes integrados o colores personalizados.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "palette": "Paleta"
+    },
+    "speed": "Velocidad",
+    "preset": "Preajuste de paleta",
+    "colors": "Colores personalizados",
+    "presetOptions": {
+      "custom": "Personalizado",
+      "rainbow": "Arcoíris",
+      "sunset": "Atardecer",
+      "ocean": "Océano",
+      "synthwave": "Synthwave"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Mapa de ruido",
+    "description": "Campo de ruido simplex animado con frecuencia, amplitud y octavas configurables, renderizado en colores arcoíris o degradados personalizados.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "noise": "Ruido",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "motion": "Movimiento",
+    "motionSpeed": "Velocidad de movimiento",
+    "frequency": "Frecuencia",
+    "amplitude": "Amplitud",
+    "lacunarity": "Lacunaridad",
+    "persistence": "Persistencia",
+    "octaves": "Octavas",
+    "mode": "Modo",
+    "preset": "Preajuste",
+    "colors": "Colores del degradado",
+    "motionOptions": {
+      "up": "Arriba",
+      "down": "Abajo",
+      "left": "Izquierda",
+      "right": "Derecha"
+    },
+    "modeOptions": {
+      "rainbow": "Arcoíris",
+      "inverseRainbow": "Arcoíris invertido",
+      "custom": "Personalizado"
+    },
+    "presetOptions": {
+      "lava": "Lava",
+      "borealis": "Borealis",
+      "ocean": "Océano",
+      "chemicals": "Químicos"
+    }
+  }
+}

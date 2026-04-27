@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Ola de gradiente personalizada",
+    "description": "Ola de degradado desplazable con dirección, amplitud y paleta seleccionables: usa un preajuste o define colores personalizados.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "palette": "Paleta",
+      "geometry": "Geometría"
+    },
+    "speed": "Velocidad",
+    "preset": "Preajuste",
+    "colors": "Colores personalizados",
+    "direction": "Dirección",
+    "height": "Altura",
+    "width": "Ancho",
+    "spread": "Expansión",
+    "presetOptions": {
+      "unicornVomit": "Vómito de unicornio",
+      "borealis": "Borealis",
+      "ocean": "Océano",
+      "pinkBlue": "Rosa/Azul",
+      "pinkGold": "Rosa/Oro",
+      "pulse": "Pulse",
+      "purpleOrange": "Morado/Naranja",
+      "lightBluePurple": "Azul claro/Morado",
+      "policeBeacon": "Baliza policial",
+      "seabed": "Fondo marino",
+      "sunset": "Atardecer",
+      "vaporwave": "Vaporwave",
+      "custom": "Personalizado"
+    },
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "radialOut": "Radial hacia afuera",
+      "radialIn": "Radial hacia adentro"
+    }
+  }
+}

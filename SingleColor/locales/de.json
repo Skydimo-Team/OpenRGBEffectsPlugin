@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "name": "Einzelfarbe",
+    "description": "Füllt jede LED mit einer einzelnen statischen Farbe.",
+    "category": "Andere"
+  },
+  "params": {
+    "groups": {
+      "color": "Farbe"
+    },
+    "color": "Farbe"
+  }
+}

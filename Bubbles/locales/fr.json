@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Bulles",
+    "description": "Fait apparaître aléatoirement des anneaux de bulles colorés qui s'étendent vers l'extérieur puis s'estompent avec un effet lumineux de fusion écran.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Apparence",
+      "animation": "Animation",
+      "density": "Densité"
+    },
+    "background": "Arrière-plan",
+    "colors": "Couleurs des bulles",
+    "max_bubbles": "Nb max de bulles",
+    "rarity": "Rareté",
+    "max_expansion": "Expansion maximale",
+    "thickness": "Épaisseur",
+    "speed": "Vitesse"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Lluvia",
+    "description": "Simula lluvia cayendo con gotas en columnas aleatorias, cada una con una cabeza brillante y una cola que se desvanece gradualmente.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "drops": "Gotas",
+    "drop_size": "Tamaño de la gota",
+    "random": "Colores aleatorios",
+    "only_first": "Solo el primer color",
+    "colors": "Colores del usuario"
+  }
+}

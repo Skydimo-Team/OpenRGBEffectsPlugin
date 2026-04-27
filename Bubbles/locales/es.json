@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Burbujas",
+    "description": "Genera aleatoriamente anillos de burbujas de colores que se expanden hacia afuera y se desvanecen con un efecto luminoso de fusión de pantalla.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Apariencia",
+      "animation": "Animación",
+      "density": "Densidad"
+    },
+    "background": "Fondo",
+    "colors": "Colores de las burbujas",
+    "max_bubbles": "Máx. de burbujas",
+    "rarity": "Rareza",
+    "max_expansion": "Expansión máxima",
+    "thickness": "Grosor",
+    "speed": "Velocidad"
+  }
+}

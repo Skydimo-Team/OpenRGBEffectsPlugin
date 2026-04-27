@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Sincronización de audio",
+    "description": "Sigue la frecuencia de audio dominante en tiempo real, la convierte en un tono y distribuye el color por el dispositivo en uno de cinco modos de desplazamiento.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "color": "Color",
+      "display": "Pantalla",
+      "response": "Respuesta",
+      "edgeBeat": "Golpe de borde"
+    },
+    "hueShift": "Cambio de tono",
+    "fadeSpeed": "Velocidad de desvanecimiento",
+    "saturationMode": "Modo de saturación",
+    "satModeNormal": "Normal",
+    "satModeHighAmp": "Saturar amplitudes altas",
+    "satModeBW": "Blanco y negro",
+    "rollMode": "Modo de desplazamiento",
+    "rollLinear": "Lineal horizontal",
+    "rollNone": "Sin desplazamiento",
+    "rollRadial": "Radial",
+    "rollWave": "Onda",
+    "rollVertical": "Lineal vertical",
+    "smoothness": "Suavizado",
+    "bandpassRange": "Filtro pasa banda",
+    "useAlbumArt": "Colores de la portada",
+    "silentColor": "Color de respaldo en silencio",
+    "silentColorValue": "Color en silencio",
+    "edgeBeat": "Golpe de borde",
+    "edgeBeatHue": "Tono del borde",
+    "edgeBeatSaturation": "Saturación del borde",
+    "edgeBeatSensitivity": "Sensibilidad del borde"
+  }
+}

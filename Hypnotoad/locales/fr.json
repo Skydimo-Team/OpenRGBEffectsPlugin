@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "Hypnotoad",
+    "description": "Anneaux concentriques rotatifs en mode arc-en-ciel ou couleurs personnalisées — impossible d'y échapper.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur",
+      "geometry": "Géométrie"
+    },
+    "speed": "Vitesse",
+    "colorMode": "Mode de couleur",
+    "colors": "Couleurs",
+    "colorRotationSpeed": "Vitesse de rotation",
+    "colorRotationDirection": "Direction de rotation",
+    "animationSpeed": "Vitesse d'animation",
+    "animationDirection": "Direction d'animation",
+    "spacing": "Espacement",
+    "thickness": "Épaisseur",
+    "centerX": "Position X",
+    "centerY": "Position Y",
+    "colorModeOptions": {
+      "rainbow": "Arc-en-ciel",
+      "custom": "Personnalisé"
+    },
+    "colorRotationDirectionOptions": {
+      "clockwise": "Sens horaire",
+      "counterClockwise": "Sens antihoraire"
+    },
+    "animationDirectionOptions": {
+      "inside": "Vers l'intérieur",
+      "outside": "Vers l'extérieur"
+    }
+  }
+}

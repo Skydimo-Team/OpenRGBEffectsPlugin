@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Visière",
+    "description": "Une tête lumineuse en forme de visière balaie d'avant en arrière, mélange deux couleurs pendant le mouvement et inverse la couleur de tête à chaque retour.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "width": "Largeur",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs"
+  }
+}

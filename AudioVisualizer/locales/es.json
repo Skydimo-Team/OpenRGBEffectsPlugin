@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "name": "Visualizador de audio",
+    "description": "Renderiza un ecualizador de audio en tiempo real en el dispositivo con múltiples patrones de color de primer plano y fondo.",
+    "category": "Música"
+  },
+  "params": {
+    "bg_mode": "Modo de fondo",
+    "fg_mode": "Modo de primer plano",
+    "single_color_mode": "Modo de color único",
+    "bg_brightness": "Brillo de fondo",
+    "anim_speed": "Velocidad de animación",
+    "bg_timeout": "Tiempo de espera del fondo",
+    "reactive_bg": "Fondo reactivo",
+    "silent_bg": "Fondo silencioso",
+    "avg_size": "Suavizado",
+    "groups": {
+      "background": "Fondo",
+      "foreground": "Primer plano",
+      "single_color": "Color único",
+      "animation": "Animación",
+      "audio": "Audio"
+    },
+    "pattern": {
+      "black": "Negro",
+      "white": "Blanco",
+      "red": "Rojo",
+      "orange": "Naranja",
+      "yellow": "Amarillo",
+      "green": "Verde",
+      "cyan": "Cian",
+      "blue": "Azul",
+      "purple": "Morado",
+      "electric_aquamarine": "Aguamarina eléctrica",
+      "red_blue": "Rojo / Azul",
+      "cyan_orange": "Cian / Naranja",
+      "cyan_purple": "Cian / Morado",
+      "cyan_electric_aquamarine": "Cian / Aguamarina eléctrica",
+      "green_yellow_red": "Verde / Amarillo / Rojo",
+      "green_white_red": "Verde / Blanco / Rojo",
+      "blue_cyan_white": "Azul / Cian / Blanco",
+      "red_white_blue": "Rojo / Blanco / Azul",
+      "rainbow_bars": "Barras arcoíris",
+      "rainbow_bars_inv": "Barras arcoíris invertidas",
+      "original": "Original",
+      "rainbow": "Arcoíris",
+      "color_wheel": "Rueda de color",
+      "color_wheel_2": "Rueda de color 2",
+      "spectrum_cycle": "Ciclo espectral",
+      "sinusoidal_cycle": "Ciclo sinusoidal"
+    },
+    "sc": {
+      "black": "Negro",
+      "white": "Blanco",
+      "red": "Rojo",
+      "orange": "Naranja",
+      "yellow": "Amarillo",
+      "green": "Verde",
+      "cyan": "Cian",
+      "blue": "Azul",
+      "purple": "Morado",
+      "electric_aquamarine": "Aguamarina eléctrica",
+      "background": "Fondo",
+      "follow_background": "Seguir fondo",
+      "follow_foreground": "Seguir primer plano"
+    }
+  }
+}

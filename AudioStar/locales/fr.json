@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Étoile audio",
+    "description": "Associe chaque bande de fréquences audio à une position angulaire pour dessiner un motif lumineux en étoile qui pulse avec l'audio.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "response": "Réponse",
+      "edgeBeat": "Impulsion de bord"
+    },
+    "speed": "Vitesse",
+    "smoothness": "Lissage",
+    "useAlbumArt": "Couleurs de la pochette",
+    "edgeBeat": "Impulsion de bord",
+    "edgeBeatHue": "Teinte de bord",
+    "edgeBeatSaturation": "Saturation de bord",
+    "edgeBeatSensitivity": "Sensibilité de bord"
+  }
+}

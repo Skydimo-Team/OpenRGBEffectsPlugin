@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Intercambio",
+    "description": "Un límite se desplaza de izquierda a derecha alternando entre dos colores en cada pasada.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Colores aleatorios",
+    "colors": "Colores"
+  }
+}

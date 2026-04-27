@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Blasen",
+    "description": "Erzeugt zufällig farbige Blasenringe, die sich nach außen ausdehnen und mit einem Additions-Glow-Effekt ausblenden.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Aussehen",
+      "animation": "Animation",
+      "density": "Dichte"
+    },
+    "background": "Hintergrund",
+    "colors": "Blasenfarben",
+    "max_bubbles": "Max. Blasen",
+    "rarity": "Seltenheit",
+    "max_expansion": "Max. Ausdehnung",
+    "thickness": "Dicke",
+    "speed": "Geschwindigkeit"
+  }
+}

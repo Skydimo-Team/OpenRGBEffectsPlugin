@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Ondulé",
+    "description": "Onde sinusoïdale bicolore qui défile sur les LED tout en oscillant en amplitude, pour un mouvement fluide.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "wave": "Onde",
+      "color": "Couleur"
+    },
+    "wave_frequency": "Fréquence de l'onde",
+    "wave_speed": "Vitesse de l'onde",
+    "oscillation_speed": "Vitesse d'oscillation",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs des ondes"
+  }
+}

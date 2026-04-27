@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Polizeileuchte",
+    "description": "Ein Lichtstrahl bewegt sich hin und her und lässt die gesamte Zone am Ende jedes Durchlaufs aufblitzen, bevor er die Richtung wechselt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "width": "Breite",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

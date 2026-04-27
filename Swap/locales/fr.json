@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Permutation",
+    "description": "Une frontière balaie de gauche à droite en alternant entre deux couleurs à chaque passage.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs"
+  }
+}

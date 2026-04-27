@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaico",
+    "description": "Genera aleatoriamente mosaicos de color en el dispositivo que se iluminan brevemente y luego se desvanecen.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "pattern": "Patrón",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "rarity": "Rareza",
+    "random": "Colores aleatorios",
+    "colors": "Colores de las baldosas"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Marquesina aleatoria",
+    "description": "Una marquesina desplazable que cambia aleatoriamente su dirección, velocidad y espaciado de segmentos en cada ciclo.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

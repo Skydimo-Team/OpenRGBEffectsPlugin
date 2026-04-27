@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Benutzerdefinierter Lauflichteffekt",
+    "description": "Ein laufender Lauflichteffekt, der durch benutzerdefinierte Farben in einstellbaren Segmentlängen wechselt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "colors": "Farben"
+  }
+}

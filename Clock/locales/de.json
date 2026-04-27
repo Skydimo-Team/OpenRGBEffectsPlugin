@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Uhr",
+    "description": "Ordnet die aktuelle Zeit LED-Positionen zu und beleuchtet Stunden-, Minuten- und Sekundenanzeige auf dem Streifen unabhängig voneinander.",
+    "category": "Andere"
+  },
+  "params": {
+    "groups": {
+      "clock": "Uhr",
+      "colors": "Farben"
+    },
+    "clockMode": "Uhrmodus",
+    "clockModeOptions": {
+      "12hour": "12-Stunden",
+      "24hour": "24-Stunden"
+    },
+    "hourColor": "Stundenfarbe",
+    "minuteColor": "Minutenfarbe",
+    "secondColor": "Sekundenfarbe"
+  }
+}

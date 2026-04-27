@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Rotierender Regenbogen",
+    "description": "Ein Regenbogenbogen, der sich um das Zentrum des Geräts dreht, mit unabhängig einstellbarer Rotations- und Farbwechselgeschwindigkeit.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation"
+    },
+    "speed": "Rotationsgeschwindigkeit",
+    "colorSpeed": "Farbgeschwindigkeit",
+    "reverse": "Umkehren"
+  }
+}

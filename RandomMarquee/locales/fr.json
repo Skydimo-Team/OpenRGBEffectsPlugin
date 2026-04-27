@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Marquee aléatoire",
+    "description": "Marquee défilante qui change aléatoirement de direction, de vitesse et d'espacement des segments à chaque cycle.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

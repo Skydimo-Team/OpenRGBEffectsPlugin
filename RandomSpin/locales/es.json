@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Giro aleatorio",
+    "description": "Un degradado de dos colores que se desplaza por los LED y alterna aleatoriamente entre girar —a velocidad y dirección aleatorias— y hacer pausas breves.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "colors": "Colores"
+  }
+}

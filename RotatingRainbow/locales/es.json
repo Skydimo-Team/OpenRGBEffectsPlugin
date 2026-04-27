@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Arcoíris giratorio",
+    "description": "Un arco arcoíris gira alrededor del centro del dispositivo, con velocidades de rotación y ciclo de color ajustables de forma independiente.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación"
+    },
+    "speed": "Velocidad de rotación",
+    "colorSpeed": "Velocidad del color",
+    "reverse": "Invertir"
+  }
+}

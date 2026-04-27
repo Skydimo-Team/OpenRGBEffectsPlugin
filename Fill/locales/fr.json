@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Remplissage",
+    "description": "Remplit progressivement l'appareil depuis une extrémité avec une couleur unie, puis estompe toute la zone avant de recommencer.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

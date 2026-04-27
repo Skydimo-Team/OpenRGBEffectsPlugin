@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Éclair",
+    "description": "Déclenche aléatoirement des éclairs lumineux qui s'estompent rapidement, simulant la foudre en mode bande entière ou LED par LED.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "decay": "Décroissance",
+    "mode": "Mode",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur",
+    "modeOptions": {
+      "wholeStrip": "Bande entière",
+      "perLed": "Par LED"
+    }
+  }
+}

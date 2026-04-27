@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Faisceaux croisés",
+    "description": "Deux faisceaux lumineux balayent l'appareil indépendamment — l'un horizontalement, l'autre verticalement.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Apparence",
+      "color": "Couleur",
+      "axisMotion": "Mouvement d'axe",
+      "glowTuning": "Réglage du halo"
+    },
+    "speed": "Vitesse",
+    "h_speed": "Vitesse horizontale",
+    "v_speed": "Vitesse verticale",
+    "glow": "Halo",
+    "thickness": "Épaisseur",
+    "random_colors": "Couleurs aléatoires",
+    "colors": "Couleurs des faisceaux"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Empilement",
+    "description": "Une tête lumineuse mobile balaie l'appareil en empilant une couleur unie depuis une extrémité jusqu'à remplir la zone, puis recommence.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "direction": "Direction de la matrice",
+    "directionOptions": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical"
+    },
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

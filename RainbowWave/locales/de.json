@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Regenbogenwelle",
+    "description": "Ein vollständiges Regenbogenspektrum, das mit einstellbarer Geschwindigkeit und Frequenz kontinuierlich über die LEDs gleitet.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Muster"
+    },
+    "speed": "Geschwindigkeit",
+    "frequency": "Frequenz"
+  }
+}

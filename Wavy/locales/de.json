@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Wellenförmig",
+    "description": "Eine zweifarbige Sinuswelle, die gleichzeitig über die LEDs läuft und in ihrer Amplitude schwingt und so eine flüssige Wellenbewegung erzeugt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "wave": "Welle",
+      "color": "Farbe"
+    },
+    "wave_frequency": "Wellenfrequenz",
+    "wave_speed": "Wellengeschwindigkeit",
+    "oscillation_speed": "Oszillationsgeschwindigkeit",
+    "random": "Zufällige Farben",
+    "colors": "Wellenfarben"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Sonnenaufgang",
+    "description": "Ein radialer Verlauf mit vier Farbstopps, der sich im Lauf der Zeit ausdehnt und aufhellt und so einen Sonnenauf- oder -untergang simuliert, mit Schleifen- oder Einmaldurchlauf-Optionen.",
+    "category": "Andere"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "effect": "Effekt",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "intensity": "Intensität",
+    "intensity_speed": "Intensitätsgeschwindigkeit",
+    "radius": "Radius",
+    "grow_speed": "Wachstumsgeschwindigkeit",
+    "run_once": "Nur einmal ausführen",
+    "motion": "Bewegung",
+    "colors": "Farben"
+  }
+}

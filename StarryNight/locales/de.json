@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Sternennacht",
+    "description": "Zufällige LEDs leuchten wie Sterne auf – jede blendet ein, bleibt kurz sichtbar und blendet wieder aus – vor einem Hintergrund mit einstellbarer Helligkeit.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Aussehen",
+      "animation": "Animation"
+    },
+    "background": "Hintergrundfarbe",
+    "bg_brightness": "Hintergrundhelligkeit",
+    "random": "Zufällige Farben",
+    "colors": "Sternfarben",
+    "density": "Sterndichte",
+    "fade_in_speed": "Einblendzeit",
+    "fade_out_speed": "Ausblendzeit",
+    "star_on_time": "Stern-Leuchtdauer"
+  }
+}

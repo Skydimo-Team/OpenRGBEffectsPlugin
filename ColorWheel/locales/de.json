@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Farbrad",
+    "description": "Rendert ein rotierendes Vollspektrum-Farbrad, das von einem konfigurierbaren Mittelpunkt ausstrahlt.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "center": "Mittelpunktposition"
+    },
+    "speed": "Geschwindigkeit",
+    "cx": "X-Position",
+    "cy": "Y-Position",
+    "direction": "Richtung",
+    "directionOptions": {
+      "clockwise": "Im Uhrzeigersinn",
+      "counterClockwise": "Gegen den Uhrzeigersinn"
+    }
+  }
+}

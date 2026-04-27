@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Fête audio",
+    "description": "Divise le spectre audio en trois zones : les basses fréquences pilotent le déplacement de l'onde, les médiums décalent la teinte et les hautes fréquences déclenchent des éclairs aléatoires.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "motion": "Mouvement",
+      "wave": "Onde",
+      "zones": "Zones",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "colorSpeed": "Vitesse des couleurs",
+    "divisions": "Divisions",
+    "smoothness": "Lissage",
+    "effectThreshold": "Seuil d'effet",
+    "motionZoneEnd": "Fin de la zone de mouvement",
+    "colorZoneEnd": "Fin de la zone de couleur",
+    "useAlbumArt": "Couleurs de la pochette"
+  }
+}

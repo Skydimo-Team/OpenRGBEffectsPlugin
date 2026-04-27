@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Cometa",
+    "description": "Un cometa con una estela de desvanecimiento exponencial recorre los LED en modo arcoíris o color personalizado.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "comet_size": "Tamaño del cometa",
+    "color_mode": "Modo de color",
+    "color": "Color del cometa",
+    "colorModeOptions": {
+      "rainbow": "Arcoíris",
+      "custom": "Personalizado"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Marquesina",
+    "description": "Marquesina de un solo color con espaciado configurable entre segmentos iluminados.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "spacing": "Espaciado",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

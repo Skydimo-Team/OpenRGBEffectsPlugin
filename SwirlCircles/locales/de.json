@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "Wirbelkreise",
+    "description": "Zwei einander gegenüberliegende Kreise umkreisen das Zentrum des Geräts und mischen ihren Leuchteffekt per Screen-Compositing.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Aussehen",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "glow": "Leuchten",
+    "radius": "Radius",
+    "reverse": "Umkehren",
+    "random": "Zufällige Farben",
+    "color1": "Farbe 1",
+    "color2": "Farbe 2"
+  }
+}

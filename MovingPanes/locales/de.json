@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Bewegte Segmente",
+    "description": "Teilt das Gerät in gleich große Farbsegmente, die in abwechselnden Richtungen gleiten und so eine synchronisierte symmetrische Bewegung erzeugen.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "divisions": "Unterteilungen",
+    "reverse": "Umkehren",
+    "colors": "Farben"
+  }
+}

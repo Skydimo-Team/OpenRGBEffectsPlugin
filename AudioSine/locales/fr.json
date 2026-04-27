@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "name": "Sinusoïde audio",
+    "description": "Onde sinusoïdale défilante dont l'amplitude est façonnée par le spectre audio, avec halo, épaisseur et modes de couleur réglables.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "wave": "Onde",
+      "response": "Réponse",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse de défilement",
+    "repeat": "Répéter",
+    "thickness": "Épaisseur",
+    "glow": "Halo",
+    "oscillation": "Oscillation",
+    "smoothness": "Lissage",
+    "colorMode": "Mode de couleur",
+    "colorModeOptions": {
+      "spectrumCycle": "Cycle spectral",
+      "static": "Statique"
+    },
+    "colorChangeSpeed": "Vitesse du cycle",
+    "useAlbumArt": "Couleurs de la pochette",
+    "backgroundColor": "Arrière-plan",
+    "waveColor": "Couleur de l'onde"
+  }
+}

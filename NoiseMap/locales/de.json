@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Rauschkarte",
+    "description": "Ein animiertes Simplex-Rauschfeld mit einstellbarer Frequenz, Amplitude und Oktaven, gerendert in Regenbogen- oder benutzerdefinierten Verlaufsfarben.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "noise": "Rauschen",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "motion": "Bewegung",
+    "motionSpeed": "Bewegungsgeschwindigkeit",
+    "frequency": "Frequenz",
+    "amplitude": "Amplitude",
+    "lacunarity": "Lakunarität",
+    "persistence": "Persistenz",
+    "octaves": "Oktaven",
+    "mode": "Modus",
+    "preset": "Vorgabe",
+    "colors": "Verlaufsfarben",
+    "motionOptions": {
+      "up": "Nach oben",
+      "down": "Nach unten",
+      "left": "Links",
+      "right": "Rechts"
+    },
+    "modeOptions": {
+      "rainbow": "Regenbogen",
+      "inverseRainbow": "Umgekehrter Regenbogen",
+      "custom": "Benutzerdefiniert"
+    },
+    "presetOptions": {
+      "lava": "Lava",
+      "borealis": "Borealis",
+      "ocean": "Ozean",
+      "chemicals": "Chemikalien"
+    }
+  }
+}

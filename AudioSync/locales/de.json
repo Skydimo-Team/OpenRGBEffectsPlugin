@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Audio-Sync",
+    "description": "Verfolgt die dominante Audiofrequenz in Echtzeit, wandelt sie in einen Farbton um und verteilt die Farbe in einem von fünf Rollmodi über das Gerät.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "color": "Farbe",
+      "display": "Anzeige",
+      "response": "Reaktion",
+      "edgeBeat": "Kantenimpuls"
+    },
+    "hueShift": "Farbtonverschiebung",
+    "fadeSpeed": "Ausblendgeschwindigkeit",
+    "saturationMode": "Sättigungsmodus",
+    "satModeNormal": "Normal",
+    "satModeHighAmp": "Hohe Amplituden sättigen",
+    "satModeBW": "Schwarz & Weiß",
+    "rollMode": "Rollmodus",
+    "rollLinear": "Linear horizontal",
+    "rollNone": "Kein Rollen",
+    "rollRadial": "Radial",
+    "rollWave": "Welle",
+    "rollVertical": "Linear vertikal",
+    "smoothness": "Glättung",
+    "bandpassRange": "Bandpassfilter",
+    "useAlbumArt": "Albumcover-Farben",
+    "silentColor": "Fallback-Farbe bei Stille",
+    "silentColorValue": "Stille-Farbe",
+    "edgeBeat": "Kantenimpuls",
+    "edgeBeatHue": "Randfarbton",
+    "edgeBeatSaturation": "Randsättigung",
+    "edgeBeatSensitivity": "Randempfindlichkeit"
+  }
+}

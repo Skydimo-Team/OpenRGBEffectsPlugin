@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "name": "Audio-Blasen",
+    "description": "Blasenringe, die sich von Entstehungspunkten nach außen ausdehnen, durch die Audiolautstärke ausgelöst und mit Verlaufsfarben gerendert werden.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "color": "Farbe",
+      "response": "Reaktion",
+      "bubbles": "Blasen"
+    },
+    "preset": "Vorgabe",
+    "presetOptions": {
+      "unicornVomit": "Einhorn-Erbrochenes",
+      "borealis": "Borealis",
+      "ocean": "Ozean",
+      "pinkBlue": "Pink/Blau",
+      "pinkGold": "Pink/Gold",
+      "pulse": "Pulse",
+      "purpleOrange": "Lila/Orange",
+      "lightBluePurple": "Hellblau/Lila",
+      "policeBeacon": "Polizeileuchte",
+      "seabed": "Meeresboden",
+      "sunset": "Sonnenuntergang",
+      "vaporwave": "Vaporwave"
+    },
+    "colors": "Verlaufsfarben",
+    "spawnMode": "Blasenentstehung",
+    "spawnModes": {
+      "randomXY": "Zufälliges XY",
+      "randomX": "Zufälliges X",
+      "randomY": "Zufälliges Y",
+      "center": "Zentrum"
+    },
+    "trigger": "Lautstärkeauslöser",
+    "max_bubbles": "Max. Blasen",
+    "max_expansion": "Max. Ausdehnung",
+    "bubbles_thickness": "Blasendicke",
+    "speed": "Geschwindigkeit",
+    "smoothness": "Glättung"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "name": "Movimiento fractal",
+    "description": "Onda sinusoidal compuesta construida a partir de hasta 12 moduladores de frecuencia en capas, que se desplaza por los LED con amplitud y caída de fondo ajustables.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "appearance": "Apariencia",
+      "animation": "Animación",
+      "fractal": "Fractal",
+      "color": "Color"
+    },
+    "background": "Fondo",
+    "thickness": "Grosor",
+    "speed": "Velocidad",
+    "amplitude": "Amplitud",
+    "frequency": "Frecuencia",
+    "freq_m1": "Freq m1",
+    "freq_m2": "Freq m2",
+    "freq_m3": "Freq m3",
+    "freq_m4": "Freq m4",
+    "freq_m5": "Freq m5",
+    "freq_m6": "Freq m6",
+    "freq_m7": "Freq m7",
+    "freq_m8": "Freq m8",
+    "freq_m9": "Freq m9",
+    "freq_m10": "Freq m10",
+    "freq_m11": "Freq m11",
+    "freq_m12": "Freq m12",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

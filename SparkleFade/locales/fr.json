@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Fondu scintillant",
+    "description": "Fait apparaître une couleur unie puis l'estompe tandis que des étincelles se propagent et se dissolvent dans toute la zone.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "timing": "Temporalité",
+      "color": "Couleur"
+    },
+    "off_time": "Temps d'arrêt (s)",
+    "fade_in_time": "Temps de fondu entrant (s)",
+    "fade_out_time": "Temps de fondu sortant (s)",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Audio-VU-Meter",
+    "description": "Füllt LEDs proportional zum aktuellen Audiopegel mit einem konfigurierbaren Farbtonbereich und einer konfigurierbaren Sättigung.",
+    "category": "Musik"
+  },
+  "params": {
+    "groups": {
+      "response": "Reaktion",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "smoothness": "Glättung",
+    "colorOffset": "Farbtonversatz",
+    "colorSpread": "Farbtonverteilung",
+    "saturation": "Sättigung",
+    "invertHue": "Farbton invertieren",
+    "useAlbumArt": "Albumcover-Farben"
+  }
+}

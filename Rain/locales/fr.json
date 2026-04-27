@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "name": "Pluie",
+    "description": "Simule une pluie tombante avec des gouttes dans des colonnes aléatoires, chacune avec une tête lumineuse et une traîne qui s'estompe progressivement.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "drops": "Gouttes",
+    "drop_size": "Taille des gouttes",
+    "random": "Couleurs aléatoires",
+    "only_first": "Seulement la première couleur",
+    "colors": "Couleurs utilisateur"
+  }
+}

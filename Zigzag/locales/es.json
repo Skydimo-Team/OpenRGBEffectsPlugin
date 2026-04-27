@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Zigzag",
+    "description": "Traza un recorrido serpenteante columna por columna a través de la matriz LED, con una cola de brillo de caída cúbica en modo arcoíris o color personalizado.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "color_mode": "Modo de color",
+    "color": "Color",
+    "colorModeOptions": {
+      "rainbow": "Arcoíris",
+      "custom": "Personalizado"
+    }
+  }
+}

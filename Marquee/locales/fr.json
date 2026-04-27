@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Marquee",
+    "description": "Marquee monochrome défilante avec espacement configurable entre les segments allumés.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "spacing": "Espacement",
+    "random": "Couleurs aléatoires",
+    "color": "Couleur"
+  }
+}

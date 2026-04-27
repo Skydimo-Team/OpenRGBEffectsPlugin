@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "name": "Éclosion",
+    "description": "Chaque LED progresse dans le spectre de teinte à son propre rythme aléatoire, créant des couleurs qui éclosent indépendamment dans toute la zone.",
+    "category": "Coloré"
+  },
+  "params": {
+    "speed": "Vitesse",
+    "saturation": "Saturation"
+  }
+}

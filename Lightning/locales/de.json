@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "name": "Blitz",
+    "description": "Löst zufällig helle Blitze aus, die schnell abklingen, und simuliert so Blitzlicht im Modus für den ganzen Streifen oder pro LED.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "decay": "Abklingrate",
+    "mode": "Modus",
+    "random": "Zufällige Farben",
+    "color": "Farbe",
+    "modeOptions": {
+      "wholeStrip": "Gesamter Streifen",
+      "perLed": "Pro LED"
+    }
+  }
+}

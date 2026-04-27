@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Bewegungspunkt",
+    "description": "Ein einzelner heller Punkt schwingt vor und zurück über die LEDs vor einer konfigurierbaren Hintergrundfarbe.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "random": "Zufallsfarbe",
+    "color": "Punktfarbe",
+    "background": "Hintergrundfarbe"
+  }
+}

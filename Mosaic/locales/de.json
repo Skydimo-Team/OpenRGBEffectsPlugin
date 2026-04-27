@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Mosaik",
+    "description": "Erzeugt zufällig farbige Kacheln auf dem Gerät, die kurz aufleuchten und dann ausblenden.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Muster",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "rarity": "Seltenheit",
+    "random": "Zufällige Farben",
+    "colors": "Kachelfarben"
+  }
+}

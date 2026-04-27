@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "Synchronisation audio",
+    "description": "Suit la fréquence audio dominante en temps réel, la convertit en teinte et diffuse la couleur sur l'appareil selon l'un des cinq modes de défilement.",
+    "category": "Musique"
+  },
+  "params": {
+    "groups": {
+      "color": "Couleur",
+      "display": "Affichage",
+      "response": "Réponse",
+      "edgeBeat": "Impulsion de bord"
+    },
+    "hueShift": "Décalage de teinte",
+    "fadeSpeed": "Vitesse de fondu",
+    "saturationMode": "Mode de saturation",
+    "satModeNormal": "Normal",
+    "satModeHighAmp": "Saturer les fortes amplitudes",
+    "satModeBW": "Noir et blanc",
+    "rollMode": "Mode de défilement",
+    "rollLinear": "Linéaire horizontal",
+    "rollNone": "Sans défilement",
+    "rollRadial": "Radial",
+    "rollWave": "Onde",
+    "rollVertical": "Linéaire vertical",
+    "smoothness": "Lissage",
+    "bandpassRange": "Filtre passe-bande",
+    "useAlbumArt": "Couleurs de la pochette",
+    "silentColor": "Couleur de secours silencieuse",
+    "silentColorValue": "Couleur du silence",
+    "edgeBeat": "Impulsion de bord",
+    "edgeBeatHue": "Teinte de bord",
+    "edgeBeatSaturation": "Saturation de bord",
+    "edgeBeatSensitivity": "Sensibilité de bord"
+  }
+}

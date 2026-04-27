@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Medidor VU de audio",
+    "description": "Rellena los LED proporcionalmente al nivel de audio actual, con rango de tono y saturación configurables.",
+    "category": "Música"
+  },
+  "params": {
+    "groups": {
+      "response": "Respuesta",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "smoothness": "Suavizado",
+    "colorOffset": "Desfase de tono",
+    "colorSpread": "Distribución del tono",
+    "saturation": "Saturación",
+    "invertHue": "Invertir tono",
+    "useAlbumArt": "Colores de la portada"
+  }
+}

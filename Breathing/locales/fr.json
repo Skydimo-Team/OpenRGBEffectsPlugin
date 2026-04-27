@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Respiration",
+    "description": "Fait apparaître puis disparaître toute la zone à travers une séquence de couleurs choisies par l'utilisateur.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Couleur"
+    },
+    "speed": "Vitesse",
+    "random": "Couleurs aléatoires",
+    "colors": "Couleurs"
+  }
+}

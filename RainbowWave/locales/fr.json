@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Vague arc-en-ciel",
+    "description": "Un spectre arc-en-ciel complet glisse en continu sur les LED à une vitesse et une fréquence configurables.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "pattern": "Motif"
+    },
+    "speed": "Vitesse",
+    "frequency": "Fréquence"
+  }
+}

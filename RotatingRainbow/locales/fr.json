@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "name": "Arc-en-ciel rotatif",
+    "description": "Un arc arc-en-ciel tourne autour du centre de l'appareil, avec des vitesses de rotation et de cycle des couleurs réglables indépendamment.",
+    "category": "Coloré"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation"
+    },
+    "speed": "Vitesse de rotation",
+    "colorSpeed": "Vitesse des couleurs",
+    "reverse": "Inverser"
+  }
+}

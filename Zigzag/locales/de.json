@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "name": "Zickzack",
+    "description": "Zeichnet spaltenweise einen Schlangenpfad durch die LED-Matrix, mit einer kubisch abfallenden Schweifhelligkeit in Regenbogen- oder benutzerdefinierter Farbe.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "color": "Farbe"
+    },
+    "speed": "Geschwindigkeit",
+    "color_mode": "Farbmodus",
+    "color": "Farbe",
+    "colorModeOptions": {
+      "rainbow": "Regenbogen",
+      "custom": "Benutzerdefiniert"
+    }
+  }
+}

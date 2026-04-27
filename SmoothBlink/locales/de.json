@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "name": "Sanftes Blinken",
+    "description": "Erzeugt eine atmende Pulssequenz mit einstellbarer Pulsanzahl, Dauer und Intervall im Vollflächen- oder radialen Kreismodus.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "timing": "Timing",
+      "appearance": "Aussehen",
+      "color": "Farbe"
+    },
+    "interval": "Intervall (s)",
+    "pulses": "Pulse",
+    "pulse_duration": "Pulsdauer (s)",
+    "strength": "Stärke (%)",
+    "rendering": "Rendering",
+    "renderingOptions": {
+      "solid": "Vollfläche",
+      "circle": "Kreis"
+    },
+    "cx": "X-Position",
+    "cy": "Y-Position",
+    "random": "Zufällige Farben",
+    "color1": "Pulsfarbe",
+    "color2": "Basisfarbe"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Doble arcoíris giratorio",
+    "description": "Dos arcos arcoíris diametralmente opuestos giran sincronizados alrededor del centro del dispositivo.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "pattern": "Patrón"
+    },
+    "speed": "Velocidad de rotación",
+    "colorSpeed": "Velocidad del color",
+    "frequency": "Frecuencia"
+  }
+}

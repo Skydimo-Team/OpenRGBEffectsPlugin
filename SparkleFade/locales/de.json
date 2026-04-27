@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "name": "Funkelndes Ausblenden",
+    "description": "Blendet eine Vollfarbe ein und dann wieder aus, während sich Funken über die Zone ausbreiten und auflösen.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "timing": "Timing",
+      "color": "Farbe"
+    },
+    "off_time": "Aus-Zeit (s)",
+    "fade_in_time": "Einblendzeit (s)",
+    "fade_out_time": "Ausblendzeit (s)",
+    "random": "Zufällige Farben",
+    "color": "Farbe"
+  }
+}

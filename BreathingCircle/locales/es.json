@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "name": "Círculo de respiración",
+    "description": "Anillo circular que se expande y contrae suavemente para simular un ritmo de respiración.",
+    "category": "Colorido"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animación",
+      "color": "Color"
+    },
+    "speed": "Velocidad",
+    "thickness": "Grosor",
+    "random": "Colores aleatorios",
+    "color": "Color"
+  }
+}

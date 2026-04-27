@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Kreuzende Strahlen",
+    "description": "Zwei Lichtstrahlen, die unabhängig über das Gerät laufen – einer horizontal und einer vertikal.",
+    "category": "Farbenfroh"
+  },
+  "params": {
+    "groups": {
+      "animation": "Animation",
+      "appearance": "Aussehen",
+      "color": "Farbe",
+      "axisMotion": "Achsenbewegung",
+      "glowTuning": "Leuchten-Abstimmung"
+    },
+    "speed": "Geschwindigkeit",
+    "h_speed": "Horizontale Geschwindigkeit",
+    "v_speed": "Vertikale Geschwindigkeit",
+    "glow": "Leuchten",
+    "thickness": "Dicke",
+    "random_colors": "Zufällige Farben",
+    "colors": "Strahlfarben"
+  }
+}
