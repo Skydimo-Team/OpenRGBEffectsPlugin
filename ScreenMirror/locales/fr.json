@@ -8,7 +8,8 @@
     "groups": {
       "image": "Image",
       "processing": "Traitement d'image",
-      "blackBars": "Détection des bandes noires"
+      "blackBars": "Détection des bandes noires",
+      "colorCalibration": "Étalonnage des couleurs"
     },
     "smoothness": "Lissage",
     "brightness": "Gain de luminosité",
@@ -26,6 +27,9 @@
     "bbBorderFrameCnt": "Images de bascule stables",
     "bbUnknownFrameCnt": "Images de bascule inconnues",
     "bbMaxInconsistentCnt": "Nb max d'images incohérentes",
-    "bbBlurRemoveCnt": "Marge de sécurité du flou"
+    "bbBlurRemoveCnt": "Marge de sécurité du flou",
+    "redCalibration": "Rouge",
+    "greenCalibration": "Vert",
+    "blueCalibration": "Bleu"
   }
 }

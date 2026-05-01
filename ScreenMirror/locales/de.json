@@ -8,7 +8,8 @@
     "groups": {
       "image": "Bild",
       "processing": "Bildverarbeitung",
-      "blackBars": "Schwarzbalkenerkennung"
+      "blackBars": "Schwarzbalkenerkennung",
+      "colorCalibration": "Farbkalibrierung"
     },
     "smoothness": "Glättung",
     "brightness": "Helligkeitsverstärkung",
@@ -26,6 +27,9 @@
     "bbBorderFrameCnt": "Stabile Umschaltframes",
     "bbUnknownFrameCnt": "Unbekannte Umschaltframes",
     "bbMaxInconsistentCnt": "Max. inkonsistente Frames",
-    "bbBlurRemoveCnt": "Sicherheitsrand für Weichzeichnung"
+    "bbBlurRemoveCnt": "Sicherheitsrand für Weichzeichnung",
+    "redCalibration": "Rot",
+    "greenCalibration": "Grün",
+    "blueCalibration": "Blau"
   }
 }

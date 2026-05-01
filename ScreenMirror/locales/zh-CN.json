@@ -8,7 +8,8 @@
     "groups": {
       "image": "图像",
       "processing": "图像处理",
-      "blackBars": "黑边检测"
+      "blackBars": "黑边检测",
+      "colorCalibration": "色彩校准"
     },
     "smoothness": "平滑度",
     "brightness": "亮度增益",
@@ -26,7 +27,10 @@
     "bbBorderFrameCnt": "稳定边框切换帧数",
     "bbUnknownFrameCnt": "未知边框切换帧数",
     "bbMaxInconsistentCnt": "最大不一致帧数",
-    "bbBlurRemoveCnt": "模糊安全边界"
+    "bbBlurRemoveCnt": "模糊安全边界",
+    "redCalibration": "红色亮度",
+    "greenCalibration": "绿色亮度",
+    "blueCalibration": "蓝色亮度"
   }
 }
 
