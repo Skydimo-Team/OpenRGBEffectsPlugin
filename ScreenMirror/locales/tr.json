@@ -8,7 +8,8 @@
     "groups": {
       "image": "Görüntü",
       "processing": "Görüntü İşleme",
-      "blackBars": "Siyah Kenar Algılama"
+      "blackBars": "Siyah Kenar Algılama",
+      "colorCalibration": "Renk Kalibrasyonu"
     },
     "smoothness": "Akıcılık",
     "brightness": "Parlaklık Kazancı",
@@ -26,7 +27,10 @@
     "bbBorderFrameCnt": "Kararlı Geçiş Kareleri",
     "bbUnknownFrameCnt": "Bilinmeyen Geçiş Kareleri",
     "bbMaxInconsistentCnt": "Maksimum Tutarsız Kare",
-    "bbBlurRemoveCnt": "Bulanıklık Güvenlik Kenarı"
+    "bbBlurRemoveCnt": "Bulanıklık Güvenlik Kenarı",
+    "redCalibration": "Kırmızı",
+    "greenCalibration": "Yeşil",
+    "blueCalibration": "Mavi"
   }
 }
 

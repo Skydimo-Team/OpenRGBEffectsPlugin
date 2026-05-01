@@ -8,7 +8,8 @@
     "groups": {
       "image": "Изображение",
       "processing": "Обработка изображения",
-      "blackBars": "Обнаружение чёрных полос"
+      "blackBars": "Обнаружение чёрных полос",
+      "colorCalibration": "Калибровка цвета"
     },
     "smoothness": "Плавность",
     "brightness": "Усиление яркости",
@@ -26,7 +27,10 @@
     "bbBorderFrameCnt": "Кадры стабильного переключения",
     "bbUnknownFrameCnt": "Кадры неизвестного переключения",
     "bbMaxInconsistentCnt": "Максимум несогласованных кадров",
-    "bbBlurRemoveCnt": "Безопасная граница размытия"
+    "bbBlurRemoveCnt": "Безопасная граница размытия",
+    "redCalibration": "Красный",
+    "greenCalibration": "Зелёный",
+    "blueCalibration": "Синий"
   }
 }
 

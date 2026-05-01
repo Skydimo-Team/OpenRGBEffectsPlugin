@@ -157,6 +157,18 @@ function M.apply_color_temperature(r, g, b, gain_r, gain_g, gain_b)
   return clamp255(r * gain_r), clamp255(g * gain_g), clamp255(b * gain_b)
 end
 
+function M.apply_rgb_calibration(r, g, b, cal_r, cal_g, cal_b)
+  cal_r = cal_r or 1.0
+  cal_g = cal_g or 1.0
+  cal_b = cal_b or 1.0
+
+  if math.abs(cal_r - 1.0) <= 0.001 and math.abs(cal_g - 1.0) <= 0.001 and math.abs(cal_b - 1.0) <= 0.001 then
+    return r, g, b
+  end
+
+  return clamp255(r * cal_r), clamp255(g * cal_g), clamp255(b * cal_b)
+end
+
 function M.smooth(prev_packed, target_packed, smoothness)
   if not smoothness or smoothness <= 0 then
     return target_packed

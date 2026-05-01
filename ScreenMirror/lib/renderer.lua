@@ -68,6 +68,16 @@ function M.apply_params(cfg, p)
   if type(p.bbBlurRemoveCnt) == "number" then
     cfg.bbBlurRemoveCnt = round(clamp(p.bbBlurRemoveCnt, 0, 9999))
   end
+  
+  if type(p.redCalibration) == "number" then
+    cfg.redCalibration = clamp(p.redCalibration, 0.0, 2.0)
+  end
+  if type(p.greenCalibration) == "number" then
+    cfg.greenCalibration = clamp(p.greenCalibration, 0.0, 2.0)
+  end
+  if type(p.blueCalibration) == "number" then
+    cfg.blueCalibration = clamp(p.blueCalibration, 0.0, 2.0)
+  end
 end
 
 local function gaussian_kernel(radius)
@@ -244,6 +254,7 @@ local function sample(frame, ratio_x, ratio_y, crop, cfg, temp_r, temp_g, temp_b
   r, g, b = color.apply_color_temperature(r, g, b, temp_r, temp_g, temp_b)
   r, g, b = color.apply_brightness(r, g, b, cfg.brightness)
   r, g, b = color.apply_gamma(r, g, b, cfg.gamma)
+  r, g, b = color.apply_rgb_calibration(r, g, b, cfg.redCalibration, cfg.greenCalibration, cfg.blueCalibration)
 
   return color.pack_rgb(r, g, b)
 end

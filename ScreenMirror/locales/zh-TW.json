@@ -8,7 +8,8 @@
     "groups": {
       "image": "影像",
       "processing": "影像處理",
-      "blackBars": "黑邊偵測"
+      "blackBars": "黑邊偵測",
+      "colorCalibration": "色彩校準"
     },
     "smoothness": "平滑度",
     "brightness": "亮度增益",
@@ -26,7 +27,10 @@
     "bbBorderFrameCnt": "穩定切換影格數",
     "bbUnknownFrameCnt": "未知切換影格數",
     "bbMaxInconsistentCnt": "最大不一致影格數",
-    "bbBlurRemoveCnt": "模糊安全邊界"
+    "bbBlurRemoveCnt": "模糊安全邊界",
+    "redCalibration": "紅色亮度",
+    "greenCalibration": "綠色亮度",
+    "blueCalibration": "藍色亮度"
   }
 }
 

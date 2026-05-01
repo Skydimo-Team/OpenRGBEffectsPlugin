@@ -17,6 +17,9 @@ local config = {
   bbUnknownFrameCnt = 600,
   bbMaxInconsistentCnt = 10,
   bbBlurRemoveCnt = 1,
+  redCalibration = 1.0,
+  greenCalibration = 1.0,
+  blueCalibration = 1.0,
 }
 
 local state = {

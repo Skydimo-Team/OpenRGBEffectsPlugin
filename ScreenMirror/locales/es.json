@@ -8,7 +8,8 @@
     "groups": {
       "image": "Imagen",
       "processing": "Procesamiento de imagen",
-      "blackBars": "Detección de barras negras"
+      "blackBars": "Detección de barras negras",
+      "colorCalibration": "Calibración de color"
     },
     "smoothness": "Suavizado",
     "brightness": "Ganancia de brillo",
@@ -26,6 +27,9 @@
     "bbBorderFrameCnt": "Fotogramas de cambio estables",
     "bbUnknownFrameCnt": "Fotogramas de cambio desconocidos",
     "bbMaxInconsistentCnt": "Máx. de fotogramas inconsistentes",
-    "bbBlurRemoveCnt": "Borde de seguridad del desenfoque"
+    "bbBlurRemoveCnt": "Borde de seguridad del desenfoque",
+    "redCalibration": "Rojo",
+    "greenCalibration": "Verde",
+    "blueCalibration": "Azul"
   }
 }
