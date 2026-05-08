@@ -5,8 +5,6 @@ use std::slice;
 const SKYDIMO_NATIVE_C_ABI_VERSION: u32 = 3;
 const SKYDIMO_PLUGIN_KIND_EFFECT: u32 = 1 << 0;
 
-const SKYDIMO_LOG_WARN: u32 = 3;
-
 const PI: f32 = std::f32::consts::PI;
 const FFT_BINS: usize = 256;
 const ALBUM_ART_SIZE: usize = 64;
@@ -370,18 +368,6 @@ impl HostBridge {
         })
     }
 
-    fn log_warn(&self, message: &str) {
-        if let Some(log) = self.host.log {
-            unsafe {
-                log(
-                    self.host.host_ctx,
-                    SKYDIMO_LOG_WARN,
-                    message.as_ptr().cast::<c_char>(),
-                    message.len(),
-                );
-            }
-        }
-    }
 }
 
 #[derive(Clone, Copy)]
@@ -1140,16 +1126,11 @@ unsafe extern "C" fn audio_star_is_ready(_instance: *mut c_void) -> i32 {
 /// The host must pass ABI version 3 because this plugin uses typed effect callbacks.
 pub unsafe extern "C" fn skydimo_plugin_get_api(
     requested_abi_version: u32,
-    host: *const SkydimoHostApiV1,
+    _host: *const SkydimoHostApiV1,
     out_api: *mut SkydimoPluginApiV1,
 ) -> i32 {
     if out_api.is_null() || requested_abi_version != SKYDIMO_NATIVE_C_ABI_VERSION {
         return -1;
-    }
-    if host.is_null() || unsafe { (*host).effect_audio_capture.is_none() } {
-        let bridge = HostBridge::from_raw(host);
-        bridge.log_warn("AudioStar native plugin requires Skydimo native-c effect ABI v3");
-        return -2;
     }
 
     unsafe {
@@ -1178,4 +1159,31 @@ pub unsafe extern "C" fn skydimo_plugin_get_api(
         };
     }
     0
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn get_api_accepts_discovery_host_without_effect_callbacks() {
+        let host = SkydimoHostApiV1::default();
+        let mut api = SkydimoPluginApiV1::default();
+
+        let status = unsafe {
+            skydimo_plugin_get_api(
+                SKYDIMO_NATIVE_C_ABI_VERSION,
+                &host as *const SkydimoHostApiV1,
+                &mut api as *mut SkydimoPluginApiV1,
+            )
+        };
+
+        assert_eq!(status, 0);
+        assert_eq!(api.abi_version, SKYDIMO_NATIVE_C_ABI_VERSION);
+        assert_eq!(
+            api.kind_mask & SKYDIMO_PLUGIN_KIND_EFFECT,
+            SKYDIMO_PLUGIN_KIND_EFFECT
+        );
+        assert!(api.effect.create.is_some());
+    }
 }
