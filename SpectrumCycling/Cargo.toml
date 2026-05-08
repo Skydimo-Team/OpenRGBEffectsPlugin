@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_spectrum_cycling_native"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "spectrum_cycling"
+crate-type = ["cdylib"]
+
+[workspace]

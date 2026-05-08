@@ -7,8 +7,11 @@
   "repository": "https://github.com/Skydimo-Team/OpenRGBEffectsPlugin",
   "license": "GPL-2.0-or-later",
   "type": "effect",
-  "language": "lua",
-  "entry": "main.lua",
+  "language": "native-c",
+  "abi": "skydimo-effect-c-v3",
+  "entry": {
+    "windows-x86_64": "native/windows-x86_64/rainbow.dll"
+  },
   "category": "meta.category",
   "icon": "Waves",
   "permissions": [

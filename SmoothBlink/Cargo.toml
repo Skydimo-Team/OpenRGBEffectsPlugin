@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_smooth_blink_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "smooth_blink"
+crate-type = ["cdylib"]
+
+[workspace]

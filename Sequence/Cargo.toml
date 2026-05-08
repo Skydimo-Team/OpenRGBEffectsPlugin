@@ -1,0 +1,17 @@
+[package]
+name = "skydimo_sequence_native"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "sequence"
+crate-type = ["cdylib"]
+
+[profile.release]
+codegen-units = 1
+lto = "thin"
+opt-level = 3
+panic = "abort"
+strip = "symbols"
+
+[workspace]

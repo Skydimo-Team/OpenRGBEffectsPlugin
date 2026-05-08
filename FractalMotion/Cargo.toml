@@ -1,0 +1,16 @@
+[package]
+name = "skydimo_fractal_motion_native"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "fractal_motion"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = "symbols"
+
+[workspace]

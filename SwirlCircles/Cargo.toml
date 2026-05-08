@@ -1,0 +1,15 @@
+[package]
+name = "skydimo_swirl_circles_native"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "swirl_circles"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+
+[workspace]

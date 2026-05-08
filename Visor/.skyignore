@@ -1,0 +1,14 @@
+# Runtime import only needs the manifest, locales, and built native library.
+.git
+.gitignore
+.skyignore
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+Cargo.toml
+Cargo.lock
+build-native.ps1
+src/
+target/

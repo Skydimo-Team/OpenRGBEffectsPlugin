@@ -1,0 +1,16 @@
+[package]
+name = "skydimo_radial_rainbow_native"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "radial_rainbow"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[workspace]

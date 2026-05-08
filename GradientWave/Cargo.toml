@@ -1,0 +1,15 @@
+[package]
+name = "skydimo_gradient_wave_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "gradient_wave"
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+
+[workspace]

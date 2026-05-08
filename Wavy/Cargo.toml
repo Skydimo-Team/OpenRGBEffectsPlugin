@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_wavy_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "wavy"
+crate-type = ["cdylib"]
+
+[workspace]

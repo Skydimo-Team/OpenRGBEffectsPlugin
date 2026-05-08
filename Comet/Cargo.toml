@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_comet_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "comet"
+crate-type = ["cdylib"]
+
+[workspace]

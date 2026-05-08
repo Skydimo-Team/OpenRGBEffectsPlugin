@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_sparkle_fade_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "sparkle_fade"
+crate-type = ["cdylib"]
+
+[workspace]

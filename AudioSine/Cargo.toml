@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_audiosine_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "audiosine"
+crate-type = ["cdylib"]
+
+[workspace]

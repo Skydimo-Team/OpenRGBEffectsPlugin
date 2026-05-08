@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_visor_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "visor"
+crate-type = ["cdylib"]
+
+[workspace]

@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_swap_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "swap"
+crate-type = ["cdylib"]
+
+[workspace]

@@ -1,0 +1,10 @@
+[package]
+name = "skydimo_zigzag_native"
+version = "1.0.1"
+edition = "2021"
+
+[lib]
+name = "zigzag"
+crate-type = ["cdylib"]
+
+[workspace]
