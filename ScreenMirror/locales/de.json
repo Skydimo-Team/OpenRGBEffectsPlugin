@@ -8,6 +8,7 @@
     "groups": {
       "image": "Bild",
       "processing": "Bildverarbeitung",
+      "colorCalibration": "Farbkalibrierung",
       "blackBars": "Schwarzbalkenerkennung"
     },
     "smoothness": "Glättung",
@@ -15,6 +16,9 @@
     "saturation": "Sättigungsverstärkung",
     "gamma": "Gamma",
     "colorTemperature": "Farbtemperatur (K)",
+    "redCalibration": "Rot-Helligkeit",
+    "greenCalibration": "Grün-Helligkeit",
+    "blueCalibration": "Blau-Helligkeit",
     "blur": "Weichzeichnung",
     "autoCrop": "Schwarzbalken-Zuschnitt",
     "bbThreshold": "Schwellenwert (%)",

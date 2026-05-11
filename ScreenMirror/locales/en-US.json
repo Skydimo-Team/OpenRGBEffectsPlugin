@@ -8,6 +8,7 @@
     "groups": {
       "image": "Image",
       "processing": "Image Processing",
+      "colorCalibration": "Color Calibration",
       "blackBars": "Black Bar Detection"
     },
     "smoothness": "Smoothness",
@@ -15,6 +16,9 @@
     "saturation": "Saturation Gain",
     "gamma": "Gamma",
     "colorTemperature": "Color Temperature (K)",
+    "redCalibration": "Red Brightness",
+    "greenCalibration": "Green Brightness",
+    "blueCalibration": "Blue Brightness",
     "blur": "Blur",
     "autoCrop": "Black Bar Crop",
     "bbThreshold": "Threshold (%)",

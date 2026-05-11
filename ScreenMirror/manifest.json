@@ -66,6 +66,36 @@
       "step": 100
     },
     {
+      "key": "redCalibration",
+      "label": "params.redCalibration",
+      "group": "params.groups.colorCalibration",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "step": 0.01
+    },
+    {
+      "key": "greenCalibration",
+      "label": "params.greenCalibration",
+      "group": "params.groups.colorCalibration",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "step": 0.01
+    },
+    {
+      "key": "blueCalibration",
+      "label": "params.blueCalibration",
+      "group": "params.groups.colorCalibration",
+      "kind": "slider",
+      "default": 1,
+      "min": 0,
+      "max": 2,
+      "step": 0.01
+    },
+    {
       "key": "blur",
       "label": "params.blur",
       "group": "params.groups.processing",

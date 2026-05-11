@@ -8,6 +8,7 @@
     "groups": {
       "image": "Imagen",
       "processing": "Procesamiento de imagen",
+      "colorCalibration": "Calibración de color",
       "blackBars": "Detección de barras negras"
     },
     "smoothness": "Suavizado",
@@ -15,6 +16,9 @@
     "saturation": "Ganancia de saturación",
     "gamma": "Gamma",
     "colorTemperature": "Temperatura de color (K)",
+    "redCalibration": "Brillo rojo",
+    "greenCalibration": "Brillo verde",
+    "blueCalibration": "Brillo azul",
     "blur": "Desenfoque",
     "autoCrop": "Recorte de barras negras",
     "bbThreshold": "Umbral (%)",

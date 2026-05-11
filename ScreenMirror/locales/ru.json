@@ -8,6 +8,7 @@
     "groups": {
       "image": "Изображение",
       "processing": "Обработка изображения",
+      "colorCalibration": "Калибровка цвета",
       "blackBars": "Обнаружение чёрных полос"
     },
     "smoothness": "Плавность",
@@ -15,6 +16,9 @@
     "saturation": "Усиление насыщенности",
     "gamma": "Гамма",
     "colorTemperature": "Цветовая температура (K)",
+    "redCalibration": "Яркость красного",
+    "greenCalibration": "Яркость зелёного",
+    "blueCalibration": "Яркость синего",
     "blur": "Размытие",
     "autoCrop": "Обрезка чёрных полос",
     "bbThreshold": "Порог (%)",

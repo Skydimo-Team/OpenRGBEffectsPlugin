@@ -8,6 +8,7 @@
     "groups": {
       "image": "Image",
       "processing": "Traitement d'image",
+      "colorCalibration": "Étalonnage des couleurs",
       "blackBars": "Détection des bandes noires"
     },
     "smoothness": "Lissage",
@@ -15,6 +16,9 @@
     "saturation": "Gain de saturation",
     "gamma": "Gamma",
     "colorTemperature": "Température de couleur (K)",
+    "redCalibration": "Luminosité rouge",
+    "greenCalibration": "Luminosité verte",
+    "blueCalibration": "Luminosité bleue",
     "blur": "Flou",
     "autoCrop": "Rognage des bandes noires",
     "bbThreshold": "Seuil (%)",

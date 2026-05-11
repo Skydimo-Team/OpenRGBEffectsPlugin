@@ -8,6 +8,7 @@
     "groups": {
       "image": "图像",
       "processing": "图像处理",
+      "colorCalibration": "颜色校准",
       "blackBars": "黑边检测"
     },
     "smoothness": "平滑度",
@@ -15,6 +16,9 @@
     "saturation": "饱和度增益",
     "gamma": "Gamma 校正",
     "colorTemperature": "色温 (K)",
+    "redCalibration": "红色亮度",
+    "greenCalibration": "绿色亮度",
+    "blueCalibration": "蓝色亮度",
     "blur": "模糊程度",
     "autoCrop": "黑边裁剪",
     "bbThreshold": "判定阈值 (%)",

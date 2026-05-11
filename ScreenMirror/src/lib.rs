@@ -39,6 +39,9 @@ struct Config {
     saturation: f32,
     gamma: f32,
     color_temperature: f32,
+    red_calibration: f32,
+    green_calibration: f32,
+    blue_calibration: f32,
     blur: usize,
     auto_crop: bool,
     bb_threshold: f32,
@@ -57,6 +60,9 @@ impl Default for Config {
             saturation: 1.0,
             gamma: 1.0,
             color_temperature: NEUTRAL_KELVIN,
+            red_calibration: 1.0,
+            green_calibration: 1.0,
+            blue_calibration: 1.0,
             blur: 0,
             auto_crop: false,
             bb_threshold: 5.0,
@@ -74,6 +80,9 @@ struct ColorPipeline {
     gain_r: f32,
     gain_g: f32,
     gain_b: f32,
+    red_calibration: f32,
+    green_calibration: f32,
+    blue_calibration: f32,
     gamma_lut: [u8; 256],
 }
 
@@ -90,6 +99,9 @@ impl ColorPipeline {
             gain_r: temp_r * config.brightness,
             gain_g: temp_g * config.brightness,
             gain_b: temp_b * config.brightness,
+            red_calibration: config.red_calibration,
+            green_calibration: config.green_calibration,
+            blue_calibration: config.blue_calibration,
             gamma_lut,
         }
     }
@@ -107,14 +119,14 @@ impl ColorPipeline {
             b = gray + (b - gray) * saturation;
         }
 
-        let r = to_u8(r * self.gain_r);
-        let g = to_u8(g * self.gain_g);
-        let b = to_u8(b * self.gain_b);
+        let r = self.gamma_lut[to_u8(r * self.gain_r) as usize];
+        let g = self.gamma_lut[to_u8(g * self.gain_g) as usize];
+        let b = self.gamma_lut[to_u8(b * self.gain_b) as usize];
 
         SkydimoRgb {
-            r: self.gamma_lut[r as usize],
-            g: self.gamma_lut[g as usize],
-            b: self.gamma_lut[b as usize],
+            r: to_u8(r as f32 * self.red_calibration),
+            g: to_u8(g as f32 * self.green_calibration),
+            b: to_u8(b as f32 * self.blue_calibration),
         }
     }
 }
@@ -400,6 +412,9 @@ impl ScreenMirrorEffect {
         let old_gamma = self.config.gamma;
         let old_brightness = self.config.brightness;
         let old_temperature = self.config.color_temperature;
+        let old_red_calibration = self.config.red_calibration;
+        let old_green_calibration = self.config.green_calibration;
+        let old_blue_calibration = self.config.blue_calibration;
 
         if let Some(value) = parse_number_field(json, "smoothness") {
             self.config.smoothness = value.clamp(0.0, 100.0);
@@ -415,6 +430,15 @@ impl ScreenMirrorEffect {
         }
         if let Some(value) = parse_number_field(json, "colorTemperature") {
             self.config.color_temperature = value.round().clamp(2000.0, 10000.0);
+        }
+        if let Some(value) = parse_number_field(json, "redCalibration") {
+            self.config.red_calibration = value.clamp(0.0, 2.0);
+        }
+        if let Some(value) = parse_number_field(json, "greenCalibration") {
+            self.config.green_calibration = value.clamp(0.0, 2.0);
+        }
+        if let Some(value) = parse_number_field(json, "blueCalibration") {
+            self.config.blue_calibration = value.clamp(0.0, 2.0);
         }
         if let Some(value) = parse_number_field(json, "blur") {
             self.config.blur = round_to_usize(value.clamp(0.0, 50.0));
@@ -444,6 +468,9 @@ impl ScreenMirrorEffect {
         if old_gamma != self.config.gamma
             || old_brightness != self.config.brightness
             || old_temperature != self.config.color_temperature
+            || old_red_calibration != self.config.red_calibration
+            || old_green_calibration != self.config.green_calibration
+            || old_blue_calibration != self.config.blue_calibration
         {
             self.pipeline = ColorPipeline::new(&self.config);
         }
@@ -1092,7 +1119,7 @@ fn round_to_i32(value: f32) -> i32 {
 
 #[cfg(test)]
 mod tests {
-    use super::{border_equal, smooth_channel, BorderState};
+    use super::{border_equal, smooth_channel, BorderState, ColorPipeline, Config, SkydimoRgb};
 
     #[test]
     fn border_unknown_matches_only_unknown() {
@@ -1111,5 +1138,28 @@ mod tests {
     fn smoothing_moves_at_least_one_step() {
         assert_eq!(smooth_channel(0, 10, 0.01), 1);
         assert_eq!(smooth_channel(10, 0, 0.01), 9);
+    }
+
+    #[test]
+    fn rgb_calibration_scales_channels() {
+        let config = Config {
+            red_calibration: 0.5,
+            green_calibration: 1.0,
+            blue_calibration: 2.0,
+            ..Config::default()
+        };
+        let pipeline = ColorPipeline::new(&config);
+        let out = pipeline.apply(
+            SkydimoRgb {
+                r: 100,
+                g: 100,
+                b: 100,
+            },
+            1.0,
+        );
+
+        assert_eq!(out.r, 50);
+        assert_eq!(out.g, 100);
+        assert_eq!(out.b, 200);
     }
 }

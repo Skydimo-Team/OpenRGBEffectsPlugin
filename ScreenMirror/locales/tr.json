@@ -8,6 +8,7 @@
     "groups": {
       "image": "Görüntü",
       "processing": "Görüntü İşleme",
+      "colorCalibration": "Renk Kalibrasyonu",
       "blackBars": "Siyah Kenar Algılama"
     },
     "smoothness": "Akıcılık",
@@ -15,6 +16,9 @@
     "saturation": "Doygunluk Kazancı",
     "gamma": "Gamma",
     "colorTemperature": "Renk Sıcaklığı (K)",
+    "redCalibration": "Kırmızı Parlaklığı",
+    "greenCalibration": "Yeşil Parlaklığı",
+    "blueCalibration": "Mavi Parlaklığı",
     "blur": "Bulanıklık",
     "autoCrop": "Siyah Kenar Kırpma",
     "bbThreshold": "Eşik (%)",
