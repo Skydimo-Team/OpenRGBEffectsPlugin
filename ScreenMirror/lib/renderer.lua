@@ -78,6 +78,24 @@ function M.apply_params(cfg, p)
   if type(p.blueCalibration) == "number" then
     cfg.blueCalibration = clamp(p.blueCalibration, 0.0, 2.0)
   end
+  if type(p.redOffset) == "number" then
+    cfg.redOffset = clamp(p.redOffset, -100, 100)
+  end
+  if type(p.greenOffset) == "number" then
+    cfg.greenOffset = clamp(p.greenOffset, -100, 100)
+  end
+  if type(p.blueOffset) == "number" then
+    cfg.blueOffset = clamp(p.blueOffset, -100, 100)
+  end
+  if type(p.redGamma) == "number" then
+    cfg.redGamma = clamp(p.redGamma, 0.1, 4.0)
+  end
+  if type(p.greenGamma) == "number" then
+    cfg.greenGamma = clamp(p.greenGamma, 0.1, 4.0)
+  end
+  if type(p.blueGamma) == "number" then
+    cfg.blueGamma = clamp(p.blueGamma, 0.1, 4.0)
+  end
 end
 
 local function gaussian_kernel(radius)
@@ -282,7 +300,20 @@ local function sample(frame, ratio_x, ratio_y, crop, cfg, temp_r, temp_g, temp_b
   r, g, b = color.apply_color_temperature(r, g, b, temp_r, temp_g, temp_b)
   r, g, b = color.apply_brightness(r, g, b, cfg.brightness)
   r, g, b = color.apply_gamma(r, g, b, cfg.gamma)
-  r, g, b = color.apply_rgb_calibration(r, g, b, cfg.redCalibration, cfg.greenCalibration, cfg.blueCalibration)
+  r, g, b = color.apply_rgb_calibration(
+    r,
+    g,
+    b,
+    cfg.redCalibration,
+    cfg.greenCalibration,
+    cfg.blueCalibration,
+    cfg.redOffset,
+    cfg.greenOffset,
+    cfg.blueOffset,
+    cfg.redGamma,
+    cfg.greenGamma,
+    cfg.blueGamma
+  )
 
   return color.pack_rgb(r, g, b)
 end

@@ -157,16 +157,42 @@ function M.apply_color_temperature(r, g, b, gain_r, gain_g, gain_b)
   return clamp255(r * gain_r), clamp255(g * gain_g), clamp255(b * gain_b)
 end
 
-function M.apply_rgb_calibration(r, g, b, cal_r, cal_g, cal_b)
+function M.apply_rgb_calibration(r, g, b, cal_r, cal_g, cal_b, off_r, off_g, off_b, gamma_r, gamma_g, gamma_b)
   cal_r = cal_r or 1.0
   cal_g = cal_g or 1.0
   cal_b = cal_b or 1.0
+  off_r = off_r or 0.0
+  off_g = off_g or 0.0
+  off_b = off_b or 0.0
+  gamma_r = gamma_r or 1.0
+  gamma_g = gamma_g or 1.0
+  gamma_b = gamma_b or 1.0
 
-  if math.abs(cal_r - 1.0) <= 0.001 and math.abs(cal_g - 1.0) <= 0.001 and math.abs(cal_b - 1.0) <= 0.001 then
+  local neutral_gain = math.abs(cal_r - 1.0) <= 0.001
+    and math.abs(cal_g - 1.0) <= 0.001
+    and math.abs(cal_b - 1.0) <= 0.001
+  local neutral_offset = math.abs(off_r) <= 0.001
+    and math.abs(off_g) <= 0.001
+    and math.abs(off_b) <= 0.001
+  local neutral_gamma = math.abs(gamma_r - 1.0) <= 0.001
+    and math.abs(gamma_g - 1.0) <= 0.001
+    and math.abs(gamma_b - 1.0) <= 0.001
+
+  if neutral_gain and neutral_offset and neutral_gamma then
     return r, g, b
   end
 
-  return clamp255(r * cal_r), clamp255(g * cal_g), clamp255(b * cal_b)
+  local function calibrate_channel(value, gain, offset, gamma)
+    if math.abs(gamma - 1.0) > 0.001 then
+      local normalized = clamp(value, 0.0, 255.0) / 255.0
+      value = 255.0 * (normalized ^ gamma)
+    end
+    return clamp255(value * gain + offset)
+  end
+
+  return calibrate_channel(r, cal_r, off_r, gamma_r),
+    calibrate_channel(g, cal_g, off_g, gamma_g),
+    calibrate_channel(b, cal_b, off_b, gamma_b)
 end
 
 function M.smooth(prev_packed, target_packed, smoothness)

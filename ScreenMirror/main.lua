@@ -20,6 +20,12 @@ local config = {
   redCalibration = 1.0,
   greenCalibration = 1.0,
   blueCalibration = 1.0,
+  redOffset = 0,
+  greenOffset = 0,
+  blueOffset = 0,
+  redGamma = 1.0,
+  greenGamma = 1.0,
+  blueGamma = 1.0,
 }
 
 local state = {

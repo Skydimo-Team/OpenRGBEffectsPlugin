@@ -28,9 +28,15 @@
     "bbUnknownFrameCnt": "Unknown Switch Frames",
     "bbMaxInconsistentCnt": "Max Inconsistent Frames",
     "bbBlurRemoveCnt": "Blur Safety Border",
-    "redCalibration": "Red Brightness",
-    "greenCalibration": "Green Brightness",
-    "blueCalibration": "Blue Brightness"
+    "redCalibration": "Red Gain",
+    "greenCalibration": "Green Gain",
+    "blueCalibration": "Blue Gain",
+    "redOffset": "Red Offset",
+    "greenOffset": "Green Offset",
+    "blueOffset": "Blue Offset",
+    "redGamma": "Red Gamma",
+    "greenGamma": "Green Gamma",
+    "blueGamma": "Blue Gamma"
   }
 }
 

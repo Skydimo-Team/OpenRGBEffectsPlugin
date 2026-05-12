@@ -28,8 +28,14 @@
     "bbUnknownFrameCnt": "Fotogramas de cambio desconocidos",
     "bbMaxInconsistentCnt": "Máx. de fotogramas inconsistentes",
     "bbBlurRemoveCnt": "Borde de seguridad del desenfoque",
-    "redCalibration": "Rojo",
-    "greenCalibration": "Verde",
-    "blueCalibration": "Azul"
+    "redCalibration": "Ganancia roja",
+    "greenCalibration": "Ganancia verde",
+    "blueCalibration": "Ganancia azul",
+    "redOffset": "Desplazamiento rojo",
+    "greenOffset": "Desplazamiento verde",
+    "blueOffset": "Desplazamiento azul",
+    "redGamma": "Gamma rojo",
+    "greenGamma": "Gamma verde",
+    "blueGamma": "Gamma azul"
   }
 }
