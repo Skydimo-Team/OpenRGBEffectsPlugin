@@ -1,1 +1,15 @@
+# Native plugin: exclude Rust/native build inputs, keep other plugin assets available.
+.git
+.gitignore
+.skyignore
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+Cargo.toml
+Cargo.lock
+build.rs
+build-native.ps1
+src/
 target/

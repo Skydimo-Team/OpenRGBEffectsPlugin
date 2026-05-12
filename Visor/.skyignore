@@ -1,4 +1,4 @@
-# Runtime import only needs the manifest, locales, and built native library.
+# Native plugin: exclude Rust/native build inputs, keep other plugin assets available.
 .git
 .gitignore
 .skyignore
@@ -9,6 +9,7 @@ Thumbs.db
 
 Cargo.toml
 Cargo.lock
+build.rs
 build-native.ps1
 src/
 target/

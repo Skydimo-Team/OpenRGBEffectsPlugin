@@ -1,0 +1,18 @@
+# Pack package: exclude build inputs from child native plugins.
+.git
+.gitignore
+.skyignore
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+**/Cargo.toml
+**/Cargo.lock
+**/build.rs
+**/build-native.ps1
+**/src/
+**/target/
+**/native/src/
+**/native/target/
+**/native/dist/
