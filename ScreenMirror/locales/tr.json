@@ -28,9 +28,15 @@
     "bbUnknownFrameCnt": "Bilinmeyen Geçiş Kareleri",
     "bbMaxInconsistentCnt": "Maksimum Tutarsız Kare",
     "bbBlurRemoveCnt": "Bulanıklık Güvenlik Kenarı",
-    "redCalibration": "Kırmızı",
-    "greenCalibration": "Yeşil",
-    "blueCalibration": "Mavi"
+    "redCalibration": "Kırmızı Kazanç",
+    "greenCalibration": "Yeşil Kazanç",
+    "blueCalibration": "Mavi Kazanç",
+    "redOffset": "Kırmızı Ofset",
+    "greenOffset": "Yeşil Ofset",
+    "blueOffset": "Mavi Ofset",
+    "redGamma": "Kırmızı Gamma",
+    "greenGamma": "Yeşil Gamma",
+    "blueGamma": "Mavi Gamma"
   }
 }
 

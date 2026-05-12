@@ -28,8 +28,14 @@
     "bbUnknownFrameCnt": "Images de bascule inconnues",
     "bbMaxInconsistentCnt": "Nb max d'images incohérentes",
     "bbBlurRemoveCnt": "Marge de sécurité du flou",
-    "redCalibration": "Rouge",
-    "greenCalibration": "Vert",
-    "blueCalibration": "Bleu"
+    "redCalibration": "Gain rouge",
+    "greenCalibration": "Gain vert",
+    "blueCalibration": "Gain bleu",
+    "redOffset": "Décalage rouge",
+    "greenOffset": "Décalage vert",
+    "blueOffset": "Décalage bleu",
+    "redGamma": "Gamma rouge",
+    "greenGamma": "Gamma vert",
+    "blueGamma": "Gamma bleu"
   }
 }

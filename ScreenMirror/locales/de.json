@@ -28,8 +28,14 @@
     "bbUnknownFrameCnt": "Unbekannte Umschaltframes",
     "bbMaxInconsistentCnt": "Max. inkonsistente Frames",
     "bbBlurRemoveCnt": "Sicherheitsrand für Weichzeichnung",
-    "redCalibration": "Rot",
-    "greenCalibration": "Grün",
-    "blueCalibration": "Blau"
+    "redCalibration": "Rot-Verstärkung",
+    "greenCalibration": "Grün-Verstärkung",
+    "blueCalibration": "Blau-Verstärkung",
+    "redOffset": "Rot-Offset",
+    "greenOffset": "Grün-Offset",
+    "blueOffset": "Blau-Offset",
+    "redGamma": "Rot-Gamma",
+    "greenGamma": "Grün-Gamma",
+    "blueGamma": "Blau-Gamma"
   }
 }

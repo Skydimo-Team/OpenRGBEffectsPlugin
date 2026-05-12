@@ -28,9 +28,15 @@
     "bbUnknownFrameCnt": "Кадры неизвестного переключения",
     "bbMaxInconsistentCnt": "Максимум несогласованных кадров",
     "bbBlurRemoveCnt": "Безопасная граница размытия",
-    "redCalibration": "Красный",
-    "greenCalibration": "Зелёный",
-    "blueCalibration": "Синий"
+    "redCalibration": "Усиление красного",
+    "greenCalibration": "Усиление зелёного",
+    "blueCalibration": "Усиление синего",
+    "redOffset": "Смещение красного",
+    "greenOffset": "Смещение зелёного",
+    "blueOffset": "Смещение синего",
+    "redGamma": "Гамма красного",
+    "greenGamma": "Гамма зелёного",
+    "blueGamma": "Гамма синего"
   }
 }
 

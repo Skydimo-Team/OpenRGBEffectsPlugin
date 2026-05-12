@@ -44,7 +44,7 @@ function M.apply_params(cfg, p)
     cfg.colorTemperature = round(clamp(p.colorTemperature, 2000, 10000))
   end
   if type(p.blur) == "number" then
-    cfg.blur = clamp(p.blur, 0, 50)
+    cfg.blur = clamp(p.blur, 0, 4)
   end
   if type(p.autoCrop) == "boolean" then
     cfg.autoCrop = p.autoCrop
@@ -77,6 +77,24 @@ function M.apply_params(cfg, p)
   end
   if type(p.blueCalibration) == "number" then
     cfg.blueCalibration = clamp(p.blueCalibration, 0.0, 2.0)
+  end
+  if type(p.redOffset) == "number" then
+    cfg.redOffset = clamp(p.redOffset, -100, 100)
+  end
+  if type(p.greenOffset) == "number" then
+    cfg.greenOffset = clamp(p.greenOffset, -100, 100)
+  end
+  if type(p.blueOffset) == "number" then
+    cfg.blueOffset = clamp(p.blueOffset, -100, 100)
+  end
+  if type(p.redGamma) == "number" then
+    cfg.redGamma = clamp(p.redGamma, 0.1, 4.0)
+  end
+  if type(p.greenGamma) == "number" then
+    cfg.greenGamma = clamp(p.greenGamma, 0.1, 4.0)
+  end
+  if type(p.blueGamma) == "number" then
+    cfg.blueGamma = clamp(p.blueGamma, 0.1, 4.0)
   end
 end
 
@@ -202,14 +220,42 @@ local function apply_gaussian_blur(layout_w, layout_h, colors, radius)
     return colors
   end
 
-  local weights = gaussian_kernel(radius)
+  local function blur_radius_step(step_radius)
+    if step_radius <= 0 then
+      return colors
+    end
 
-  if height <= 1 then
-    return blur_1d(colors, len, weights, radius)
+    local weights = gaussian_kernel(step_radius)
+    if height <= 1 then
+      return blur_1d(colors, len, weights, step_radius)
+    end
+
+    local horiz = blur_horizontal(width, height, colors, weights, step_radius)
+    return blur_vertical(width, height, horiz, weights, step_radius)
   end
 
-  local horiz = blur_horizontal(width, height, colors, weights, radius)
-  return blur_vertical(width, height, horiz, weights, radius)
+  local lower_radius = math.floor(radius)
+  local fraction = radius - lower_radius
+  local lower_colors = lower_radius > 0 and blur_radius_step(lower_radius) or colors
+
+  if fraction <= 0 then
+    return lower_colors
+  end
+
+  local upper_colors = blur_radius_step(lower_radius + 1)
+  local out = {}
+  local out_len = math.max(#lower_colors, #upper_colors)
+  local inv = 1.0 - fraction
+  for i = 1, out_len do
+    local lr, lg, lb = color.unpack_rgb(lower_colors[i] or 0)
+    local ur, ug, ub = color.unpack_rgb(upper_colors[i] or 0)
+    out[i] = color.pack_rgb(
+      lr * inv + ur * fraction,
+      lg * inv + ug * fraction,
+      lb * inv + ub * fraction
+    )
+  end
+  return out
 end
 
 local function sample(frame, ratio_x, ratio_y, crop, cfg, temp_r, temp_g, temp_b)
@@ -254,7 +300,20 @@ local function sample(frame, ratio_x, ratio_y, crop, cfg, temp_r, temp_g, temp_b
   r, g, b = color.apply_color_temperature(r, g, b, temp_r, temp_g, temp_b)
   r, g, b = color.apply_brightness(r, g, b, cfg.brightness)
   r, g, b = color.apply_gamma(r, g, b, cfg.gamma)
-  r, g, b = color.apply_rgb_calibration(r, g, b, cfg.redCalibration, cfg.greenCalibration, cfg.blueCalibration)
+  r, g, b = color.apply_rgb_calibration(
+    r,
+    g,
+    b,
+    cfg.redCalibration,
+    cfg.greenCalibration,
+    cfg.blueCalibration,
+    cfg.redOffset,
+    cfg.greenOffset,
+    cfg.blueOffset,
+    cfg.redGamma,
+    cfg.greenGamma,
+    cfg.blueGamma
+  )
 
   return color.pack_rgb(r, g, b)
 end
@@ -309,7 +368,7 @@ function M.render(frame, buffer, width, height, state, cfg)
     end
   end
 
-  local blur_radius = round(cfg.blur or 0)
+  local blur_radius = cfg.blur or 0
   if blur_radius > 0 then
     colors = apply_gaussian_blur(width, height, colors, blur_radius)
     for j = 1, #colors do
