@@ -6,6 +6,8 @@ const SKYDIMO_NATIVE_C_ABI_VERSION: u32 = 3;
 const SKYDIMO_PLUGIN_KIND_EFFECT: u32 = 1 << 0;
 const DEFAULT_WIDTH: usize = 1;
 const DEFAULT_HEIGHT: usize = 1;
+const HUE_CIRCLE_DEGREES: f64 = 360.0;
+const MIN_RANDOM_HUE_DISTANCE: f64 = 90.0;
 
 type HostLogFn = unsafe extern "C" fn(*mut c_void, u32, *const c_char, usize);
 type HostCallJsonFn = unsafe extern "C" fn(
@@ -299,7 +301,7 @@ struct GradientWaveEffect {
 impl Default for GradientWaveEffect {
     fn default() -> Self {
         let mut rng = FastRng::seeded();
-        let random_colors = [random_rgb_color(&mut rng), random_rgb_color(&mut rng)];
+        let random_colors = random_rgb_color_pair(&mut rng);
         Self {
             speed: 10.0,
             random_enabled: false,
@@ -428,10 +430,7 @@ impl GradientWaveEffect {
     }
 
     fn refresh_random_colors(&mut self) {
-        self.random_colors = [
-            random_rgb_color(&mut self.rng),
-            random_rgb_color(&mut self.rng),
-        ];
+        self.random_colors = random_rgb_color_pair(&mut self.rng);
     }
 }
 
@@ -600,12 +599,32 @@ fn lerp_channel(start: u8, finish: u8, blend: f64) -> u8 {
     value.trunc().clamp(0.0, 255.0) as u8
 }
 
-fn random_rgb_color(rng: &mut FastRng) -> SkydimoRgb {
-    hsv_to_rgb(rng.next_unit() * 360.0, 1.0, 1.0)
+fn random_rgb_color_pair(rng: &mut FastRng) -> [SkydimoRgb; 2] {
+    let [start_hue, finish_hue] = random_hue_pair(rng);
+    [
+        hsv_to_rgb(start_hue, 1.0, 1.0),
+        hsv_to_rgb(finish_hue, 1.0, 1.0),
+    ]
+}
+
+fn random_hue_pair(rng: &mut FastRng) -> [f64; 2] {
+    let start_hue = rng.next_unit() * HUE_CIRCLE_DEGREES;
+    let allowed_arc = HUE_CIRCLE_DEGREES - MIN_RANDOM_HUE_DISTANCE * 2.0;
+    let hue_offset = MIN_RANDOM_HUE_DISTANCE + rng.next_unit() * allowed_arc;
+    [
+        start_hue,
+        (start_hue + hue_offset).rem_euclid(HUE_CIRCLE_DEGREES),
+    ]
+}
+
+#[cfg(test)]
+fn hue_distance_degrees(start: f64, finish: f64) -> f64 {
+    let delta = (start - finish).rem_euclid(HUE_CIRCLE_DEGREES);
+    delta.min(HUE_CIRCLE_DEGREES - delta)
 }
 
 fn hsv_to_rgb(h: f64, s: f64, v: f64) -> SkydimoRgb {
-    let h = h.rem_euclid(360.0);
+    let h = h.rem_euclid(HUE_CIRCLE_DEGREES);
     let s = s.clamp(0.0, 1.0);
     let v = v.clamp(0.0, 1.0);
 
@@ -842,7 +861,10 @@ impl FastRng {
 
 #[cfg(test)]
 mod tests {
-    use super::{parse_hex_color, GradientWaveEffect, SkydimoRgb};
+    use super::{
+        hue_distance_degrees, parse_hex_color, random_hue_pair, FastRng, GradientWaveEffect,
+        SkydimoRgb, MIN_RANDOM_HUE_DISTANCE,
+    };
 
     #[test]
     fn parses_short_and_long_hex_colors() {
@@ -886,6 +908,24 @@ mod tests {
                 }
             ]
         );
+    }
+
+    #[test]
+    fn random_hue_pairs_keep_minimum_distance() {
+        let mut rng = FastRng {
+            state: 0x1234_5678_9ABC_DEF0,
+        };
+
+        for _ in 0..512 {
+            let [start, finish] = random_hue_pair(&mut rng);
+            let distance = hue_distance_degrees(start, finish);
+
+            assert!(
+                distance >= MIN_RANDOM_HUE_DISTANCE - 1.0e-9,
+                "random hue distance {distance} was too close for {start} and {finish}"
+            );
+            assert!(distance <= 180.0);
+        }
     }
 
     #[test]
